@@ -79,6 +79,7 @@ namespace App8
             if (items.Count != 0 && items[0].password.Equals(e.Password, StringComparison.Ordinal)) // if you find a matching email and the password is correct
             {
                 Users us = new Users {username="dan" };
+                us = new Users { username = "dan" };
                 var intent = new Intent(this, typeof(ActivityBusiness));
                 intent.PutExtra("User", JsonConvert.SerializeObject(us));
                 StartActivity(intent);
