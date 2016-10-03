@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:weightSum="100"
+    android:layout_height="fill_parent">
+    <ListView
+        android:layout_weight="80"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/ListViewHighlight"
+        android:id="@+id/companyListView" />
+    <ProgressBar
+        android:layout_weight="10"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/ListViewHighlight"
+        android:id="@+id/progressBar1" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:background="@drawable/ListViewHighlight"
+        android:weightSum="100"
+        android:id="@+id/linearLayout10">
+        <ProgressBar
+            android:layout_weight="10"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/progressBar2" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="300dp"
+    android:minHeight="400dp"
+    android:gravity="center"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:focusable="false"
+    android:paddingBottom="50dp"
+    android:paddingTop="50dp">
+    <EditText
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Name"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="25dp"
+        android:paddingLeft="10dp"
+        android:id="@+id/txtUserName" />
+    <EditText
+        android:layout_below="@id/txtUserName"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="Email"
+        android:paddingLeft="10dp"
+        android:id="@+id/txtEmail" />
+    <EditText
+        android:inputType="textPassword"
+        android:layout_below="@id/txtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:hint="Password"
+        android:id="@+id/txtPassword" />
+    <EditText
+        android:inputType="textPassword"
+        android:layout_below="@id/txtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:hint="ReType Password"
+        android:id="@+id/txtPassword2" />
+    <RelativeLayout
+        android:layout_below="@id/txtPassword2"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:text="Sign Up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSignUp" />
+    </RelativeLayout>
+</RelativeLayout>

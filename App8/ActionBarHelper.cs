@@ -1,0 +1,66 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+using Android.App;
+using Android.Content;
+using Android.OS;
+using Android.Runtime;
+using Android.Views;
+using Android.Widget;
+using System.Threading.Tasks;
+using Microsoft.WindowsAzure.MobileServices;
+using Android;
+using System.ComponentModel;
+
+namespace App8
+{
+    class ActionBarHelper
+    {
+        public static MobileServiceClient MobileService = new MobileServiceClient("https://mobileappdatabase666.azurewebsites.net");
+        private IMobileServiceTable<Users> userTable = MobileService.GetTable<Users>();
+        private Activity act;
+        private Users user;
+        
+        public ActionBarHelper() { }
+        public ActionBarHelper(Activity activity)
+        {
+            act = activity;
+        }
+        public ActionBarHelper(Activity activity, Users user)
+        {
+            act = activity;
+            this.user = user;
+        }
+        public void Start()
+        {
+            act.ActionBar.SetCustomView(Resource.Layout.actionBar);
+            act.ActionBar.SetDisplayShowCustomEnabled(true);
+            ImageButton bt = (ImageButton)act.FindViewById(Resource.Id.profilePicture);
+            bt.Click += delegate {
+                FragmentTransaction transaction = act.FragmentManager.BeginTransaction();
+                dialogProfile profileOptions = new dialogProfile();
+                profileOptions.GetUser(user);
+                profileOptions.Show(transaction, "dialog fragment");
+                //Console.WriteLine("String to compare!!!!!!!!!");
+                //Toast.MakeText(activity, "Touched Image", ToastLength.Long).Show();
+            };
+        }
+
+        public Users GetUser()
+        {
+            return user;
+        }
+        public void SetActivity(Activity activity)
+        {
+            act=activity;
+        }
+        public static void GetPicture(Activity activity,Users user)
+        {
+
+           ImageButton profileImage = (ImageButton)activity.FindViewById(Resource.Id.profilePicture);
+           profileImage.SetImageBitmap(OnlinePicture.Stream(String.Format("https://storagedatabase666.blob.core.windows.net/profilepictures/{0}", user.username)));
+        }
+    }
+}
