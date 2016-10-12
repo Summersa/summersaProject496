@@ -5,15 +5,9 @@
     android:weightSum="100"
     android:layout_height="fill_parent">
     <ListView
-        android:layout_weight="90"
-        android:layout_width="match_parent"
+        android:layout_width="fill_parent"
         android:layout_height="0dp"
+        android:layout_weight="100"
         android:background="@drawable/ListViewHighlight"
-        android:id="@+id/companyListView" />
-    <ProgressBar
-        android:layout_weight="10"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:background="@drawable/ListViewHighlight"
-        android:id="@+id/progressBar1" />
+        android:id="@+id/viewCategories" />
 </LinearLayout>

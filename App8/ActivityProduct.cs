@@ -15,17 +15,17 @@ using Newtonsoft.Json;
 namespace App8
 {
     [Activity(Label = "Product Descriptions", Theme = "@style/CustomActionBarTheme")]
-    public class ActivityCategory : Activity
+    public class ActivityProduct : Activity
     {
         public static MobileServiceClient MobileService = new MobileServiceClient("https://mobileappdatabase666.azurewebsites.net");
-        private IMobileServiceTable<ProductCategory> categoreyTable = MobileService.GetTable<ProductCategory>();
+        private IMobileServiceTable<Product> categoreyTable = MobileService.GetTable<Product>();
         private ListView view;
+        private String categoryName;
         private String businessName;
         private String newCategoryName;
         private ActionBarHelper topbar;
         private ImageButton gAddCategory;
-        //private ListView listviewCategory;
-        List<ProductCategory> items;
+        List<Product> items;
         public static readonly int PickImageId = 1000;
         
         protected override async void OnCreate(Bundle bundle)
@@ -33,47 +33,34 @@ namespace App8
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.layoutCategory);
             view = FindViewById<ListView>(Resource.Id.viewCategories);
-            //listviewCategory = FindViewById<ListView>(Resource.Id.viewCategories);
             gAddCategory = FindViewById<ImageButton>(Resource.Id.btnAddCategory);
             //businessName = "Windsor Plywood";
             gAddCategory.Click += AddCategory_Click;
-            businessName = "Windsor Plywood";//Intent.GetStringExtra("businessNames").ToString();
+            categoryName = Intent.GetStringExtra("categoryName").ToString();
+            businessName = Intent.GetStringExtra("businessName").ToString();
             Users user = JsonConvert.DeserializeObject<Users>(Intent.GetStringExtra("user"));
             LinearLayout display = FindViewById<LinearLayout>(Resource.Id.linearLayout10);
-            if(user.role == businessName) display.Visibility = ViewStates.Visible;
+            if(user.role == "Windsor Plywood") display.Visibility = ViewStates.Visible;
             topbar = new ActionBarHelper(this, user);
             topbar.Start();
             ActionBarHelper.GetPicture(this, topbar.GetUser());
 
-            IMobileServiceTableQuery<ProductCategory> query = categoreyTable.Where(ProductCategory => ProductCategory.Business == businessName);
+            IMobileServiceTableQuery<Product> query = categoreyTable.Where(Product => Product.productCategory == categoryName);
             items = await query.ToListAsync();
 
 
-            if (items.Count == 0)
-            {
-                newCategoryName = "Decking";
-                ProductCategory item = new ProductCategory { Name = newCategoryName, Business = businessName};
-                await MobileService.GetTable<ProductCategory>().InsertAsync(item);
-                Intent = new Intent();
-                Intent.PutExtra("businessNames", businessName);
-                Intent.PutExtra("newCategoryName", newCategoryName);
-                Intent.SetType("image/*");
-                Intent.SetAction(Intent.ActionGetContent);
-                StartActivityForResult(Intent.CreateChooser(Intent, "Select Picture"), PickImageId);
-            }
 
-
-            productCategoryAdapter adapter = new productCategoryAdapter(this, items, businessName);
+            productAdapter adapter = new productAdapter(this, items, businessName);
             view.Adapter = adapter;
             view.ItemClick += listView_ItemClick;
+
         }
 
         private void listView_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
         {
-            String categoryName = view.GetItemAtPosition(e.Position).ToString();
-            var intent = new Intent(this, typeof(ActivityProduct));
-            intent.PutExtra("categoryName", categoryName);
+            var intent = new Intent(this, typeof(ActivityView));
             intent.PutExtra("businessName", businessName);
+            intent.PutExtra("product", view.GetItemAtPosition(e.Position).ToString());
             intent.PutExtra("user", JsonConvert.SerializeObject(topbar.GetUser()));
             StartActivity(intent);
         }
@@ -81,32 +68,32 @@ namespace App8
         private void AddCategory_Click(object sender, EventArgs e)
         {
             FragmentTransaction transaction = FragmentManager.BeginTransaction();
-            dialogAddCategory addCategory = new dialogAddCategory();
-            addCategory.Show(transaction, "dialog fragment");
-            addCategory.gAddCategoryEventComplete += addCategory_AddCategoryEventComplete;
+            dialogAddProduct addProduct = new dialogAddProduct();
+            addProduct.Show(transaction, "dialog fragment");
+            addProduct.gAddProductEventComplete += addProduct_AddProductEventComplete;
         }
 
-        private async void addCategory_AddCategoryEventComplete(object sender, AddCategoryEvent e)
+        private async void addProduct_AddProductEventComplete(object sender, AddProductEvent e)
         {
-            ProductCategory item = new ProductCategory { Name = e.Description, Business = businessName };
-            await OnlinePicture.Upload(this, e.Picture, businessName.Replace(" ", "").ToLower(), "category"+item.Name.Replace(" ", ""));
-            await MobileService.GetTable<ProductCategory>().InsertAsync(item);
+            Product item = new Product { Name = e.Name,description = e.Description, price = e.Price.ToString(), productCategory = categoryName };
+            await OnlinePicture.Upload(this, e.Picture, businessName.Replace(" ", "").ToLower(), "product"+item.Name.Replace(" ", ""));
+            await MobileService.GetTable<Product>().InsertAsync(item);
             items.Add(item);
-            productCategoryAdapter adapter = new productCategoryAdapter(this, items, businessName);
+            productAdapter adapter = new productAdapter(this, items, businessName);
             view.Adapter = adapter;
         }
 
-        protected override async void OnActivityResult(int requestCode, Result resultCode, Intent data)
+        /*protected override async void OnActivityResult(int requestCode, Result resultCode, Intent data)
         {
             if ((requestCode == PickImageId) && (resultCode == Result.Ok) && (data != null))
             {
                 
-                String businessNameI = Intent.GetStringExtra("businessNames").ToString().ToLower();
+                String businessNameI = Intent.GetStringExtra("categoryName").ToString().ToLower();
                 businessNameI = businessNameI.Replace(" ", "");
                 String newCategoryNameI = Intent.GetStringExtra("newCategoryName").ToString();
                 //await OnlinePicture.Upload(this,data.Data, Replace("  ", string.empty); businessNameI,newCategoryNameI);
                 await OnlinePicture.Upload(this,data.Data, businessNameI,newCategoryNameI.Replace(" ", ""));
             }
-        }
+        }*/
     }
 }

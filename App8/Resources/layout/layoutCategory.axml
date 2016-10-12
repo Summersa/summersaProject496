@@ -2,11 +2,36 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="fill_parent"
+    android:weightSum="100"
     android:layout_height="fill_parent">
-
     <ListView
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="95"
         android:background="@drawable/ListViewHighlight"
         android:id="@+id/viewCategories" />
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:weightSum="100"
+        android:visibility="gone"
+        android:id="@+id/linearLayout10">
+        <TextView
+            android:text=""
+            android:layout_width="0dp"
+            android:layout_weight="90"
+            android:layout_height="match_parent"
+            android:id="@+id/textView1"
+            android:layout_marginRight="0.0dp" />
+        <ImageButton
+            android:src="@drawable/defaultAdd"
+            android:layout_width="0dp"
+            android:layout_weight="10"
+            android:layout_height="match_parent"
+            android:id="@+id/btnAddCategory" />
+    </LinearLayout>
 </LinearLayout>

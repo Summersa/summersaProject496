@@ -26,7 +26,10 @@ namespace App8
         public OnlinePicture()
         {
         }
+        public static void GetBitMap()
+        {
 
+        }
         public static async Task Upload(Activity act,Android.Net.Uri filePath, String containerName, String referenceName)
         {
             // Retrieve storage account from connection string.
@@ -69,11 +72,7 @@ namespace App8
             ICursor cursor = act.ContentResolver.Query(contentURI, null, null, null, null);
             cursor.MoveToFirst();
             string documentId = cursor.GetString(0);
-            // Console.WriteLine("String to compare: {0}", documentId);
-            //documentId = documentId.Split(':')[1];
-            //return "path";
             cursor.Close();
-
             cursor = act.ContentResolver.Query(
             MediaStore.Images.Media.ExternalContentUri,
             null, MediaStore.Images.Media.InterfaceConsts.Id + " = ? ", new[] { documentId }, null);

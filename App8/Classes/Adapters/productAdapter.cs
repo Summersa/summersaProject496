@@ -12,20 +12,20 @@ using Android.Widget;
 
 namespace App8
 {
-    class productCategoryAdapter : BaseAdapter<ProductCategory>
+    class productAdapter : BaseAdapter<Product>
     {
-        private List<ProductCategory> mItems;
+        private List<Product> mItems;
         private Context mContext;
         private string gbusinessName;
 
-        public productCategoryAdapter (Context context, List<ProductCategory> items, string businessName)
+        public productAdapter (Context context, List<Product> items,string businessName)
         {
             mItems = items;
             mContext = context;
             gbusinessName = businessName;
         }
 
-        public override ProductCategory this[int position]
+        public override Product this[int position]
         {
             get
             {
@@ -57,12 +57,11 @@ namespace App8
             textView.Text = mItems[position].Name;
        
             ImageView imageView = row.FindViewById<ImageView>(Resource.Id.imageView1);
-
             gbusinessName = gbusinessName.Replace(" ", "").ToLower();
             String resource = mItems[position].Name.Replace(" ", "");
             //textView.bit = mItems[position].Name;
             //var imageBitmap = OnlinePicture.Stream(String.Format("https://storagedatabase666.blob.core.windows.net/{0}/{1}",mItems[position].Business, mItems[position].Name));
-            imageView.SetImageBitmap(OnlinePicture.Stream(String.Format("https://storagedatabase666.blob.core.windows.net/{0}/category{1}", gbusinessName,resource)));//business name = {0}, 
+            imageView.SetImageBitmap(OnlinePicture.Stream(String.Format("https://storagedatabase666.blob.core.windows.net/{0}/product{1}", gbusinessName,resource)));//business name = {0}, 
             return row;
         }
     }

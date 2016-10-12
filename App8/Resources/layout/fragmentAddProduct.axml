@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="300dp"
+    android:minHeight="400dp"
+    android:gravity="center"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:focusable="false"
+    android:paddingBottom="50dp"
+    android:weightSum="100"
+    android:paddingTop="50dp">
+    <EditText
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="50dp"
+        android:hint="Name"
+        android:paddingLeft="10dp"
+        android:id="@+id/txtName" />
+    <EditText
+        android:inputType="textPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="50dp"
+        android:hint="Description"
+        android:paddingLeft="10dp"
+        android:id="@+id/txtDescription" />
+
+    <EditText
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="50dp"
+        android:hint="Price"
+        android:paddingLeft="10dp"
+        android:id="@+id/txtPrice" />
+    <Button
+        android:text="Add Picture"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:id="@+id/btnPicture" />
+    <Button
+        android:text="Add Item"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="30"
+        android:id="@+id/btnFinish" />
+</LinearLayout>

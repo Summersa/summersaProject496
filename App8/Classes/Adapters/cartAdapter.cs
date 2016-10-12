@@ -12,20 +12,20 @@ using Android.Widget;
 
 namespace App8
 {
-    class productCategoryAdapter : BaseAdapter<ProductCategory>
+    class cartAdapter : BaseAdapter<Cart>
     {
-        private List<ProductCategory> mItems;
+        private List<Cart> mItems;
         private Context mContext;
         private string gbusinessName;
 
-        public productCategoryAdapter (Context context, List<ProductCategory> items, string businessName)
+        public cartAdapter (Context context, List<Cart> items, string businessName)
         {
             mItems = items;
             mContext = context;
             gbusinessName = businessName;
         }
 
-        public override ProductCategory this[int position]
+        public override Cart this[int position]
         {
             get
             {
@@ -51,13 +51,15 @@ namespace App8
             View row = convertView;
             if(row == null)
             {
-                row = LayoutInflater.From(mContext).Inflate(Resource.Layout.adapterLayoutCategory,null,false);
+                row = LayoutInflater.From(mContext).Inflate(Resource.Layout.adapterLayoutCart,null,false);
             }
-            TextView textView = row.FindViewById<TextView>(Resource.Id.textCategory);
-            textView.Text = mItems[position].Name;
-       
+            TextView textViewName = row.FindViewById<TextView>(Resource.Id.txtName);
+            textViewName.Text = mItems[position].Name;
+            TextView textViewPrice = row.FindViewById<TextView>(Resource.Id.txtPrice);
+            textViewPrice.Text = mItems[position].Price;
+            TextView textViewQuantity = row.FindViewById<TextView>(Resource.Id.txtQuantity);
+            textViewQuantity.Text = mItems[position].Quantity;
             ImageView imageView = row.FindViewById<ImageView>(Resource.Id.imageView1);
-
             gbusinessName = gbusinessName.Replace(" ", "").ToLower();
             String resource = mItems[position].Name.Replace(" ", "");
             //textView.bit = mItems[position].Name;

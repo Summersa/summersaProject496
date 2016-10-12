@@ -73,17 +73,17 @@ namespace App8
         private async void signInDialog_OnSignInComplete(object sender, OnSignInEvent e)
         {
 
-            IMobileServiceTableQuery<Users> query = userTable.Where(Users => Users.email == e.Email).Take(1);
-            List<Users> items = await query.ToListAsync();
-             Console.WriteLine("String to compare: {0} {1}", items[0].password, e.Password);
-            if (items.Count != 0 && items[0].password.Equals(e.Password, StringComparison.Ordinal)) // if you find a matching email and the password is correct
-            {
-                Users us = new Users {username="dan" };
-                us = new Users { username = "dan" };
-                var intent = new Intent(this, typeof(ActivityBusiness));
-                intent.PutExtra("User", JsonConvert.SerializeObject(us));
+            //IMobileServiceTableQuery<Users> query = userTable.Where(Users => Users.email == e.Email).Take(1);
+            //List<Users> items = await query.ToListAsync();
+            // Console.WriteLine("String to compare: {0} {1}", items[0].password, e.Password);
+            //if (items.Count != 0 && items[0].password.Equals(e.Password, StringComparison.Ordinal)) // if you find a matching email and the password is correct
+            //{
+                Users us = new Users {username="dan", role = "Windsor Plywood", Id = "1"};
+                //us = new Users { username = "dan" };
+                var intent = new Intent(this, typeof(ActivityCategory));
+                intent.PutExtra("user", JsonConvert.SerializeObject(us));
                 StartActivity(intent);
-            }
+            //}
         }
 
 

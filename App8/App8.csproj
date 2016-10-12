@@ -147,10 +147,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ActivityBusiness.cs" />
+    <Compile Include="ActivityCart.cs" />
+    <Compile Include="ActivityProduct.cs" />
     <Compile Include="ActivityCategory.cs" />
     <Compile Include="ActionBarHelper.cs" />
+    <Compile Include="ActivityView.cs" />
     <Compile Include="Classes\Adapters\businessAdapter.cs" />
+    <Compile Include="Classes\Adapters\productAdapter.cs" />
+    <Compile Include="Classes\Adapters\cartAdapter.cs" />
+    <Compile Include="Classes\DatabaseClasses\Cart.cs" />
+    <Compile Include="Classes\DatabaseClasses\Product.cs" />
+    <Compile Include="Classes\Dialogs\dialogAddCategory.cs" />
     <Compile Include="Classes\Dialogs\dialogProfile.cs" />
+    <Compile Include="Classes\Dialogs\dialogAddProduct.cs" />
     <Compile Include="OnlinePicture.cs" />
     <Compile Include="Classes\DatabaseClasses\Businesses.cs" />
     <Compile Include="Classes\DatabaseClasses\Users.cs" />
@@ -165,6 +174,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
     <None Include="GettingStarted.Xamarin" />
     <None Include="packages.config" />
     <None Include="Resources\AboutResources.txt" />
@@ -191,6 +201,21 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\fragmentProfile.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\fragmentAddCategory.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\layoutProductView.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\fragmentAddProduct.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\layoutCart.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\adapterLayoutCart.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
     <None Include="Scripts\jquery-1.12.4.min.map" />
@@ -292,6 +317,7 @@
     <AndroidResource Include="Resources\values\themes.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
+    <AndroidResource Include="Resources\drawable\defaultAdd.png" />
     <Content Include="Scripts\jquery-1.12.4.intellisense.js" />
     <Content Include="Scripts\jquery-1.12.4.js" />
     <Content Include="Scripts\jquery-1.12.4.min.js" />
