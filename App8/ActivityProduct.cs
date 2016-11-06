@@ -11,10 +11,11 @@ using Android.Views;
 using Android.Widget;
 using Microsoft.WindowsAzure.MobileServices;
 using Newtonsoft.Json;
+using static Android.App.ActionBar;
 
 namespace App8
 {
-    [Activity(Label = "Product Descriptions", Theme = "@style/CustomActionBarTheme")]
+    [Activity(Label = "Product Descriptions", Theme = "@style/CustomActionBarTheme", WindowSoftInputMode = Android.Views.SoftInput.StateHidden)]
     public class ActivityProduct : Activity
     {
         public static MobileServiceClient MobileService = new MobileServiceClient("https://mobileappdatabase666.azurewebsites.net");
@@ -40,7 +41,6 @@ namespace App8
             businessName = Intent.GetStringExtra("businessName").ToString();
             Users user = JsonConvert.DeserializeObject<Users>(Intent.GetStringExtra("user"));
             LinearLayout display = FindViewById<LinearLayout>(Resource.Id.linearLayout10);
-            if(user.role == "Windsor Plywood") display.Visibility = ViewStates.Visible;
             topbar = new ActionBarHelper(this, user);
             topbar.Start();
             ActionBarHelper.GetPicture(this, topbar.GetUser());
@@ -53,7 +53,12 @@ namespace App8
             productAdapter adapter = new productAdapter(this, items, businessName);
             view.Adapter = adapter;
             view.ItemClick += listView_ItemClick;
-
+            if (user.role == businessName)
+            {
+                LinearLayout.LayoutParams size1 = new LinearLayout.LayoutParams(LayoutParams.WrapContent, 0);
+                size1.Weight = 95f;
+                view.LayoutParameters = size1;
+            }
         }
 
         private void listView_ItemClick(object sender, AdapterView.ItemClickEventArgs e)

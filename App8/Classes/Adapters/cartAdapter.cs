@@ -56,15 +56,15 @@ namespace App8
             TextView textViewName = row.FindViewById<TextView>(Resource.Id.txtName);
             textViewName.Text = mItems[position].Name;
             TextView textViewPrice = row.FindViewById<TextView>(Resource.Id.txtPrice);
-            textViewPrice.Text = mItems[position].Price;
-            TextView textViewQuantity = row.FindViewById<TextView>(Resource.Id.txtQuantity);
-            textViewQuantity.Text = mItems[position].Quantity;
+            textViewPrice.Text = "CAD$ "+ mItems[position].Price;
+            Button btnViewQuantity = row.FindViewById<Button>(Resource.Id.btnQuantity);
+            btnViewQuantity.Text = mItems[position].Quantity;
             ImageView imageView = row.FindViewById<ImageView>(Resource.Id.imageView1);
             gbusinessName = gbusinessName.Replace(" ", "").ToLower();
             String resource = mItems[position].Name.Replace(" ", "");
             //textView.bit = mItems[position].Name;
             //var imageBitmap = OnlinePicture.Stream(String.Format("https://storagedatabase666.blob.core.windows.net/{0}/{1}",mItems[position].Business, mItems[position].Name));
-            imageView.SetImageBitmap(OnlinePicture.Stream(String.Format("https://storagedatabase666.blob.core.windows.net/{0}/category{1}", gbusinessName,resource)));//business name = {0}, 
+            imageView.SetImageBitmap(OnlinePicture.Stream(String.Format("https://storagedatabase666.blob.core.windows.net/{0}/product{1}", gbusinessName,resource)));//business name = {0}, 
             return row;
         }
     }

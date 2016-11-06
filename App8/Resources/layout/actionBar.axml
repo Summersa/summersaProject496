@@ -2,40 +2,47 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:weightSum="100"
-    android:background="#CCCCCC"
+    android:background="#000066"
     android:layout_height="match_parent">
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:weightSum="100"
-        android:background="#CCCCCC"
+        android:background="#0033FF"
         android:layout_height="75dp">
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="0dp"
-            android:layout_weight="80"
+            android:layout_weight="70"
             android:layout_height="match_parent"
             android:id="@+id/linearLayout1" />
-        <LinearLayout
-            android:orientation="vertical"
+        <ImageButton
+            android:src="@drawable/shoppingCart"
             android:layout_width="0dp"
-            android:layout_weight="20"
+            android:layout_weight="15"
             android:layout_height="match_parent"
-            android:id="@+id/linearLayout2"
-            android:clickable="false"
-            android:focusable="false"
-            android:focusableInTouchMode="false">
-            <ImageButton
-                android:src="@android:drawable/ic_menu_gallery"
-                android:layout_width="75dp"
-                android:layout_height="match_parent"
-                android:id="@+id/profilePicture"
-                android:background="@drawable/ProfileButton"
-                android:scaleType="centerCrop"
-                android:clickable="true"
-                android:focusable="true"
-                android:focusableInTouchMode="true" />
-        </LinearLayout>
+            android:id="@+id/btnCart"
+            android:background="@drawable/ProfileButton"
+            android:scaleType="fitXY"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:scaleX="0.85"
+            android:scaleY="0.7"
+            android:layout_marginRight="10dp" />
+        <ImageButton
+            android:src="@android:drawable/ic_menu_gallery"
+            android:layout_width="0dp"
+            android:layout_weight="15"
+            android:layout_height="match_parent"
+            android:id="@+id/profilePicture"
+            android:background="@drawable/ProfileButton"
+            android:scaleType="fitXY"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:scaleY="0.7"
+            android:scaleX="0.7"
+            android:layout_marginRight="10dp" />
     </LinearLayout>
 </LinearLayout>

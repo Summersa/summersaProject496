@@ -11,6 +11,7 @@ using Android.Views;
 using Android.Widget;
 using Microsoft.WindowsAzure.MobileServices;
 using Newtonsoft.Json;
+using static Android.App.ActionBar;
 
 namespace App8
 {
@@ -33,39 +34,27 @@ namespace App8
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.layoutCategory);
             view = FindViewById<ListView>(Resource.Id.viewCategories);
-            //listviewCategory = FindViewById<ListView>(Resource.Id.viewCategories);
             gAddCategory = FindViewById<ImageButton>(Resource.Id.btnAddCategory);
-            //businessName = "Windsor Plywood";
             gAddCategory.Click += AddCategory_Click;
-            businessName = "Windsor Plywood";//Intent.GetStringExtra("businessNames").ToString();
+            businessName = "Windsor Plywood";
             Users user = JsonConvert.DeserializeObject<Users>(Intent.GetStringExtra("user"));
             LinearLayout display = FindViewById<LinearLayout>(Resource.Id.linearLayout10);
-            if(user.role == businessName) display.Visibility = ViewStates.Visible;
             topbar = new ActionBarHelper(this, user);
             topbar.Start();
             ActionBarHelper.GetPicture(this, topbar.GetUser());
-
+  
             IMobileServiceTableQuery<ProductCategory> query = categoreyTable.Where(ProductCategory => ProductCategory.Business == businessName);
             items = await query.ToListAsync();
-
-
-            if (items.Count == 0)
-            {
-                newCategoryName = "Decking";
-                ProductCategory item = new ProductCategory { Name = newCategoryName, Business = businessName};
-                await MobileService.GetTable<ProductCategory>().InsertAsync(item);
-                Intent = new Intent();
-                Intent.PutExtra("businessNames", businessName);
-                Intent.PutExtra("newCategoryName", newCategoryName);
-                Intent.SetType("image/*");
-                Intent.SetAction(Intent.ActionGetContent);
-                StartActivityForResult(Intent.CreateChooser(Intent, "Select Picture"), PickImageId);
-            }
-
-
             productCategoryAdapter adapter = new productCategoryAdapter(this, items, businessName);
             view.Adapter = adapter;
             view.ItemClick += listView_ItemClick;
+            if (user.role == businessName)
+            {
+
+                view.LayoutParameters = new LinearLayout.LayoutParams(LayoutParams.WrapContent, 0, 95f);
+ 
+            }
+
         }
 
         private void listView_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
@@ -89,8 +78,8 @@ namespace App8
         private async void addCategory_AddCategoryEventComplete(object sender, AddCategoryEvent e)
         {
             ProductCategory item = new ProductCategory { Name = e.Description, Business = businessName };
-            await OnlinePicture.Upload(this, e.Picture, businessName.Replace(" ", "").ToLower(), "category"+item.Name.Replace(" ", ""));
             await MobileService.GetTable<ProductCategory>().InsertAsync(item);
+            await OnlinePicture.Upload(this, e.Picture, businessName.Replace(" ", "").ToLower(), "category"+item.Name.Replace(" ", ""));
             items.Add(item);
             productCategoryAdapter adapter = new productCategoryAdapter(this, items, businessName);
             view.Adapter = adapter;

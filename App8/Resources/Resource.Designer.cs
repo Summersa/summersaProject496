@@ -26,6 +26,1791 @@ namespace App8
 		
 		public static void UpdateIdValues()
 		{
+			global::PayPal.Forms.Android.Resource.Animation.abc_fade_in = global::App8.Resource.Animation.abc_fade_in;
+			global::PayPal.Forms.Android.Resource.Animation.abc_fade_out = global::App8.Resource.Animation.abc_fade_out;
+			global::PayPal.Forms.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::App8.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::PayPal.Forms.Android.Resource.Animation.abc_popup_enter = global::App8.Resource.Animation.abc_popup_enter;
+			global::PayPal.Forms.Android.Resource.Animation.abc_popup_exit = global::App8.Resource.Animation.abc_popup_exit;
+			global::PayPal.Forms.Android.Resource.Animation.abc_shrink_fade_out_from_bottom = global::App8.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::PayPal.Forms.Android.Resource.Animation.abc_slide_in_bottom = global::App8.Resource.Animation.abc_slide_in_bottom;
+			global::PayPal.Forms.Android.Resource.Animation.abc_slide_in_top = global::App8.Resource.Animation.abc_slide_in_top;
+			global::PayPal.Forms.Android.Resource.Animation.abc_slide_out_bottom = global::App8.Resource.Animation.abc_slide_out_bottom;
+			global::PayPal.Forms.Android.Resource.Animation.abc_slide_out_top = global::App8.Resource.Animation.abc_slide_out_top;
+			global::PayPal.Forms.Android.Resource.Animation.design_bottom_sheet_slide_in = global::App8.Resource.Animation.design_bottom_sheet_slide_in;
+			global::PayPal.Forms.Android.Resource.Animation.design_bottom_sheet_slide_out = global::App8.Resource.Animation.design_bottom_sheet_slide_out;
+			global::PayPal.Forms.Android.Resource.Animation.design_fab_in = global::App8.Resource.Animation.design_fab_in;
+			global::PayPal.Forms.Android.Resource.Animation.design_fab_out = global::App8.Resource.Animation.design_fab_out;
+			global::PayPal.Forms.Android.Resource.Animation.design_snackbar_in = global::App8.Resource.Animation.design_snackbar_in;
+			global::PayPal.Forms.Android.Resource.Animation.design_snackbar_out = global::App8.Resource.Animation.design_snackbar_out;
+			global::PayPal.Forms.Android.Resource.Attribute.MediaRouteControllerWindowBackground = global::App8.Resource.Attribute.MediaRouteControllerWindowBackground;
+			global::PayPal.Forms.Android.Resource.Attribute.actionBarDivider = global::App8.Resource.Attribute.actionBarDivider;
+			global::PayPal.Forms.Android.Resource.Attribute.actionBarItemBackground = global::App8.Resource.Attribute.actionBarItemBackground;
+			global::PayPal.Forms.Android.Resource.Attribute.actionBarPopupTheme = global::App8.Resource.Attribute.actionBarPopupTheme;
+			global::PayPal.Forms.Android.Resource.Attribute.actionBarSize = global::App8.Resource.Attribute.actionBarSize;
+			global::PayPal.Forms.Android.Resource.Attribute.actionBarSplitStyle = global::App8.Resource.Attribute.actionBarSplitStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.actionBarStyle = global::App8.Resource.Attribute.actionBarStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.actionBarTabBarStyle = global::App8.Resource.Attribute.actionBarTabBarStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.actionBarTabStyle = global::App8.Resource.Attribute.actionBarTabStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.actionBarTabTextStyle = global::App8.Resource.Attribute.actionBarTabTextStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.actionBarTheme = global::App8.Resource.Attribute.actionBarTheme;
+			global::PayPal.Forms.Android.Resource.Attribute.actionBarWidgetTheme = global::App8.Resource.Attribute.actionBarWidgetTheme;
+			global::PayPal.Forms.Android.Resource.Attribute.actionButtonStyle = global::App8.Resource.Attribute.actionButtonStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.actionDropDownStyle = global::App8.Resource.Attribute.actionDropDownStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.actionLayout = global::App8.Resource.Attribute.actionLayout;
+			global::PayPal.Forms.Android.Resource.Attribute.actionMenuTextAppearance = global::App8.Resource.Attribute.actionMenuTextAppearance;
+			global::PayPal.Forms.Android.Resource.Attribute.actionMenuTextColor = global::App8.Resource.Attribute.actionMenuTextColor;
+			global::PayPal.Forms.Android.Resource.Attribute.actionModeBackground = global::App8.Resource.Attribute.actionModeBackground;
+			global::PayPal.Forms.Android.Resource.Attribute.actionModeCloseButtonStyle = global::App8.Resource.Attribute.actionModeCloseButtonStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.actionModeCloseDrawable = global::App8.Resource.Attribute.actionModeCloseDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.actionModeCopyDrawable = global::App8.Resource.Attribute.actionModeCopyDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.actionModeCutDrawable = global::App8.Resource.Attribute.actionModeCutDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.actionModeFindDrawable = global::App8.Resource.Attribute.actionModeFindDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.actionModePasteDrawable = global::App8.Resource.Attribute.actionModePasteDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.actionModePopupWindowStyle = global::App8.Resource.Attribute.actionModePopupWindowStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.actionModeSelectAllDrawable = global::App8.Resource.Attribute.actionModeSelectAllDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.actionModeShareDrawable = global::App8.Resource.Attribute.actionModeShareDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.actionModeSplitBackground = global::App8.Resource.Attribute.actionModeSplitBackground;
+			global::PayPal.Forms.Android.Resource.Attribute.actionModeStyle = global::App8.Resource.Attribute.actionModeStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.actionModeWebSearchDrawable = global::App8.Resource.Attribute.actionModeWebSearchDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.actionOverflowButtonStyle = global::App8.Resource.Attribute.actionOverflowButtonStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.actionOverflowMenuStyle = global::App8.Resource.Attribute.actionOverflowMenuStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.actionProviderClass = global::App8.Resource.Attribute.actionProviderClass;
+			global::PayPal.Forms.Android.Resource.Attribute.actionViewClass = global::App8.Resource.Attribute.actionViewClass;
+			global::PayPal.Forms.Android.Resource.Attribute.activityChooserViewStyle = global::App8.Resource.Attribute.activityChooserViewStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.alertDialogButtonGroupStyle = global::App8.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.alertDialogCenterButtons = global::App8.Resource.Attribute.alertDialogCenterButtons;
+			global::PayPal.Forms.Android.Resource.Attribute.alertDialogStyle = global::App8.Resource.Attribute.alertDialogStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.alertDialogTheme = global::App8.Resource.Attribute.alertDialogTheme;
+			global::PayPal.Forms.Android.Resource.Attribute.allowStacking = global::App8.Resource.Attribute.allowStacking;
+			global::PayPal.Forms.Android.Resource.Attribute.arrowHeadLength = global::App8.Resource.Attribute.arrowHeadLength;
+			global::PayPal.Forms.Android.Resource.Attribute.arrowShaftLength = global::App8.Resource.Attribute.arrowShaftLength;
+			global::PayPal.Forms.Android.Resource.Attribute.autoCompleteTextViewStyle = global::App8.Resource.Attribute.autoCompleteTextViewStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.background = global::App8.Resource.Attribute.background;
+			global::PayPal.Forms.Android.Resource.Attribute.backgroundSplit = global::App8.Resource.Attribute.backgroundSplit;
+			global::PayPal.Forms.Android.Resource.Attribute.backgroundStacked = global::App8.Resource.Attribute.backgroundStacked;
+			global::PayPal.Forms.Android.Resource.Attribute.backgroundTint = global::App8.Resource.Attribute.backgroundTint;
+			global::PayPal.Forms.Android.Resource.Attribute.backgroundTintMode = global::App8.Resource.Attribute.backgroundTintMode;
+			global::PayPal.Forms.Android.Resource.Attribute.barLength = global::App8.Resource.Attribute.barLength;
+			global::PayPal.Forms.Android.Resource.Attribute.behavior_hideable = global::App8.Resource.Attribute.behavior_hideable;
+			global::PayPal.Forms.Android.Resource.Attribute.behavior_overlapTop = global::App8.Resource.Attribute.behavior_overlapTop;
+			global::PayPal.Forms.Android.Resource.Attribute.behavior_peekHeight = global::App8.Resource.Attribute.behavior_peekHeight;
+			global::PayPal.Forms.Android.Resource.Attribute.borderWidth = global::App8.Resource.Attribute.borderWidth;
+			global::PayPal.Forms.Android.Resource.Attribute.borderlessButtonStyle = global::App8.Resource.Attribute.borderlessButtonStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.bottomSheetDialogTheme = global::App8.Resource.Attribute.bottomSheetDialogTheme;
+			global::PayPal.Forms.Android.Resource.Attribute.bottomSheetStyle = global::App8.Resource.Attribute.bottomSheetStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.buttonBarButtonStyle = global::App8.Resource.Attribute.buttonBarButtonStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.buttonBarNegativeButtonStyle = global::App8.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.buttonBarNeutralButtonStyle = global::App8.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.buttonBarPositiveButtonStyle = global::App8.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.buttonBarStyle = global::App8.Resource.Attribute.buttonBarStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.buttonPanelSideLayout = global::App8.Resource.Attribute.buttonPanelSideLayout;
+			global::PayPal.Forms.Android.Resource.Attribute.buttonStyle = global::App8.Resource.Attribute.buttonStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.buttonStyleSmall = global::App8.Resource.Attribute.buttonStyleSmall;
+			global::PayPal.Forms.Android.Resource.Attribute.buttonTint = global::App8.Resource.Attribute.buttonTint;
+			global::PayPal.Forms.Android.Resource.Attribute.buttonTintMode = global::App8.Resource.Attribute.buttonTintMode;
+			global::PayPal.Forms.Android.Resource.Attribute.cardBackgroundColor = global::App8.Resource.Attribute.cardBackgroundColor;
+			global::PayPal.Forms.Android.Resource.Attribute.cardCornerRadius = global::App8.Resource.Attribute.cardCornerRadius;
+			global::PayPal.Forms.Android.Resource.Attribute.cardElevation = global::App8.Resource.Attribute.cardElevation;
+			global::PayPal.Forms.Android.Resource.Attribute.cardMaxElevation = global::App8.Resource.Attribute.cardMaxElevation;
+			global::PayPal.Forms.Android.Resource.Attribute.cardPreventCornerOverlap = global::App8.Resource.Attribute.cardPreventCornerOverlap;
+			global::PayPal.Forms.Android.Resource.Attribute.cardUseCompatPadding = global::App8.Resource.Attribute.cardUseCompatPadding;
+			global::PayPal.Forms.Android.Resource.Attribute.checkboxStyle = global::App8.Resource.Attribute.checkboxStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.checkedTextViewStyle = global::App8.Resource.Attribute.checkedTextViewStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.closeIcon = global::App8.Resource.Attribute.closeIcon;
+			global::PayPal.Forms.Android.Resource.Attribute.closeItemLayout = global::App8.Resource.Attribute.closeItemLayout;
+			global::PayPal.Forms.Android.Resource.Attribute.collapseContentDescription = global::App8.Resource.Attribute.collapseContentDescription;
+			global::PayPal.Forms.Android.Resource.Attribute.collapseIcon = global::App8.Resource.Attribute.collapseIcon;
+			global::PayPal.Forms.Android.Resource.Attribute.collapsedTitleGravity = global::App8.Resource.Attribute.collapsedTitleGravity;
+			global::PayPal.Forms.Android.Resource.Attribute.collapsedTitleTextAppearance = global::App8.Resource.Attribute.collapsedTitleTextAppearance;
+			global::PayPal.Forms.Android.Resource.Attribute.color = global::App8.Resource.Attribute.color;
+			global::PayPal.Forms.Android.Resource.Attribute.colorAccent = global::App8.Resource.Attribute.colorAccent;
+			global::PayPal.Forms.Android.Resource.Attribute.colorButtonNormal = global::App8.Resource.Attribute.colorButtonNormal;
+			global::PayPal.Forms.Android.Resource.Attribute.colorControlActivated = global::App8.Resource.Attribute.colorControlActivated;
+			global::PayPal.Forms.Android.Resource.Attribute.colorControlHighlight = global::App8.Resource.Attribute.colorControlHighlight;
+			global::PayPal.Forms.Android.Resource.Attribute.colorControlNormal = global::App8.Resource.Attribute.colorControlNormal;
+			global::PayPal.Forms.Android.Resource.Attribute.colorPrimary = global::App8.Resource.Attribute.colorPrimary;
+			global::PayPal.Forms.Android.Resource.Attribute.colorPrimaryDark = global::App8.Resource.Attribute.colorPrimaryDark;
+			global::PayPal.Forms.Android.Resource.Attribute.colorSwitchThumbNormal = global::App8.Resource.Attribute.colorSwitchThumbNormal;
+			global::PayPal.Forms.Android.Resource.Attribute.commitIcon = global::App8.Resource.Attribute.commitIcon;
+			global::PayPal.Forms.Android.Resource.Attribute.contentInsetEnd = global::App8.Resource.Attribute.contentInsetEnd;
+			global::PayPal.Forms.Android.Resource.Attribute.contentInsetLeft = global::App8.Resource.Attribute.contentInsetLeft;
+			global::PayPal.Forms.Android.Resource.Attribute.contentInsetRight = global::App8.Resource.Attribute.contentInsetRight;
+			global::PayPal.Forms.Android.Resource.Attribute.contentInsetStart = global::App8.Resource.Attribute.contentInsetStart;
+			global::PayPal.Forms.Android.Resource.Attribute.contentPadding = global::App8.Resource.Attribute.contentPadding;
+			global::PayPal.Forms.Android.Resource.Attribute.contentPaddingBottom = global::App8.Resource.Attribute.contentPaddingBottom;
+			global::PayPal.Forms.Android.Resource.Attribute.contentPaddingLeft = global::App8.Resource.Attribute.contentPaddingLeft;
+			global::PayPal.Forms.Android.Resource.Attribute.contentPaddingRight = global::App8.Resource.Attribute.contentPaddingRight;
+			global::PayPal.Forms.Android.Resource.Attribute.contentPaddingTop = global::App8.Resource.Attribute.contentPaddingTop;
+			global::PayPal.Forms.Android.Resource.Attribute.contentScrim = global::App8.Resource.Attribute.contentScrim;
+			global::PayPal.Forms.Android.Resource.Attribute.controlBackground = global::App8.Resource.Attribute.controlBackground;
+			global::PayPal.Forms.Android.Resource.Attribute.counterEnabled = global::App8.Resource.Attribute.counterEnabled;
+			global::PayPal.Forms.Android.Resource.Attribute.counterMaxLength = global::App8.Resource.Attribute.counterMaxLength;
+			global::PayPal.Forms.Android.Resource.Attribute.counterOverflowTextAppearance = global::App8.Resource.Attribute.counterOverflowTextAppearance;
+			global::PayPal.Forms.Android.Resource.Attribute.counterTextAppearance = global::App8.Resource.Attribute.counterTextAppearance;
+			global::PayPal.Forms.Android.Resource.Attribute.customNavigationLayout = global::App8.Resource.Attribute.customNavigationLayout;
+			global::PayPal.Forms.Android.Resource.Attribute.defaultQueryHint = global::App8.Resource.Attribute.defaultQueryHint;
+			global::PayPal.Forms.Android.Resource.Attribute.dialogPreferredPadding = global::App8.Resource.Attribute.dialogPreferredPadding;
+			global::PayPal.Forms.Android.Resource.Attribute.dialogTheme = global::App8.Resource.Attribute.dialogTheme;
+			global::PayPal.Forms.Android.Resource.Attribute.displayOptions = global::App8.Resource.Attribute.displayOptions;
+			global::PayPal.Forms.Android.Resource.Attribute.divider = global::App8.Resource.Attribute.divider;
+			global::PayPal.Forms.Android.Resource.Attribute.dividerHorizontal = global::App8.Resource.Attribute.dividerHorizontal;
+			global::PayPal.Forms.Android.Resource.Attribute.dividerPadding = global::App8.Resource.Attribute.dividerPadding;
+			global::PayPal.Forms.Android.Resource.Attribute.dividerVertical = global::App8.Resource.Attribute.dividerVertical;
+			global::PayPal.Forms.Android.Resource.Attribute.drawableSize = global::App8.Resource.Attribute.drawableSize;
+			global::PayPal.Forms.Android.Resource.Attribute.drawerArrowStyle = global::App8.Resource.Attribute.drawerArrowStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.dropDownListViewStyle = global::App8.Resource.Attribute.dropDownListViewStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.dropdownListPreferredItemHeight = global::App8.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::PayPal.Forms.Android.Resource.Attribute.editTextBackground = global::App8.Resource.Attribute.editTextBackground;
+			global::PayPal.Forms.Android.Resource.Attribute.editTextColor = global::App8.Resource.Attribute.editTextColor;
+			global::PayPal.Forms.Android.Resource.Attribute.editTextStyle = global::App8.Resource.Attribute.editTextStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.elevation = global::App8.Resource.Attribute.elevation;
+			global::PayPal.Forms.Android.Resource.Attribute.errorEnabled = global::App8.Resource.Attribute.errorEnabled;
+			global::PayPal.Forms.Android.Resource.Attribute.errorTextAppearance = global::App8.Resource.Attribute.errorTextAppearance;
+			global::PayPal.Forms.Android.Resource.Attribute.expandActivityOverflowButtonDrawable = global::App8.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.expanded = global::App8.Resource.Attribute.expanded;
+			global::PayPal.Forms.Android.Resource.Attribute.expandedTitleGravity = global::App8.Resource.Attribute.expandedTitleGravity;
+			global::PayPal.Forms.Android.Resource.Attribute.expandedTitleMargin = global::App8.Resource.Attribute.expandedTitleMargin;
+			global::PayPal.Forms.Android.Resource.Attribute.expandedTitleMarginBottom = global::App8.Resource.Attribute.expandedTitleMarginBottom;
+			global::PayPal.Forms.Android.Resource.Attribute.expandedTitleMarginEnd = global::App8.Resource.Attribute.expandedTitleMarginEnd;
+			global::PayPal.Forms.Android.Resource.Attribute.expandedTitleMarginStart = global::App8.Resource.Attribute.expandedTitleMarginStart;
+			global::PayPal.Forms.Android.Resource.Attribute.expandedTitleMarginTop = global::App8.Resource.Attribute.expandedTitleMarginTop;
+			global::PayPal.Forms.Android.Resource.Attribute.expandedTitleTextAppearance = global::App8.Resource.Attribute.expandedTitleTextAppearance;
+			global::PayPal.Forms.Android.Resource.Attribute.externalRouteEnabledDrawable = global::App8.Resource.Attribute.externalRouteEnabledDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.fabSize = global::App8.Resource.Attribute.fabSize;
+			global::PayPal.Forms.Android.Resource.Attribute.foregroundInsidePadding = global::App8.Resource.Attribute.foregroundInsidePadding;
+			global::PayPal.Forms.Android.Resource.Attribute.gapBetweenBars = global::App8.Resource.Attribute.gapBetweenBars;
+			global::PayPal.Forms.Android.Resource.Attribute.goIcon = global::App8.Resource.Attribute.goIcon;
+			global::PayPal.Forms.Android.Resource.Attribute.headerLayout = global::App8.Resource.Attribute.headerLayout;
+			global::PayPal.Forms.Android.Resource.Attribute.height = global::App8.Resource.Attribute.height;
+			global::PayPal.Forms.Android.Resource.Attribute.hideOnContentScroll = global::App8.Resource.Attribute.hideOnContentScroll;
+			global::PayPal.Forms.Android.Resource.Attribute.hintAnimationEnabled = global::App8.Resource.Attribute.hintAnimationEnabled;
+			global::PayPal.Forms.Android.Resource.Attribute.hintEnabled = global::App8.Resource.Attribute.hintEnabled;
+			global::PayPal.Forms.Android.Resource.Attribute.hintTextAppearance = global::App8.Resource.Attribute.hintTextAppearance;
+			global::PayPal.Forms.Android.Resource.Attribute.homeAsUpIndicator = global::App8.Resource.Attribute.homeAsUpIndicator;
+			global::PayPal.Forms.Android.Resource.Attribute.homeLayout = global::App8.Resource.Attribute.homeLayout;
+			global::PayPal.Forms.Android.Resource.Attribute.icon = global::App8.Resource.Attribute.icon;
+			global::PayPal.Forms.Android.Resource.Attribute.iconifiedByDefault = global::App8.Resource.Attribute.iconifiedByDefault;
+			global::PayPal.Forms.Android.Resource.Attribute.imageButtonStyle = global::App8.Resource.Attribute.imageButtonStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.indeterminateProgressStyle = global::App8.Resource.Attribute.indeterminateProgressStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.initialActivityCount = global::App8.Resource.Attribute.initialActivityCount;
+			global::PayPal.Forms.Android.Resource.Attribute.insetForeground = global::App8.Resource.Attribute.insetForeground;
+			global::PayPal.Forms.Android.Resource.Attribute.isLightTheme = global::App8.Resource.Attribute.isLightTheme;
+			global::PayPal.Forms.Android.Resource.Attribute.itemBackground = global::App8.Resource.Attribute.itemBackground;
+			global::PayPal.Forms.Android.Resource.Attribute.itemIconTint = global::App8.Resource.Attribute.itemIconTint;
+			global::PayPal.Forms.Android.Resource.Attribute.itemPadding = global::App8.Resource.Attribute.itemPadding;
+			global::PayPal.Forms.Android.Resource.Attribute.itemTextAppearance = global::App8.Resource.Attribute.itemTextAppearance;
+			global::PayPal.Forms.Android.Resource.Attribute.itemTextColor = global::App8.Resource.Attribute.itemTextColor;
+			global::PayPal.Forms.Android.Resource.Attribute.keylines = global::App8.Resource.Attribute.keylines;
+			global::PayPal.Forms.Android.Resource.Attribute.layout = global::App8.Resource.Attribute.layout;
+			global::PayPal.Forms.Android.Resource.Attribute.layoutManager = global::App8.Resource.Attribute.layoutManager;
+			global::PayPal.Forms.Android.Resource.Attribute.layout_anchor = global::App8.Resource.Attribute.layout_anchor;
+			global::PayPal.Forms.Android.Resource.Attribute.layout_anchorGravity = global::App8.Resource.Attribute.layout_anchorGravity;
+			global::PayPal.Forms.Android.Resource.Attribute.layout_behavior = global::App8.Resource.Attribute.layout_behavior;
+			global::PayPal.Forms.Android.Resource.Attribute.layout_collapseMode = global::App8.Resource.Attribute.layout_collapseMode;
+			global::PayPal.Forms.Android.Resource.Attribute.layout_collapseParallaxMultiplier = global::App8.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::PayPal.Forms.Android.Resource.Attribute.layout_keyline = global::App8.Resource.Attribute.layout_keyline;
+			global::PayPal.Forms.Android.Resource.Attribute.layout_scrollFlags = global::App8.Resource.Attribute.layout_scrollFlags;
+			global::PayPal.Forms.Android.Resource.Attribute.layout_scrollInterpolator = global::App8.Resource.Attribute.layout_scrollInterpolator;
+			global::PayPal.Forms.Android.Resource.Attribute.listChoiceBackgroundIndicator = global::App8.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::PayPal.Forms.Android.Resource.Attribute.listDividerAlertDialog = global::App8.Resource.Attribute.listDividerAlertDialog;
+			global::PayPal.Forms.Android.Resource.Attribute.listItemLayout = global::App8.Resource.Attribute.listItemLayout;
+			global::PayPal.Forms.Android.Resource.Attribute.listLayout = global::App8.Resource.Attribute.listLayout;
+			global::PayPal.Forms.Android.Resource.Attribute.listPopupWindowStyle = global::App8.Resource.Attribute.listPopupWindowStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.listPreferredItemHeight = global::App8.Resource.Attribute.listPreferredItemHeight;
+			global::PayPal.Forms.Android.Resource.Attribute.listPreferredItemHeightLarge = global::App8.Resource.Attribute.listPreferredItemHeightLarge;
+			global::PayPal.Forms.Android.Resource.Attribute.listPreferredItemHeightSmall = global::App8.Resource.Attribute.listPreferredItemHeightSmall;
+			global::PayPal.Forms.Android.Resource.Attribute.listPreferredItemPaddingLeft = global::App8.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::PayPal.Forms.Android.Resource.Attribute.listPreferredItemPaddingRight = global::App8.Resource.Attribute.listPreferredItemPaddingRight;
+			global::PayPal.Forms.Android.Resource.Attribute.logo = global::App8.Resource.Attribute.logo;
+			global::PayPal.Forms.Android.Resource.Attribute.logoDescription = global::App8.Resource.Attribute.logoDescription;
+			global::PayPal.Forms.Android.Resource.Attribute.maxActionInlineWidth = global::App8.Resource.Attribute.maxActionInlineWidth;
+			global::PayPal.Forms.Android.Resource.Attribute.maxButtonHeight = global::App8.Resource.Attribute.maxButtonHeight;
+			global::PayPal.Forms.Android.Resource.Attribute.measureWithLargestChild = global::App8.Resource.Attribute.measureWithLargestChild;
+			global::PayPal.Forms.Android.Resource.Attribute.mediaRouteAudioTrackDrawable = global::App8.Resource.Attribute.mediaRouteAudioTrackDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.mediaRouteBluetoothIconDrawable = global::App8.Resource.Attribute.mediaRouteBluetoothIconDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.mediaRouteButtonStyle = global::App8.Resource.Attribute.mediaRouteButtonStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.mediaRouteCastDrawable = global::App8.Resource.Attribute.mediaRouteCastDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.mediaRouteChooserPrimaryTextStyle = global::App8.Resource.Attribute.mediaRouteChooserPrimaryTextStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.mediaRouteChooserSecondaryTextStyle = global::App8.Resource.Attribute.mediaRouteChooserSecondaryTextStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.mediaRouteCloseDrawable = global::App8.Resource.Attribute.mediaRouteCloseDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.mediaRouteCollapseGroupDrawable = global::App8.Resource.Attribute.mediaRouteCollapseGroupDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.mediaRouteConnectingDrawable = global::App8.Resource.Attribute.mediaRouteConnectingDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.mediaRouteControllerPrimaryTextStyle = global::App8.Resource.Attribute.mediaRouteControllerPrimaryTextStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.mediaRouteControllerSecondaryTextStyle = global::App8.Resource.Attribute.mediaRouteControllerSecondaryTextStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.mediaRouteControllerTitleTextStyle = global::App8.Resource.Attribute.mediaRouteControllerTitleTextStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.mediaRouteDefaultIconDrawable = global::App8.Resource.Attribute.mediaRouteDefaultIconDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.mediaRouteExpandGroupDrawable = global::App8.Resource.Attribute.mediaRouteExpandGroupDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.mediaRouteOffDrawable = global::App8.Resource.Attribute.mediaRouteOffDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.mediaRouteOnDrawable = global::App8.Resource.Attribute.mediaRouteOnDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.mediaRoutePauseDrawable = global::App8.Resource.Attribute.mediaRoutePauseDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.mediaRoutePlayDrawable = global::App8.Resource.Attribute.mediaRoutePlayDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::App8.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::App8.Resource.Attribute.mediaRouteSpeakerIconDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.mediaRouteTvIconDrawable = global::App8.Resource.Attribute.mediaRouteTvIconDrawable;
+			global::PayPal.Forms.Android.Resource.Attribute.menu = global::App8.Resource.Attribute.menu;
+			global::PayPal.Forms.Android.Resource.Attribute.multiChoiceItemLayout = global::App8.Resource.Attribute.multiChoiceItemLayout;
+			global::PayPal.Forms.Android.Resource.Attribute.navigationContentDescription = global::App8.Resource.Attribute.navigationContentDescription;
+			global::PayPal.Forms.Android.Resource.Attribute.navigationIcon = global::App8.Resource.Attribute.navigationIcon;
+			global::PayPal.Forms.Android.Resource.Attribute.navigationMode = global::App8.Resource.Attribute.navigationMode;
+			global::PayPal.Forms.Android.Resource.Attribute.overlapAnchor = global::App8.Resource.Attribute.overlapAnchor;
+			global::PayPal.Forms.Android.Resource.Attribute.paddingEnd = global::App8.Resource.Attribute.paddingEnd;
+			global::PayPal.Forms.Android.Resource.Attribute.paddingStart = global::App8.Resource.Attribute.paddingStart;
+			global::PayPal.Forms.Android.Resource.Attribute.panelBackground = global::App8.Resource.Attribute.panelBackground;
+			global::PayPal.Forms.Android.Resource.Attribute.panelMenuListTheme = global::App8.Resource.Attribute.panelMenuListTheme;
+			global::PayPal.Forms.Android.Resource.Attribute.panelMenuListWidth = global::App8.Resource.Attribute.panelMenuListWidth;
+			global::PayPal.Forms.Android.Resource.Attribute.popupMenuStyle = global::App8.Resource.Attribute.popupMenuStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.popupTheme = global::App8.Resource.Attribute.popupTheme;
+			global::PayPal.Forms.Android.Resource.Attribute.popupWindowStyle = global::App8.Resource.Attribute.popupWindowStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.preserveIconSpacing = global::App8.Resource.Attribute.preserveIconSpacing;
+			global::PayPal.Forms.Android.Resource.Attribute.pressedTranslationZ = global::App8.Resource.Attribute.pressedTranslationZ;
+			global::PayPal.Forms.Android.Resource.Attribute.progressBarPadding = global::App8.Resource.Attribute.progressBarPadding;
+			global::PayPal.Forms.Android.Resource.Attribute.progressBarStyle = global::App8.Resource.Attribute.progressBarStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.queryBackground = global::App8.Resource.Attribute.queryBackground;
+			global::PayPal.Forms.Android.Resource.Attribute.queryHint = global::App8.Resource.Attribute.queryHint;
+			global::PayPal.Forms.Android.Resource.Attribute.radioButtonStyle = global::App8.Resource.Attribute.radioButtonStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.ratingBarStyle = global::App8.Resource.Attribute.ratingBarStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.ratingBarStyleIndicator = global::App8.Resource.Attribute.ratingBarStyleIndicator;
+			global::PayPal.Forms.Android.Resource.Attribute.ratingBarStyleSmall = global::App8.Resource.Attribute.ratingBarStyleSmall;
+			global::PayPal.Forms.Android.Resource.Attribute.reverseLayout = global::App8.Resource.Attribute.reverseLayout;
+			global::PayPal.Forms.Android.Resource.Attribute.rippleColor = global::App8.Resource.Attribute.rippleColor;
+			global::PayPal.Forms.Android.Resource.Attribute.searchHintIcon = global::App8.Resource.Attribute.searchHintIcon;
+			global::PayPal.Forms.Android.Resource.Attribute.searchIcon = global::App8.Resource.Attribute.searchIcon;
+			global::PayPal.Forms.Android.Resource.Attribute.searchViewStyle = global::App8.Resource.Attribute.searchViewStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.seekBarStyle = global::App8.Resource.Attribute.seekBarStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.selectableItemBackground = global::App8.Resource.Attribute.selectableItemBackground;
+			global::PayPal.Forms.Android.Resource.Attribute.selectableItemBackgroundBorderless = global::App8.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::PayPal.Forms.Android.Resource.Attribute.showAsAction = global::App8.Resource.Attribute.showAsAction;
+			global::PayPal.Forms.Android.Resource.Attribute.showDividers = global::App8.Resource.Attribute.showDividers;
+			global::PayPal.Forms.Android.Resource.Attribute.showText = global::App8.Resource.Attribute.showText;
+			global::PayPal.Forms.Android.Resource.Attribute.singleChoiceItemLayout = global::App8.Resource.Attribute.singleChoiceItemLayout;
+			global::PayPal.Forms.Android.Resource.Attribute.spanCount = global::App8.Resource.Attribute.spanCount;
+			global::PayPal.Forms.Android.Resource.Attribute.spinBars = global::App8.Resource.Attribute.spinBars;
+			global::PayPal.Forms.Android.Resource.Attribute.spinnerDropDownItemStyle = global::App8.Resource.Attribute.spinnerDropDownItemStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.spinnerStyle = global::App8.Resource.Attribute.spinnerStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.splitTrack = global::App8.Resource.Attribute.splitTrack;
+			global::PayPal.Forms.Android.Resource.Attribute.srcCompat = global::App8.Resource.Attribute.srcCompat;
+			global::PayPal.Forms.Android.Resource.Attribute.stackFromEnd = global::App8.Resource.Attribute.stackFromEnd;
+			global::PayPal.Forms.Android.Resource.Attribute.state_above_anchor = global::App8.Resource.Attribute.state_above_anchor;
+			global::PayPal.Forms.Android.Resource.Attribute.statusBarBackground = global::App8.Resource.Attribute.statusBarBackground;
+			global::PayPal.Forms.Android.Resource.Attribute.statusBarScrim = global::App8.Resource.Attribute.statusBarScrim;
+			global::PayPal.Forms.Android.Resource.Attribute.submitBackground = global::App8.Resource.Attribute.submitBackground;
+			global::PayPal.Forms.Android.Resource.Attribute.subtitle = global::App8.Resource.Attribute.subtitle;
+			global::PayPal.Forms.Android.Resource.Attribute.subtitleTextAppearance = global::App8.Resource.Attribute.subtitleTextAppearance;
+			global::PayPal.Forms.Android.Resource.Attribute.subtitleTextColor = global::App8.Resource.Attribute.subtitleTextColor;
+			global::PayPal.Forms.Android.Resource.Attribute.subtitleTextStyle = global::App8.Resource.Attribute.subtitleTextStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.suggestionRowLayout = global::App8.Resource.Attribute.suggestionRowLayout;
+			global::PayPal.Forms.Android.Resource.Attribute.switchMinWidth = global::App8.Resource.Attribute.switchMinWidth;
+			global::PayPal.Forms.Android.Resource.Attribute.switchPadding = global::App8.Resource.Attribute.switchPadding;
+			global::PayPal.Forms.Android.Resource.Attribute.switchStyle = global::App8.Resource.Attribute.switchStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.switchTextAppearance = global::App8.Resource.Attribute.switchTextAppearance;
+			global::PayPal.Forms.Android.Resource.Attribute.tabBackground = global::App8.Resource.Attribute.tabBackground;
+			global::PayPal.Forms.Android.Resource.Attribute.tabContentStart = global::App8.Resource.Attribute.tabContentStart;
+			global::PayPal.Forms.Android.Resource.Attribute.tabGravity = global::App8.Resource.Attribute.tabGravity;
+			global::PayPal.Forms.Android.Resource.Attribute.tabIndicatorColor = global::App8.Resource.Attribute.tabIndicatorColor;
+			global::PayPal.Forms.Android.Resource.Attribute.tabIndicatorHeight = global::App8.Resource.Attribute.tabIndicatorHeight;
+			global::PayPal.Forms.Android.Resource.Attribute.tabMaxWidth = global::App8.Resource.Attribute.tabMaxWidth;
+			global::PayPal.Forms.Android.Resource.Attribute.tabMinWidth = global::App8.Resource.Attribute.tabMinWidth;
+			global::PayPal.Forms.Android.Resource.Attribute.tabMode = global::App8.Resource.Attribute.tabMode;
+			global::PayPal.Forms.Android.Resource.Attribute.tabPadding = global::App8.Resource.Attribute.tabPadding;
+			global::PayPal.Forms.Android.Resource.Attribute.tabPaddingBottom = global::App8.Resource.Attribute.tabPaddingBottom;
+			global::PayPal.Forms.Android.Resource.Attribute.tabPaddingEnd = global::App8.Resource.Attribute.tabPaddingEnd;
+			global::PayPal.Forms.Android.Resource.Attribute.tabPaddingStart = global::App8.Resource.Attribute.tabPaddingStart;
+			global::PayPal.Forms.Android.Resource.Attribute.tabPaddingTop = global::App8.Resource.Attribute.tabPaddingTop;
+			global::PayPal.Forms.Android.Resource.Attribute.tabSelectedTextColor = global::App8.Resource.Attribute.tabSelectedTextColor;
+			global::PayPal.Forms.Android.Resource.Attribute.tabTextAppearance = global::App8.Resource.Attribute.tabTextAppearance;
+			global::PayPal.Forms.Android.Resource.Attribute.tabTextColor = global::App8.Resource.Attribute.tabTextColor;
+			global::PayPal.Forms.Android.Resource.Attribute.textAllCaps = global::App8.Resource.Attribute.textAllCaps;
+			global::PayPal.Forms.Android.Resource.Attribute.textAppearanceLargePopupMenu = global::App8.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::PayPal.Forms.Android.Resource.Attribute.textAppearanceListItem = global::App8.Resource.Attribute.textAppearanceListItem;
+			global::PayPal.Forms.Android.Resource.Attribute.textAppearanceListItemSmall = global::App8.Resource.Attribute.textAppearanceListItemSmall;
+			global::PayPal.Forms.Android.Resource.Attribute.textAppearanceSearchResultSubtitle = global::App8.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::PayPal.Forms.Android.Resource.Attribute.textAppearanceSearchResultTitle = global::App8.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::PayPal.Forms.Android.Resource.Attribute.textAppearanceSmallPopupMenu = global::App8.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::PayPal.Forms.Android.Resource.Attribute.textColorAlertDialogListItem = global::App8.Resource.Attribute.textColorAlertDialogListItem;
+			global::PayPal.Forms.Android.Resource.Attribute.textColorError = global::App8.Resource.Attribute.textColorError;
+			global::PayPal.Forms.Android.Resource.Attribute.textColorSearchUrl = global::App8.Resource.Attribute.textColorSearchUrl;
+			global::PayPal.Forms.Android.Resource.Attribute.theme = global::App8.Resource.Attribute.theme;
+			global::PayPal.Forms.Android.Resource.Attribute.thickness = global::App8.Resource.Attribute.thickness;
+			global::PayPal.Forms.Android.Resource.Attribute.thumbTextPadding = global::App8.Resource.Attribute.thumbTextPadding;
+			global::PayPal.Forms.Android.Resource.Attribute.title = global::App8.Resource.Attribute.title;
+			global::PayPal.Forms.Android.Resource.Attribute.titleEnabled = global::App8.Resource.Attribute.titleEnabled;
+			global::PayPal.Forms.Android.Resource.Attribute.titleMarginBottom = global::App8.Resource.Attribute.titleMarginBottom;
+			global::PayPal.Forms.Android.Resource.Attribute.titleMarginEnd = global::App8.Resource.Attribute.titleMarginEnd;
+			global::PayPal.Forms.Android.Resource.Attribute.titleMarginStart = global::App8.Resource.Attribute.titleMarginStart;
+			global::PayPal.Forms.Android.Resource.Attribute.titleMarginTop = global::App8.Resource.Attribute.titleMarginTop;
+			global::PayPal.Forms.Android.Resource.Attribute.titleMargins = global::App8.Resource.Attribute.titleMargins;
+			global::PayPal.Forms.Android.Resource.Attribute.titleTextAppearance = global::App8.Resource.Attribute.titleTextAppearance;
+			global::PayPal.Forms.Android.Resource.Attribute.titleTextColor = global::App8.Resource.Attribute.titleTextColor;
+			global::PayPal.Forms.Android.Resource.Attribute.titleTextStyle = global::App8.Resource.Attribute.titleTextStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.toolbarId = global::App8.Resource.Attribute.toolbarId;
+			global::PayPal.Forms.Android.Resource.Attribute.toolbarNavigationButtonStyle = global::App8.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.toolbarStyle = global::App8.Resource.Attribute.toolbarStyle;
+			global::PayPal.Forms.Android.Resource.Attribute.track = global::App8.Resource.Attribute.track;
+			global::PayPal.Forms.Android.Resource.Attribute.useCompatPadding = global::App8.Resource.Attribute.useCompatPadding;
+			global::PayPal.Forms.Android.Resource.Attribute.voiceIcon = global::App8.Resource.Attribute.voiceIcon;
+			global::PayPal.Forms.Android.Resource.Attribute.windowActionBar = global::App8.Resource.Attribute.windowActionBar;
+			global::PayPal.Forms.Android.Resource.Attribute.windowActionBarOverlay = global::App8.Resource.Attribute.windowActionBarOverlay;
+			global::PayPal.Forms.Android.Resource.Attribute.windowActionModeOverlay = global::App8.Resource.Attribute.windowActionModeOverlay;
+			global::PayPal.Forms.Android.Resource.Attribute.windowFixedHeightMajor = global::App8.Resource.Attribute.windowFixedHeightMajor;
+			global::PayPal.Forms.Android.Resource.Attribute.windowFixedHeightMinor = global::App8.Resource.Attribute.windowFixedHeightMinor;
+			global::PayPal.Forms.Android.Resource.Attribute.windowFixedWidthMajor = global::App8.Resource.Attribute.windowFixedWidthMajor;
+			global::PayPal.Forms.Android.Resource.Attribute.windowFixedWidthMinor = global::App8.Resource.Attribute.windowFixedWidthMinor;
+			global::PayPal.Forms.Android.Resource.Attribute.windowMinWidthMajor = global::App8.Resource.Attribute.windowMinWidthMajor;
+			global::PayPal.Forms.Android.Resource.Attribute.windowMinWidthMinor = global::App8.Resource.Attribute.windowMinWidthMinor;
+			global::PayPal.Forms.Android.Resource.Attribute.windowNoTitle = global::App8.Resource.Attribute.windowNoTitle;
+			global::PayPal.Forms.Android.Resource.Boolean.abc_action_bar_embed_tabs = global::App8.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::PayPal.Forms.Android.Resource.Boolean.abc_action_bar_embed_tabs_pre_jb = global::App8.Resource.Boolean.abc_action_bar_embed_tabs_pre_jb;
+			global::PayPal.Forms.Android.Resource.Boolean.abc_action_bar_expanded_action_views_exclusive = global::App8.Resource.Boolean.abc_action_bar_expanded_action_views_exclusive;
+			global::PayPal.Forms.Android.Resource.Boolean.abc_allow_stacked_button_bar = global::App8.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::PayPal.Forms.Android.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::App8.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::PayPal.Forms.Android.Resource.Boolean.abc_config_allowActionMenuItemTextWithIcon = global::App8.Resource.Boolean.abc_config_allowActionMenuItemTextWithIcon;
+			global::PayPal.Forms.Android.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::App8.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
+			global::PayPal.Forms.Android.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::App8.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
+			global::PayPal.Forms.Android.Resource.Color.abc_background_cache_hint_selector_material_dark = global::App8.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.abc_background_cache_hint_selector_material_light = global::App8.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::PayPal.Forms.Android.Resource.Color.abc_color_highlight_material = global::App8.Resource.Color.abc_color_highlight_material;
+			global::PayPal.Forms.Android.Resource.Color.abc_input_method_navigation_guard = global::App8.Resource.Color.abc_input_method_navigation_guard;
+			global::PayPal.Forms.Android.Resource.Color.abc_primary_text_disable_only_material_dark = global::App8.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.abc_primary_text_disable_only_material_light = global::App8.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::PayPal.Forms.Android.Resource.Color.abc_primary_text_material_dark = global::App8.Resource.Color.abc_primary_text_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.abc_primary_text_material_light = global::App8.Resource.Color.abc_primary_text_material_light;
+			global::PayPal.Forms.Android.Resource.Color.abc_search_url_text = global::App8.Resource.Color.abc_search_url_text;
+			global::PayPal.Forms.Android.Resource.Color.abc_search_url_text_normal = global::App8.Resource.Color.abc_search_url_text_normal;
+			global::PayPal.Forms.Android.Resource.Color.abc_search_url_text_pressed = global::App8.Resource.Color.abc_search_url_text_pressed;
+			global::PayPal.Forms.Android.Resource.Color.abc_search_url_text_selected = global::App8.Resource.Color.abc_search_url_text_selected;
+			global::PayPal.Forms.Android.Resource.Color.abc_secondary_text_material_dark = global::App8.Resource.Color.abc_secondary_text_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.abc_secondary_text_material_light = global::App8.Resource.Color.abc_secondary_text_material_light;
+			global::PayPal.Forms.Android.Resource.Color.accent_material_dark = global::App8.Resource.Color.accent_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.accent_material_light = global::App8.Resource.Color.accent_material_light;
+			global::PayPal.Forms.Android.Resource.Color.background_floating_material_dark = global::App8.Resource.Color.background_floating_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.background_floating_material_light = global::App8.Resource.Color.background_floating_material_light;
+			global::PayPal.Forms.Android.Resource.Color.background_material_dark = global::App8.Resource.Color.background_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.background_material_light = global::App8.Resource.Color.background_material_light;
+			global::PayPal.Forms.Android.Resource.Color.bright_foreground_disabled_material_dark = global::App8.Resource.Color.bright_foreground_disabled_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.bright_foreground_disabled_material_light = global::App8.Resource.Color.bright_foreground_disabled_material_light;
+			global::PayPal.Forms.Android.Resource.Color.bright_foreground_inverse_material_dark = global::App8.Resource.Color.bright_foreground_inverse_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.bright_foreground_inverse_material_light = global::App8.Resource.Color.bright_foreground_inverse_material_light;
+			global::PayPal.Forms.Android.Resource.Color.bright_foreground_material_dark = global::App8.Resource.Color.bright_foreground_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.bright_foreground_material_light = global::App8.Resource.Color.bright_foreground_material_light;
+			global::PayPal.Forms.Android.Resource.Color.button_material_dark = global::App8.Resource.Color.button_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.button_material_light = global::App8.Resource.Color.button_material_light;
+			global::PayPal.Forms.Android.Resource.Color.cardview_dark_background = global::App8.Resource.Color.cardview_dark_background;
+			global::PayPal.Forms.Android.Resource.Color.cardview_light_background = global::App8.Resource.Color.cardview_light_background;
+			global::PayPal.Forms.Android.Resource.Color.cardview_shadow_end_color = global::App8.Resource.Color.cardview_shadow_end_color;
+			global::PayPal.Forms.Android.Resource.Color.cardview_shadow_start_color = global::App8.Resource.Color.cardview_shadow_start_color;
+			global::PayPal.Forms.Android.Resource.Color.design_fab_shadow_end_color = global::App8.Resource.Color.design_fab_shadow_end_color;
+			global::PayPal.Forms.Android.Resource.Color.design_fab_shadow_mid_color = global::App8.Resource.Color.design_fab_shadow_mid_color;
+			global::PayPal.Forms.Android.Resource.Color.design_fab_shadow_start_color = global::App8.Resource.Color.design_fab_shadow_start_color;
+			global::PayPal.Forms.Android.Resource.Color.design_fab_stroke_end_inner_color = global::App8.Resource.Color.design_fab_stroke_end_inner_color;
+			global::PayPal.Forms.Android.Resource.Color.design_fab_stroke_end_outer_color = global::App8.Resource.Color.design_fab_stroke_end_outer_color;
+			global::PayPal.Forms.Android.Resource.Color.design_fab_stroke_top_inner_color = global::App8.Resource.Color.design_fab_stroke_top_inner_color;
+			global::PayPal.Forms.Android.Resource.Color.design_fab_stroke_top_outer_color = global::App8.Resource.Color.design_fab_stroke_top_outer_color;
+			global::PayPal.Forms.Android.Resource.Color.design_snackbar_background_color = global::App8.Resource.Color.design_snackbar_background_color;
+			global::PayPal.Forms.Android.Resource.Color.design_textinput_error_color_dark = global::App8.Resource.Color.design_textinput_error_color_dark;
+			global::PayPal.Forms.Android.Resource.Color.design_textinput_error_color_light = global::App8.Resource.Color.design_textinput_error_color_light;
+			global::PayPal.Forms.Android.Resource.Color.dim_foreground_disabled_material_dark = global::App8.Resource.Color.dim_foreground_disabled_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.dim_foreground_disabled_material_light = global::App8.Resource.Color.dim_foreground_disabled_material_light;
+			global::PayPal.Forms.Android.Resource.Color.dim_foreground_material_dark = global::App8.Resource.Color.dim_foreground_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.dim_foreground_material_light = global::App8.Resource.Color.dim_foreground_material_light;
+			global::PayPal.Forms.Android.Resource.Color.foreground_material_dark = global::App8.Resource.Color.foreground_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.foreground_material_light = global::App8.Resource.Color.foreground_material_light;
+			global::PayPal.Forms.Android.Resource.Color.highlighted_text_material_dark = global::App8.Resource.Color.highlighted_text_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.highlighted_text_material_light = global::App8.Resource.Color.highlighted_text_material_light;
+			global::PayPal.Forms.Android.Resource.Color.hint_foreground_material_dark = global::App8.Resource.Color.hint_foreground_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.hint_foreground_material_light = global::App8.Resource.Color.hint_foreground_material_light;
+			global::PayPal.Forms.Android.Resource.Color.material_blue_grey_800 = global::App8.Resource.Color.material_blue_grey_800;
+			global::PayPal.Forms.Android.Resource.Color.material_blue_grey_900 = global::App8.Resource.Color.material_blue_grey_900;
+			global::PayPal.Forms.Android.Resource.Color.material_blue_grey_950 = global::App8.Resource.Color.material_blue_grey_950;
+			global::PayPal.Forms.Android.Resource.Color.material_deep_teal_200 = global::App8.Resource.Color.material_deep_teal_200;
+			global::PayPal.Forms.Android.Resource.Color.material_deep_teal_500 = global::App8.Resource.Color.material_deep_teal_500;
+			global::PayPal.Forms.Android.Resource.Color.material_grey_100 = global::App8.Resource.Color.material_grey_100;
+			global::PayPal.Forms.Android.Resource.Color.material_grey_300 = global::App8.Resource.Color.material_grey_300;
+			global::PayPal.Forms.Android.Resource.Color.material_grey_50 = global::App8.Resource.Color.material_grey_50;
+			global::PayPal.Forms.Android.Resource.Color.material_grey_600 = global::App8.Resource.Color.material_grey_600;
+			global::PayPal.Forms.Android.Resource.Color.material_grey_800 = global::App8.Resource.Color.material_grey_800;
+			global::PayPal.Forms.Android.Resource.Color.material_grey_850 = global::App8.Resource.Color.material_grey_850;
+			global::PayPal.Forms.Android.Resource.Color.material_grey_900 = global::App8.Resource.Color.material_grey_900;
+			global::PayPal.Forms.Android.Resource.Color.primary_dark_material_dark = global::App8.Resource.Color.primary_dark_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.primary_dark_material_light = global::App8.Resource.Color.primary_dark_material_light;
+			global::PayPal.Forms.Android.Resource.Color.primary_material_dark = global::App8.Resource.Color.primary_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.primary_material_light = global::App8.Resource.Color.primary_material_light;
+			global::PayPal.Forms.Android.Resource.Color.primary_text_default_material_dark = global::App8.Resource.Color.primary_text_default_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.primary_text_default_material_light = global::App8.Resource.Color.primary_text_default_material_light;
+			global::PayPal.Forms.Android.Resource.Color.primary_text_disabled_material_dark = global::App8.Resource.Color.primary_text_disabled_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.primary_text_disabled_material_light = global::App8.Resource.Color.primary_text_disabled_material_light;
+			global::PayPal.Forms.Android.Resource.Color.ripple_material_dark = global::App8.Resource.Color.ripple_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.ripple_material_light = global::App8.Resource.Color.ripple_material_light;
+			global::PayPal.Forms.Android.Resource.Color.secondary_text_default_material_dark = global::App8.Resource.Color.secondary_text_default_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.secondary_text_default_material_light = global::App8.Resource.Color.secondary_text_default_material_light;
+			global::PayPal.Forms.Android.Resource.Color.secondary_text_disabled_material_dark = global::App8.Resource.Color.secondary_text_disabled_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.secondary_text_disabled_material_light = global::App8.Resource.Color.secondary_text_disabled_material_light;
+			global::PayPal.Forms.Android.Resource.Color.switch_thumb_disabled_material_dark = global::App8.Resource.Color.switch_thumb_disabled_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.switch_thumb_disabled_material_light = global::App8.Resource.Color.switch_thumb_disabled_material_light;
+			global::PayPal.Forms.Android.Resource.Color.switch_thumb_material_dark = global::App8.Resource.Color.switch_thumb_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.switch_thumb_material_light = global::App8.Resource.Color.switch_thumb_material_light;
+			global::PayPal.Forms.Android.Resource.Color.switch_thumb_normal_material_dark = global::App8.Resource.Color.switch_thumb_normal_material_dark;
+			global::PayPal.Forms.Android.Resource.Color.switch_thumb_normal_material_light = global::App8.Resource.Color.switch_thumb_normal_material_light;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_action_bar_content_inset_material = global::App8.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_action_bar_default_height_material = global::App8.Resource.Dimension.abc_action_bar_default_height_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_action_bar_default_padding_end_material = global::App8.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_action_bar_default_padding_start_material = global::App8.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::App8.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::App8.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::App8.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_action_bar_progress_bar_size = global::App8.Resource.Dimension.abc_action_bar_progress_bar_size;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_action_bar_stacked_max_height = global::App8.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::App8.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::App8.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::App8.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_action_button_min_height_material = global::App8.Resource.Dimension.abc_action_button_min_height_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_action_button_min_width_material = global::App8.Resource.Dimension.abc_action_button_min_width_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_action_button_min_width_overflow_material = global::App8.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_alert_dialog_button_bar_height = global::App8.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_button_inset_horizontal_material = global::App8.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_button_inset_vertical_material = global::App8.Resource.Dimension.abc_button_inset_vertical_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_button_padding_horizontal_material = global::App8.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_button_padding_vertical_material = global::App8.Resource.Dimension.abc_button_padding_vertical_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_config_prefDialogWidth = global::App8.Resource.Dimension.abc_config_prefDialogWidth;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_control_corner_material = global::App8.Resource.Dimension.abc_control_corner_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_control_inset_material = global::App8.Resource.Dimension.abc_control_inset_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_control_padding_material = global::App8.Resource.Dimension.abc_control_padding_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_dialog_fixed_height_major = global::App8.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_dialog_fixed_height_minor = global::App8.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_dialog_fixed_width_major = global::App8.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_dialog_fixed_width_minor = global::App8.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_dialog_list_padding_vertical_material = global::App8.Resource.Dimension.abc_dialog_list_padding_vertical_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_dialog_min_width_major = global::App8.Resource.Dimension.abc_dialog_min_width_major;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_dialog_min_width_minor = global::App8.Resource.Dimension.abc_dialog_min_width_minor;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_dialog_padding_material = global::App8.Resource.Dimension.abc_dialog_padding_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_dialog_padding_top_material = global::App8.Resource.Dimension.abc_dialog_padding_top_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_disabled_alpha_material_dark = global::App8.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_disabled_alpha_material_light = global::App8.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_dropdownitem_icon_width = global::App8.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_dropdownitem_text_padding_left = global::App8.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_dropdownitem_text_padding_right = global::App8.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_edit_text_inset_bottom_material = global::App8.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::App8.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_edit_text_inset_top_material = global::App8.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_floating_window_z = global::App8.Resource.Dimension.abc_floating_window_z;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_list_item_padding_horizontal_material = global::App8.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_panel_menu_list_width = global::App8.Resource.Dimension.abc_panel_menu_list_width;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_search_view_preferred_width = global::App8.Resource.Dimension.abc_search_view_preferred_width;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_search_view_text_min_width = global::App8.Resource.Dimension.abc_search_view_text_min_width;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_seekbar_track_background_height_material = global::App8.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_seekbar_track_progress_height_material = global::App8.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_select_dialog_padding_start_material = global::App8.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_switch_padding = global::App8.Resource.Dimension.abc_switch_padding;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_text_size_body_1_material = global::App8.Resource.Dimension.abc_text_size_body_1_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_text_size_body_2_material = global::App8.Resource.Dimension.abc_text_size_body_2_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_text_size_button_material = global::App8.Resource.Dimension.abc_text_size_button_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_text_size_caption_material = global::App8.Resource.Dimension.abc_text_size_caption_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_text_size_display_1_material = global::App8.Resource.Dimension.abc_text_size_display_1_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_text_size_display_2_material = global::App8.Resource.Dimension.abc_text_size_display_2_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_text_size_display_3_material = global::App8.Resource.Dimension.abc_text_size_display_3_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_text_size_display_4_material = global::App8.Resource.Dimension.abc_text_size_display_4_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_text_size_headline_material = global::App8.Resource.Dimension.abc_text_size_headline_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_text_size_large_material = global::App8.Resource.Dimension.abc_text_size_large_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_text_size_medium_material = global::App8.Resource.Dimension.abc_text_size_medium_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_text_size_menu_material = global::App8.Resource.Dimension.abc_text_size_menu_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_text_size_small_material = global::App8.Resource.Dimension.abc_text_size_small_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_text_size_subhead_material = global::App8.Resource.Dimension.abc_text_size_subhead_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::App8.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_text_size_title_material = global::App8.Resource.Dimension.abc_text_size_title_material;
+			global::PayPal.Forms.Android.Resource.Dimension.abc_text_size_title_material_toolbar = global::App8.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::PayPal.Forms.Android.Resource.Dimension.cardview_compat_inset_shadow = global::App8.Resource.Dimension.cardview_compat_inset_shadow;
+			global::PayPal.Forms.Android.Resource.Dimension.cardview_default_elevation = global::App8.Resource.Dimension.cardview_default_elevation;
+			global::PayPal.Forms.Android.Resource.Dimension.cardview_default_radius = global::App8.Resource.Dimension.cardview_default_radius;
+			global::PayPal.Forms.Android.Resource.Dimension.design_appbar_elevation = global::App8.Resource.Dimension.design_appbar_elevation;
+			global::PayPal.Forms.Android.Resource.Dimension.design_bottom_sheet_modal_elevation = global::App8.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::PayPal.Forms.Android.Resource.Dimension.design_bottom_sheet_modal_peek_height = global::App8.Resource.Dimension.design_bottom_sheet_modal_peek_height;
+			global::PayPal.Forms.Android.Resource.Dimension.design_fab_border_width = global::App8.Resource.Dimension.design_fab_border_width;
+			global::PayPal.Forms.Android.Resource.Dimension.design_fab_elevation = global::App8.Resource.Dimension.design_fab_elevation;
+			global::PayPal.Forms.Android.Resource.Dimension.design_fab_image_size = global::App8.Resource.Dimension.design_fab_image_size;
+			global::PayPal.Forms.Android.Resource.Dimension.design_fab_size_mini = global::App8.Resource.Dimension.design_fab_size_mini;
+			global::PayPal.Forms.Android.Resource.Dimension.design_fab_size_normal = global::App8.Resource.Dimension.design_fab_size_normal;
+			global::PayPal.Forms.Android.Resource.Dimension.design_fab_translation_z_pressed = global::App8.Resource.Dimension.design_fab_translation_z_pressed;
+			global::PayPal.Forms.Android.Resource.Dimension.design_navigation_elevation = global::App8.Resource.Dimension.design_navigation_elevation;
+			global::PayPal.Forms.Android.Resource.Dimension.design_navigation_icon_padding = global::App8.Resource.Dimension.design_navigation_icon_padding;
+			global::PayPal.Forms.Android.Resource.Dimension.design_navigation_icon_size = global::App8.Resource.Dimension.design_navigation_icon_size;
+			global::PayPal.Forms.Android.Resource.Dimension.design_navigation_max_width = global::App8.Resource.Dimension.design_navigation_max_width;
+			global::PayPal.Forms.Android.Resource.Dimension.design_navigation_padding_bottom = global::App8.Resource.Dimension.design_navigation_padding_bottom;
+			global::PayPal.Forms.Android.Resource.Dimension.design_navigation_separator_vertical_padding = global::App8.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::PayPal.Forms.Android.Resource.Dimension.design_snackbar_action_inline_max_width = global::App8.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::PayPal.Forms.Android.Resource.Dimension.design_snackbar_background_corner_radius = global::App8.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::PayPal.Forms.Android.Resource.Dimension.design_snackbar_elevation = global::App8.Resource.Dimension.design_snackbar_elevation;
+			global::PayPal.Forms.Android.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::App8.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::PayPal.Forms.Android.Resource.Dimension.design_snackbar_max_width = global::App8.Resource.Dimension.design_snackbar_max_width;
+			global::PayPal.Forms.Android.Resource.Dimension.design_snackbar_min_width = global::App8.Resource.Dimension.design_snackbar_min_width;
+			global::PayPal.Forms.Android.Resource.Dimension.design_snackbar_padding_horizontal = global::App8.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::PayPal.Forms.Android.Resource.Dimension.design_snackbar_padding_vertical = global::App8.Resource.Dimension.design_snackbar_padding_vertical;
+			global::PayPal.Forms.Android.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::App8.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::PayPal.Forms.Android.Resource.Dimension.design_snackbar_text_size = global::App8.Resource.Dimension.design_snackbar_text_size;
+			global::PayPal.Forms.Android.Resource.Dimension.design_tab_max_width = global::App8.Resource.Dimension.design_tab_max_width;
+			global::PayPal.Forms.Android.Resource.Dimension.design_tab_scrollable_min_width = global::App8.Resource.Dimension.design_tab_scrollable_min_width;
+			global::PayPal.Forms.Android.Resource.Dimension.design_tab_text_size = global::App8.Resource.Dimension.design_tab_text_size;
+			global::PayPal.Forms.Android.Resource.Dimension.design_tab_text_size_2line = global::App8.Resource.Dimension.design_tab_text_size_2line;
+			global::PayPal.Forms.Android.Resource.Dimension.disabled_alpha_material_dark = global::App8.Resource.Dimension.disabled_alpha_material_dark;
+			global::PayPal.Forms.Android.Resource.Dimension.disabled_alpha_material_light = global::App8.Resource.Dimension.disabled_alpha_material_light;
+			global::PayPal.Forms.Android.Resource.Dimension.highlight_alpha_material_colored = global::App8.Resource.Dimension.highlight_alpha_material_colored;
+			global::PayPal.Forms.Android.Resource.Dimension.highlight_alpha_material_dark = global::App8.Resource.Dimension.highlight_alpha_material_dark;
+			global::PayPal.Forms.Android.Resource.Dimension.highlight_alpha_material_light = global::App8.Resource.Dimension.highlight_alpha_material_light;
+			global::PayPal.Forms.Android.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::App8.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::PayPal.Forms.Android.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::App8.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::PayPal.Forms.Android.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::App8.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::PayPal.Forms.Android.Resource.Dimension.mr_controller_volume_group_list_item_height = global::App8.Resource.Dimension.mr_controller_volume_group_list_item_height;
+			global::PayPal.Forms.Android.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::App8.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
+			global::PayPal.Forms.Android.Resource.Dimension.mr_controller_volume_group_list_max_height = global::App8.Resource.Dimension.mr_controller_volume_group_list_max_height;
+			global::PayPal.Forms.Android.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::App8.Resource.Dimension.mr_controller_volume_group_list_padding_top;
+			global::PayPal.Forms.Android.Resource.Dimension.mr_dialog_fixed_width_major = global::App8.Resource.Dimension.mr_dialog_fixed_width_major;
+			global::PayPal.Forms.Android.Resource.Dimension.mr_dialog_fixed_width_minor = global::App8.Resource.Dimension.mr_dialog_fixed_width_minor;
+			global::PayPal.Forms.Android.Resource.Dimension.notification_large_icon_height = global::App8.Resource.Dimension.notification_large_icon_height;
+			global::PayPal.Forms.Android.Resource.Dimension.notification_large_icon_width = global::App8.Resource.Dimension.notification_large_icon_width;
+			global::PayPal.Forms.Android.Resource.Dimension.notification_subtext_size = global::App8.Resource.Dimension.notification_subtext_size;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::App8.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_action_bar_item_background_material = global::App8.Resource.Drawable.abc_action_bar_item_background_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_btn_borderless_material = global::App8.Resource.Drawable.abc_btn_borderless_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_btn_check_material = global::App8.Resource.Drawable.abc_btn_check_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::App8.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::App8.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_btn_colored_material = global::App8.Resource.Drawable.abc_btn_colored_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_btn_default_mtrl_shape = global::App8.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_btn_radio_material = global::App8.Resource.Drawable.abc_btn_radio_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::App8.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::App8.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_btn_rating_star_off_mtrl_alpha = global::App8.Resource.Drawable.abc_btn_rating_star_off_mtrl_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_btn_rating_star_on_mtrl_alpha = global::App8.Resource.Drawable.abc_btn_rating_star_on_mtrl_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::App8.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::App8.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_cab_background_internal_bg = global::App8.Resource.Drawable.abc_cab_background_internal_bg;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_cab_background_top_material = global::App8.Resource.Drawable.abc_cab_background_top_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::App8.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_control_background_material = global::App8.Resource.Drawable.abc_control_background_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_dialog_material_background_dark = global::App8.Resource.Drawable.abc_dialog_material_background_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_dialog_material_background_light = global::App8.Resource.Drawable.abc_dialog_material_background_light;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_edit_text_material = global::App8.Resource.Drawable.abc_edit_text_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_ic_ab_back_mtrl_am_alpha = global::App8.Resource.Drawable.abc_ic_ab_back_mtrl_am_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_ic_clear_mtrl_alpha = global::App8.Resource.Drawable.abc_ic_clear_mtrl_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::App8.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_ic_go_search_api_mtrl_alpha = global::App8.Resource.Drawable.abc_ic_go_search_api_mtrl_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::App8.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::App8.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_ic_menu_moreoverflow_mtrl_alpha = global::App8.Resource.Drawable.abc_ic_menu_moreoverflow_mtrl_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::App8.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::App8.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::App8.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_ic_search_api_mtrl_alpha = global::App8.Resource.Drawable.abc_ic_search_api_mtrl_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_ic_star_black_16dp = global::App8.Resource.Drawable.abc_ic_star_black_16dp;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_ic_star_black_36dp = global::App8.Resource.Drawable.abc_ic_star_black_36dp;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_ic_star_half_black_16dp = global::App8.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_ic_star_half_black_36dp = global::App8.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_ic_voice_search_api_mtrl_alpha = global::App8.Resource.Drawable.abc_ic_voice_search_api_mtrl_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_item_background_holo_dark = global::App8.Resource.Drawable.abc_item_background_holo_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_item_background_holo_light = global::App8.Resource.Drawable.abc_item_background_holo_light;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_list_divider_mtrl_alpha = global::App8.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_list_focused_holo = global::App8.Resource.Drawable.abc_list_focused_holo;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_list_longpressed_holo = global::App8.Resource.Drawable.abc_list_longpressed_holo;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_list_pressed_holo_dark = global::App8.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_list_pressed_holo_light = global::App8.Resource.Drawable.abc_list_pressed_holo_light;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::App8.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::App8.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::App8.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_list_selector_disabled_holo_light = global::App8.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_list_selector_holo_dark = global::App8.Resource.Drawable.abc_list_selector_holo_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_list_selector_holo_light = global::App8.Resource.Drawable.abc_list_selector_holo_light;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::App8.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_popup_background_mtrl_mult = global::App8.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_ratingbar_full_material = global::App8.Resource.Drawable.abc_ratingbar_full_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_ratingbar_indicator_material = global::App8.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_ratingbar_small_material = global::App8.Resource.Drawable.abc_ratingbar_small_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::App8.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::App8.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::App8.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::App8.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::App8.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_seekbar_thumb_material = global::App8.Resource.Drawable.abc_seekbar_thumb_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_seekbar_track_material = global::App8.Resource.Drawable.abc_seekbar_track_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::App8.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_spinner_textfield_background_material = global::App8.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_switch_thumb_material = global::App8.Resource.Drawable.abc_switch_thumb_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_switch_track_mtrl_alpha = global::App8.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_tab_indicator_material = global::App8.Resource.Drawable.abc_tab_indicator_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::App8.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_text_cursor_material = global::App8.Resource.Drawable.abc_text_cursor_material;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::App8.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::App8.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::App8.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::App8.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::PayPal.Forms.Android.Resource.Drawable.abc_textfield_search_material = global::App8.Resource.Drawable.abc_textfield_search_material;
+			global::PayPal.Forms.Android.Resource.Drawable.design_fab_background = global::App8.Resource.Drawable.design_fab_background;
+			global::PayPal.Forms.Android.Resource.Drawable.design_snackbar_background = global::App8.Resource.Drawable.design_snackbar_background;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_audiotrack = global::App8.Resource.Drawable.ic_audiotrack;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_audiotrack_light = global::App8.Resource.Drawable.ic_audiotrack_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_bluetooth_grey = global::App8.Resource.Drawable.ic_bluetooth_grey;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_bluetooth_white = global::App8.Resource.Drawable.ic_bluetooth_white;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_cast_dark = global::App8.Resource.Drawable.ic_cast_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_cast_disabled_light = global::App8.Resource.Drawable.ic_cast_disabled_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_cast_grey = global::App8.Resource.Drawable.ic_cast_grey;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_cast_light = global::App8.Resource.Drawable.ic_cast_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_cast_off_light = global::App8.Resource.Drawable.ic_cast_off_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_cast_on_0_light = global::App8.Resource.Drawable.ic_cast_on_0_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_cast_on_1_light = global::App8.Resource.Drawable.ic_cast_on_1_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_cast_on_2_light = global::App8.Resource.Drawable.ic_cast_on_2_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_cast_on_light = global::App8.Resource.Drawable.ic_cast_on_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_cast_white = global::App8.Resource.Drawable.ic_cast_white;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_close_dark = global::App8.Resource.Drawable.ic_close_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_close_light = global::App8.Resource.Drawable.ic_close_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_collapse = global::App8.Resource.Drawable.ic_collapse;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_collapse_00000 = global::App8.Resource.Drawable.ic_collapse_00000;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_collapse_00001 = global::App8.Resource.Drawable.ic_collapse_00001;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_collapse_00002 = global::App8.Resource.Drawable.ic_collapse_00002;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_collapse_00003 = global::App8.Resource.Drawable.ic_collapse_00003;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_collapse_00004 = global::App8.Resource.Drawable.ic_collapse_00004;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_collapse_00005 = global::App8.Resource.Drawable.ic_collapse_00005;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_collapse_00006 = global::App8.Resource.Drawable.ic_collapse_00006;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_collapse_00007 = global::App8.Resource.Drawable.ic_collapse_00007;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_collapse_00008 = global::App8.Resource.Drawable.ic_collapse_00008;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_collapse_00009 = global::App8.Resource.Drawable.ic_collapse_00009;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_collapse_00010 = global::App8.Resource.Drawable.ic_collapse_00010;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_collapse_00011 = global::App8.Resource.Drawable.ic_collapse_00011;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_collapse_00012 = global::App8.Resource.Drawable.ic_collapse_00012;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_collapse_00013 = global::App8.Resource.Drawable.ic_collapse_00013;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_collapse_00014 = global::App8.Resource.Drawable.ic_collapse_00014;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_collapse_00015 = global::App8.Resource.Drawable.ic_collapse_00015;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_expand = global::App8.Resource.Drawable.ic_expand;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_expand_00000 = global::App8.Resource.Drawable.ic_expand_00000;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_expand_00001 = global::App8.Resource.Drawable.ic_expand_00001;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_expand_00002 = global::App8.Resource.Drawable.ic_expand_00002;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_expand_00003 = global::App8.Resource.Drawable.ic_expand_00003;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_expand_00004 = global::App8.Resource.Drawable.ic_expand_00004;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_expand_00005 = global::App8.Resource.Drawable.ic_expand_00005;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_expand_00006 = global::App8.Resource.Drawable.ic_expand_00006;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_expand_00007 = global::App8.Resource.Drawable.ic_expand_00007;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_expand_00008 = global::App8.Resource.Drawable.ic_expand_00008;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_expand_00009 = global::App8.Resource.Drawable.ic_expand_00009;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_expand_00010 = global::App8.Resource.Drawable.ic_expand_00010;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_expand_00011 = global::App8.Resource.Drawable.ic_expand_00011;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_expand_00012 = global::App8.Resource.Drawable.ic_expand_00012;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_expand_00013 = global::App8.Resource.Drawable.ic_expand_00013;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_expand_00014 = global::App8.Resource.Drawable.ic_expand_00014;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_expand_00015 = global::App8.Resource.Drawable.ic_expand_00015;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_media_pause = global::App8.Resource.Drawable.ic_media_pause;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_media_play = global::App8.Resource.Drawable.ic_media_play;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_media_route_disabled_mono_dark = global::App8.Resource.Drawable.ic_media_route_disabled_mono_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_media_route_off_mono_dark = global::App8.Resource.Drawable.ic_media_route_off_mono_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_media_route_on_0_mono_dark = global::App8.Resource.Drawable.ic_media_route_on_0_mono_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_media_route_on_1_mono_dark = global::App8.Resource.Drawable.ic_media_route_on_1_mono_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_media_route_on_2_mono_dark = global::App8.Resource.Drawable.ic_media_route_on_2_mono_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_media_route_on_mono_dark = global::App8.Resource.Drawable.ic_media_route_on_mono_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_pause_dark = global::App8.Resource.Drawable.ic_pause_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_pause_light = global::App8.Resource.Drawable.ic_pause_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_play_dark = global::App8.Resource.Drawable.ic_play_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_play_light = global::App8.Resource.Drawable.ic_play_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_speaker_dark = global::App8.Resource.Drawable.ic_speaker_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_speaker_group_dark = global::App8.Resource.Drawable.ic_speaker_group_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_speaker_group_light = global::App8.Resource.Drawable.ic_speaker_group_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_speaker_light = global::App8.Resource.Drawable.ic_speaker_light;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_tv_dark = global::App8.Resource.Drawable.ic_tv_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.ic_tv_light = global::App8.Resource.Drawable.ic_tv_light;
+			global::PayPal.Forms.Android.Resource.Drawable.mr_dialog_material_background_dark = global::App8.Resource.Drawable.mr_dialog_material_background_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.mr_dialog_material_background_light = global::App8.Resource.Drawable.mr_dialog_material_background_light;
+			global::PayPal.Forms.Android.Resource.Drawable.mr_ic_audiotrack_light = global::App8.Resource.Drawable.mr_ic_audiotrack_light;
+			global::PayPal.Forms.Android.Resource.Drawable.mr_ic_cast_dark = global::App8.Resource.Drawable.mr_ic_cast_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.mr_ic_cast_light = global::App8.Resource.Drawable.mr_ic_cast_light;
+			global::PayPal.Forms.Android.Resource.Drawable.mr_ic_close_dark = global::App8.Resource.Drawable.mr_ic_close_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.mr_ic_close_light = global::App8.Resource.Drawable.mr_ic_close_light;
+			global::PayPal.Forms.Android.Resource.Drawable.mr_ic_media_route_connecting_mono_dark = global::App8.Resource.Drawable.mr_ic_media_route_connecting_mono_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.mr_ic_media_route_connecting_mono_light = global::App8.Resource.Drawable.mr_ic_media_route_connecting_mono_light;
+			global::PayPal.Forms.Android.Resource.Drawable.mr_ic_media_route_mono_dark = global::App8.Resource.Drawable.mr_ic_media_route_mono_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.mr_ic_media_route_mono_light = global::App8.Resource.Drawable.mr_ic_media_route_mono_light;
+			global::PayPal.Forms.Android.Resource.Drawable.mr_ic_pause_dark = global::App8.Resource.Drawable.mr_ic_pause_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.mr_ic_pause_light = global::App8.Resource.Drawable.mr_ic_pause_light;
+			global::PayPal.Forms.Android.Resource.Drawable.mr_ic_play_dark = global::App8.Resource.Drawable.mr_ic_play_dark;
+			global::PayPal.Forms.Android.Resource.Drawable.mr_ic_play_light = global::App8.Resource.Drawable.mr_ic_play_light;
+			global::PayPal.Forms.Android.Resource.Drawable.notification_template_icon_bg = global::App8.Resource.Drawable.notification_template_icon_bg;
+			global::PayPal.Forms.Android.Resource.Id.action0 = global::App8.Resource.Id.action0;
+			global::PayPal.Forms.Android.Resource.Id.action_bar = global::App8.Resource.Id.action_bar;
+			global::PayPal.Forms.Android.Resource.Id.action_bar_activity_content = global::App8.Resource.Id.action_bar_activity_content;
+			global::PayPal.Forms.Android.Resource.Id.action_bar_container = global::App8.Resource.Id.action_bar_container;
+			global::PayPal.Forms.Android.Resource.Id.action_bar_root = global::App8.Resource.Id.action_bar_root;
+			global::PayPal.Forms.Android.Resource.Id.action_bar_spinner = global::App8.Resource.Id.action_bar_spinner;
+			global::PayPal.Forms.Android.Resource.Id.action_bar_subtitle = global::App8.Resource.Id.action_bar_subtitle;
+			global::PayPal.Forms.Android.Resource.Id.action_bar_title = global::App8.Resource.Id.action_bar_title;
+			global::PayPal.Forms.Android.Resource.Id.action_context_bar = global::App8.Resource.Id.action_context_bar;
+			global::PayPal.Forms.Android.Resource.Id.action_divider = global::App8.Resource.Id.action_divider;
+			global::PayPal.Forms.Android.Resource.Id.action_menu_divider = global::App8.Resource.Id.action_menu_divider;
+			global::PayPal.Forms.Android.Resource.Id.action_menu_presenter = global::App8.Resource.Id.action_menu_presenter;
+			global::PayPal.Forms.Android.Resource.Id.action_mode_bar = global::App8.Resource.Id.action_mode_bar;
+			global::PayPal.Forms.Android.Resource.Id.action_mode_bar_stub = global::App8.Resource.Id.action_mode_bar_stub;
+			global::PayPal.Forms.Android.Resource.Id.action_mode_close_button = global::App8.Resource.Id.action_mode_close_button;
+			global::PayPal.Forms.Android.Resource.Id.activity_chooser_view_content = global::App8.Resource.Id.activity_chooser_view_content;
+			global::PayPal.Forms.Android.Resource.Id.alertTitle = global::App8.Resource.Id.alertTitle;
+			global::PayPal.Forms.Android.Resource.Id.always = global::App8.Resource.Id.always;
+			global::PayPal.Forms.Android.Resource.Id.beginning = global::App8.Resource.Id.beginning;
+			global::PayPal.Forms.Android.Resource.Id.bottom = global::App8.Resource.Id.bottom;
+			global::PayPal.Forms.Android.Resource.Id.buttonPanel = global::App8.Resource.Id.buttonPanel;
+			global::PayPal.Forms.Android.Resource.Id.cancel_action = global::App8.Resource.Id.cancel_action;
+			global::PayPal.Forms.Android.Resource.Id.center = global::App8.Resource.Id.center;
+			global::PayPal.Forms.Android.Resource.Id.center_horizontal = global::App8.Resource.Id.center_horizontal;
+			global::PayPal.Forms.Android.Resource.Id.center_vertical = global::App8.Resource.Id.center_vertical;
+			global::PayPal.Forms.Android.Resource.Id.checkbox = global::App8.Resource.Id.checkbox;
+			global::PayPal.Forms.Android.Resource.Id.chronometer = global::App8.Resource.Id.chronometer;
+			global::PayPal.Forms.Android.Resource.Id.clip_horizontal = global::App8.Resource.Id.clip_horizontal;
+			global::PayPal.Forms.Android.Resource.Id.clip_vertical = global::App8.Resource.Id.clip_vertical;
+			global::PayPal.Forms.Android.Resource.Id.collapseActionView = global::App8.Resource.Id.collapseActionView;
+			global::PayPal.Forms.Android.Resource.Id.contentPanel = global::App8.Resource.Id.contentPanel;
+			global::PayPal.Forms.Android.Resource.Id.custom = global::App8.Resource.Id.custom;
+			global::PayPal.Forms.Android.Resource.Id.customPanel = global::App8.Resource.Id.customPanel;
+			global::PayPal.Forms.Android.Resource.Id.decor_content_parent = global::App8.Resource.Id.decor_content_parent;
+			global::PayPal.Forms.Android.Resource.Id.default_activity_button = global::App8.Resource.Id.default_activity_button;
+			global::PayPal.Forms.Android.Resource.Id.design_bottom_sheet = global::App8.Resource.Id.design_bottom_sheet;
+			global::PayPal.Forms.Android.Resource.Id.design_menu_item_action_area = global::App8.Resource.Id.design_menu_item_action_area;
+			global::PayPal.Forms.Android.Resource.Id.design_menu_item_action_area_stub = global::App8.Resource.Id.design_menu_item_action_area_stub;
+			global::PayPal.Forms.Android.Resource.Id.design_menu_item_text = global::App8.Resource.Id.design_menu_item_text;
+			global::PayPal.Forms.Android.Resource.Id.design_navigation_view = global::App8.Resource.Id.design_navigation_view;
+			global::PayPal.Forms.Android.Resource.Id.disableHome = global::App8.Resource.Id.disableHome;
+			global::PayPal.Forms.Android.Resource.Id.edit_query = global::App8.Resource.Id.edit_query;
+			global::PayPal.Forms.Android.Resource.Id.end = global::App8.Resource.Id.end;
+			global::PayPal.Forms.Android.Resource.Id.end_padder = global::App8.Resource.Id.end_padder;
+			global::PayPal.Forms.Android.Resource.Id.enterAlways = global::App8.Resource.Id.enterAlways;
+			global::PayPal.Forms.Android.Resource.Id.enterAlwaysCollapsed = global::App8.Resource.Id.enterAlwaysCollapsed;
+			global::PayPal.Forms.Android.Resource.Id.exitUntilCollapsed = global::App8.Resource.Id.exitUntilCollapsed;
+			global::PayPal.Forms.Android.Resource.Id.expand_activities_button = global::App8.Resource.Id.expand_activities_button;
+			global::PayPal.Forms.Android.Resource.Id.expanded_menu = global::App8.Resource.Id.expanded_menu;
+			global::PayPal.Forms.Android.Resource.Id.fill = global::App8.Resource.Id.fill;
+			global::PayPal.Forms.Android.Resource.Id.fill_horizontal = global::App8.Resource.Id.fill_horizontal;
+			global::PayPal.Forms.Android.Resource.Id.fill_vertical = global::App8.Resource.Id.fill_vertical;
+			global::PayPal.Forms.Android.Resource.Id.@fixed = global::App8.Resource.Id.@fixed;
+			global::PayPal.Forms.Android.Resource.Id.home = global::App8.Resource.Id.home;
+			global::PayPal.Forms.Android.Resource.Id.homeAsUp = global::App8.Resource.Id.homeAsUp;
+			global::PayPal.Forms.Android.Resource.Id.icon = global::App8.Resource.Id.icon;
+			global::PayPal.Forms.Android.Resource.Id.ifRoom = global::App8.Resource.Id.ifRoom;
+			global::PayPal.Forms.Android.Resource.Id.image = global::App8.Resource.Id.image;
+			global::PayPal.Forms.Android.Resource.Id.info = global::App8.Resource.Id.info;
+			global::PayPal.Forms.Android.Resource.Id.item_touch_helper_previous_elevation = global::App8.Resource.Id.item_touch_helper_previous_elevation;
+			global::PayPal.Forms.Android.Resource.Id.left = global::App8.Resource.Id.left;
+			global::PayPal.Forms.Android.Resource.Id.line1 = global::App8.Resource.Id.line1;
+			global::PayPal.Forms.Android.Resource.Id.line3 = global::App8.Resource.Id.line3;
+			global::PayPal.Forms.Android.Resource.Id.listMode = global::App8.Resource.Id.listMode;
+			global::PayPal.Forms.Android.Resource.Id.list_item = global::App8.Resource.Id.list_item;
+			global::PayPal.Forms.Android.Resource.Id.media_actions = global::App8.Resource.Id.media_actions;
+			global::PayPal.Forms.Android.Resource.Id.middle = global::App8.Resource.Id.middle;
+			global::PayPal.Forms.Android.Resource.Id.mini = global::App8.Resource.Id.mini;
+			global::PayPal.Forms.Android.Resource.Id.mr_art = global::App8.Resource.Id.mr_art;
+			global::PayPal.Forms.Android.Resource.Id.mr_chooser_list = global::App8.Resource.Id.mr_chooser_list;
+			global::PayPal.Forms.Android.Resource.Id.mr_chooser_route_desc = global::App8.Resource.Id.mr_chooser_route_desc;
+			global::PayPal.Forms.Android.Resource.Id.mr_chooser_route_icon = global::App8.Resource.Id.mr_chooser_route_icon;
+			global::PayPal.Forms.Android.Resource.Id.mr_chooser_route_name = global::App8.Resource.Id.mr_chooser_route_name;
+			global::PayPal.Forms.Android.Resource.Id.mr_close = global::App8.Resource.Id.mr_close;
+			global::PayPal.Forms.Android.Resource.Id.mr_control_divider = global::App8.Resource.Id.mr_control_divider;
+			global::PayPal.Forms.Android.Resource.Id.mr_control_play_pause = global::App8.Resource.Id.mr_control_play_pause;
+			global::PayPal.Forms.Android.Resource.Id.mr_control_subtitle = global::App8.Resource.Id.mr_control_subtitle;
+			global::PayPal.Forms.Android.Resource.Id.mr_control_title = global::App8.Resource.Id.mr_control_title;
+			global::PayPal.Forms.Android.Resource.Id.mr_control_title_container = global::App8.Resource.Id.mr_control_title_container;
+			global::PayPal.Forms.Android.Resource.Id.mr_custom_control = global::App8.Resource.Id.mr_custom_control;
+			global::PayPal.Forms.Android.Resource.Id.mr_default_control = global::App8.Resource.Id.mr_default_control;
+			global::PayPal.Forms.Android.Resource.Id.mr_dialog_area = global::App8.Resource.Id.mr_dialog_area;
+			global::PayPal.Forms.Android.Resource.Id.mr_expandable_area = global::App8.Resource.Id.mr_expandable_area;
+			global::PayPal.Forms.Android.Resource.Id.mr_group_expand_collapse = global::App8.Resource.Id.mr_group_expand_collapse;
+			global::PayPal.Forms.Android.Resource.Id.mr_media_main_control = global::App8.Resource.Id.mr_media_main_control;
+			global::PayPal.Forms.Android.Resource.Id.mr_name = global::App8.Resource.Id.mr_name;
+			global::PayPal.Forms.Android.Resource.Id.mr_playback_control = global::App8.Resource.Id.mr_playback_control;
+			global::PayPal.Forms.Android.Resource.Id.mr_title_bar = global::App8.Resource.Id.mr_title_bar;
+			global::PayPal.Forms.Android.Resource.Id.mr_volume_control = global::App8.Resource.Id.mr_volume_control;
+			global::PayPal.Forms.Android.Resource.Id.mr_volume_group_list = global::App8.Resource.Id.mr_volume_group_list;
+			global::PayPal.Forms.Android.Resource.Id.mr_volume_item_icon = global::App8.Resource.Id.mr_volume_item_icon;
+			global::PayPal.Forms.Android.Resource.Id.mr_volume_slider = global::App8.Resource.Id.mr_volume_slider;
+			global::PayPal.Forms.Android.Resource.Id.multiply = global::App8.Resource.Id.multiply;
+			global::PayPal.Forms.Android.Resource.Id.navigation_header_container = global::App8.Resource.Id.navigation_header_container;
+			global::PayPal.Forms.Android.Resource.Id.never = global::App8.Resource.Id.never;
+			global::PayPal.Forms.Android.Resource.Id.none = global::App8.Resource.Id.none;
+			global::PayPal.Forms.Android.Resource.Id.normal = global::App8.Resource.Id.normal;
+			global::PayPal.Forms.Android.Resource.Id.parallax = global::App8.Resource.Id.parallax;
+			global::PayPal.Forms.Android.Resource.Id.parentPanel = global::App8.Resource.Id.parentPanel;
+			global::PayPal.Forms.Android.Resource.Id.pin = global::App8.Resource.Id.pin;
+			global::PayPal.Forms.Android.Resource.Id.progress_circular = global::App8.Resource.Id.progress_circular;
+			global::PayPal.Forms.Android.Resource.Id.progress_horizontal = global::App8.Resource.Id.progress_horizontal;
+			global::PayPal.Forms.Android.Resource.Id.radio = global::App8.Resource.Id.radio;
+			global::PayPal.Forms.Android.Resource.Id.right = global::App8.Resource.Id.right;
+			global::PayPal.Forms.Android.Resource.Id.screen = global::App8.Resource.Id.screen;
+			global::PayPal.Forms.Android.Resource.Id.scroll = global::App8.Resource.Id.scroll;
+			global::PayPal.Forms.Android.Resource.Id.scrollIndicatorDown = global::App8.Resource.Id.scrollIndicatorDown;
+			global::PayPal.Forms.Android.Resource.Id.scrollIndicatorUp = global::App8.Resource.Id.scrollIndicatorUp;
+			global::PayPal.Forms.Android.Resource.Id.scrollView = global::App8.Resource.Id.scrollView;
+			global::PayPal.Forms.Android.Resource.Id.scrollable = global::App8.Resource.Id.scrollable;
+			global::PayPal.Forms.Android.Resource.Id.search_badge = global::App8.Resource.Id.search_badge;
+			global::PayPal.Forms.Android.Resource.Id.search_bar = global::App8.Resource.Id.search_bar;
+			global::PayPal.Forms.Android.Resource.Id.search_button = global::App8.Resource.Id.search_button;
+			global::PayPal.Forms.Android.Resource.Id.search_close_btn = global::App8.Resource.Id.search_close_btn;
+			global::PayPal.Forms.Android.Resource.Id.search_edit_frame = global::App8.Resource.Id.search_edit_frame;
+			global::PayPal.Forms.Android.Resource.Id.search_go_btn = global::App8.Resource.Id.search_go_btn;
+			global::PayPal.Forms.Android.Resource.Id.search_mag_icon = global::App8.Resource.Id.search_mag_icon;
+			global::PayPal.Forms.Android.Resource.Id.search_plate = global::App8.Resource.Id.search_plate;
+			global::PayPal.Forms.Android.Resource.Id.search_src_text = global::App8.Resource.Id.search_src_text;
+			global::PayPal.Forms.Android.Resource.Id.search_voice_btn = global::App8.Resource.Id.search_voice_btn;
+			global::PayPal.Forms.Android.Resource.Id.select_dialog_listview = global::App8.Resource.Id.select_dialog_listview;
+			global::PayPal.Forms.Android.Resource.Id.shortcut = global::App8.Resource.Id.shortcut;
+			global::PayPal.Forms.Android.Resource.Id.showCustom = global::App8.Resource.Id.showCustom;
+			global::PayPal.Forms.Android.Resource.Id.showHome = global::App8.Resource.Id.showHome;
+			global::PayPal.Forms.Android.Resource.Id.showTitle = global::App8.Resource.Id.showTitle;
+			global::PayPal.Forms.Android.Resource.Id.snackbar_action = global::App8.Resource.Id.snackbar_action;
+			global::PayPal.Forms.Android.Resource.Id.snackbar_text = global::App8.Resource.Id.snackbar_text;
+			global::PayPal.Forms.Android.Resource.Id.snap = global::App8.Resource.Id.snap;
+			global::PayPal.Forms.Android.Resource.Id.spacer = global::App8.Resource.Id.spacer;
+			global::PayPal.Forms.Android.Resource.Id.split_action_bar = global::App8.Resource.Id.split_action_bar;
+			global::PayPal.Forms.Android.Resource.Id.src_atop = global::App8.Resource.Id.src_atop;
+			global::PayPal.Forms.Android.Resource.Id.src_in = global::App8.Resource.Id.src_in;
+			global::PayPal.Forms.Android.Resource.Id.src_over = global::App8.Resource.Id.src_over;
+			global::PayPal.Forms.Android.Resource.Id.start = global::App8.Resource.Id.start;
+			global::PayPal.Forms.Android.Resource.Id.status_bar_latest_event_content = global::App8.Resource.Id.status_bar_latest_event_content;
+			global::PayPal.Forms.Android.Resource.Id.submit_area = global::App8.Resource.Id.submit_area;
+			global::PayPal.Forms.Android.Resource.Id.tabMode = global::App8.Resource.Id.tabMode;
+			global::PayPal.Forms.Android.Resource.Id.text = global::App8.Resource.Id.text;
+			global::PayPal.Forms.Android.Resource.Id.text2 = global::App8.Resource.Id.text2;
+			global::PayPal.Forms.Android.Resource.Id.textSpacerNoButtons = global::App8.Resource.Id.textSpacerNoButtons;
+			global::PayPal.Forms.Android.Resource.Id.time = global::App8.Resource.Id.time;
+			global::PayPal.Forms.Android.Resource.Id.title = global::App8.Resource.Id.title;
+			global::PayPal.Forms.Android.Resource.Id.title_template = global::App8.Resource.Id.title_template;
+			global::PayPal.Forms.Android.Resource.Id.top = global::App8.Resource.Id.top;
+			global::PayPal.Forms.Android.Resource.Id.topPanel = global::App8.Resource.Id.topPanel;
+			global::PayPal.Forms.Android.Resource.Id.touch_outside = global::App8.Resource.Id.touch_outside;
+			global::PayPal.Forms.Android.Resource.Id.up = global::App8.Resource.Id.up;
+			global::PayPal.Forms.Android.Resource.Id.useLogo = global::App8.Resource.Id.useLogo;
+			global::PayPal.Forms.Android.Resource.Id.view_offset_helper = global::App8.Resource.Id.view_offset_helper;
+			global::PayPal.Forms.Android.Resource.Id.volume_item_container = global::App8.Resource.Id.volume_item_container;
+			global::PayPal.Forms.Android.Resource.Id.withText = global::App8.Resource.Id.withText;
+			global::PayPal.Forms.Android.Resource.Id.wrap_content = global::App8.Resource.Id.wrap_content;
+			global::PayPal.Forms.Android.Resource.Integer.abc_config_activityDefaultDur = global::App8.Resource.Integer.abc_config_activityDefaultDur;
+			global::PayPal.Forms.Android.Resource.Integer.abc_config_activityShortDur = global::App8.Resource.Integer.abc_config_activityShortDur;
+			global::PayPal.Forms.Android.Resource.Integer.abc_max_action_buttons = global::App8.Resource.Integer.abc_max_action_buttons;
+			global::PayPal.Forms.Android.Resource.Integer.bottom_sheet_slide_duration = global::App8.Resource.Integer.bottom_sheet_slide_duration;
+			global::PayPal.Forms.Android.Resource.Integer.cancel_button_image_alpha = global::App8.Resource.Integer.cancel_button_image_alpha;
+			global::PayPal.Forms.Android.Resource.Integer.design_snackbar_text_max_lines = global::App8.Resource.Integer.design_snackbar_text_max_lines;
+			global::PayPal.Forms.Android.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::App8.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
+			global::PayPal.Forms.Android.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::App8.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
+			global::PayPal.Forms.Android.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::App8.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
+			global::PayPal.Forms.Android.Resource.Integer.status_bar_notification_info_maxnum = global::App8.Resource.Integer.status_bar_notification_info_maxnum;
+			global::PayPal.Forms.Android.Resource.Interpolator.mr_fast_out_slow_in = global::App8.Resource.Interpolator.mr_fast_out_slow_in;
+			global::PayPal.Forms.Android.Resource.Interpolator.mr_linear_out_slow_in = global::App8.Resource.Interpolator.mr_linear_out_slow_in;
+			global::PayPal.Forms.Android.Resource.Layout.abc_action_bar_title_item = global::App8.Resource.Layout.abc_action_bar_title_item;
+			global::PayPal.Forms.Android.Resource.Layout.abc_action_bar_up_container = global::App8.Resource.Layout.abc_action_bar_up_container;
+			global::PayPal.Forms.Android.Resource.Layout.abc_action_bar_view_list_nav_layout = global::App8.Resource.Layout.abc_action_bar_view_list_nav_layout;
+			global::PayPal.Forms.Android.Resource.Layout.abc_action_menu_item_layout = global::App8.Resource.Layout.abc_action_menu_item_layout;
+			global::PayPal.Forms.Android.Resource.Layout.abc_action_menu_layout = global::App8.Resource.Layout.abc_action_menu_layout;
+			global::PayPal.Forms.Android.Resource.Layout.abc_action_mode_bar = global::App8.Resource.Layout.abc_action_mode_bar;
+			global::PayPal.Forms.Android.Resource.Layout.abc_action_mode_close_item_material = global::App8.Resource.Layout.abc_action_mode_close_item_material;
+			global::PayPal.Forms.Android.Resource.Layout.abc_activity_chooser_view = global::App8.Resource.Layout.abc_activity_chooser_view;
+			global::PayPal.Forms.Android.Resource.Layout.abc_activity_chooser_view_list_item = global::App8.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::PayPal.Forms.Android.Resource.Layout.abc_alert_dialog_button_bar_material = global::App8.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::PayPal.Forms.Android.Resource.Layout.abc_alert_dialog_material = global::App8.Resource.Layout.abc_alert_dialog_material;
+			global::PayPal.Forms.Android.Resource.Layout.abc_dialog_title_material = global::App8.Resource.Layout.abc_dialog_title_material;
+			global::PayPal.Forms.Android.Resource.Layout.abc_expanded_menu_layout = global::App8.Resource.Layout.abc_expanded_menu_layout;
+			global::PayPal.Forms.Android.Resource.Layout.abc_list_menu_item_checkbox = global::App8.Resource.Layout.abc_list_menu_item_checkbox;
+			global::PayPal.Forms.Android.Resource.Layout.abc_list_menu_item_icon = global::App8.Resource.Layout.abc_list_menu_item_icon;
+			global::PayPal.Forms.Android.Resource.Layout.abc_list_menu_item_layout = global::App8.Resource.Layout.abc_list_menu_item_layout;
+			global::PayPal.Forms.Android.Resource.Layout.abc_list_menu_item_radio = global::App8.Resource.Layout.abc_list_menu_item_radio;
+			global::PayPal.Forms.Android.Resource.Layout.abc_popup_menu_item_layout = global::App8.Resource.Layout.abc_popup_menu_item_layout;
+			global::PayPal.Forms.Android.Resource.Layout.abc_screen_content_include = global::App8.Resource.Layout.abc_screen_content_include;
+			global::PayPal.Forms.Android.Resource.Layout.abc_screen_simple = global::App8.Resource.Layout.abc_screen_simple;
+			global::PayPal.Forms.Android.Resource.Layout.abc_screen_simple_overlay_action_mode = global::App8.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::PayPal.Forms.Android.Resource.Layout.abc_screen_toolbar = global::App8.Resource.Layout.abc_screen_toolbar;
+			global::PayPal.Forms.Android.Resource.Layout.abc_search_dropdown_item_icons_2line = global::App8.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::PayPal.Forms.Android.Resource.Layout.abc_search_view = global::App8.Resource.Layout.abc_search_view;
+			global::PayPal.Forms.Android.Resource.Layout.abc_select_dialog_material = global::App8.Resource.Layout.abc_select_dialog_material;
+			global::PayPal.Forms.Android.Resource.Layout.design_bottom_sheet_dialog = global::App8.Resource.Layout.design_bottom_sheet_dialog;
+			global::PayPal.Forms.Android.Resource.Layout.design_layout_snackbar = global::App8.Resource.Layout.design_layout_snackbar;
+			global::PayPal.Forms.Android.Resource.Layout.design_layout_snackbar_include = global::App8.Resource.Layout.design_layout_snackbar_include;
+			global::PayPal.Forms.Android.Resource.Layout.design_layout_tab_icon = global::App8.Resource.Layout.design_layout_tab_icon;
+			global::PayPal.Forms.Android.Resource.Layout.design_layout_tab_text = global::App8.Resource.Layout.design_layout_tab_text;
+			global::PayPal.Forms.Android.Resource.Layout.design_menu_item_action_area = global::App8.Resource.Layout.design_menu_item_action_area;
+			global::PayPal.Forms.Android.Resource.Layout.design_navigation_item = global::App8.Resource.Layout.design_navigation_item;
+			global::PayPal.Forms.Android.Resource.Layout.design_navigation_item_header = global::App8.Resource.Layout.design_navigation_item_header;
+			global::PayPal.Forms.Android.Resource.Layout.design_navigation_item_separator = global::App8.Resource.Layout.design_navigation_item_separator;
+			global::PayPal.Forms.Android.Resource.Layout.design_navigation_item_subheader = global::App8.Resource.Layout.design_navigation_item_subheader;
+			global::PayPal.Forms.Android.Resource.Layout.design_navigation_menu = global::App8.Resource.Layout.design_navigation_menu;
+			global::PayPal.Forms.Android.Resource.Layout.design_navigation_menu_item = global::App8.Resource.Layout.design_navigation_menu_item;
+			global::PayPal.Forms.Android.Resource.Layout.mr_chooser_dialog = global::App8.Resource.Layout.mr_chooser_dialog;
+			global::PayPal.Forms.Android.Resource.Layout.mr_chooser_list_item = global::App8.Resource.Layout.mr_chooser_list_item;
+			global::PayPal.Forms.Android.Resource.Layout.mr_controller_material_dialog_b = global::App8.Resource.Layout.mr_controller_material_dialog_b;
+			global::PayPal.Forms.Android.Resource.Layout.mr_controller_volume_item = global::App8.Resource.Layout.mr_controller_volume_item;
+			global::PayPal.Forms.Android.Resource.Layout.mr_playback_control = global::App8.Resource.Layout.mr_playback_control;
+			global::PayPal.Forms.Android.Resource.Layout.mr_volume_control = global::App8.Resource.Layout.mr_volume_control;
+			global::PayPal.Forms.Android.Resource.Layout.notification_media_action = global::App8.Resource.Layout.notification_media_action;
+			global::PayPal.Forms.Android.Resource.Layout.notification_media_cancel_action = global::App8.Resource.Layout.notification_media_cancel_action;
+			global::PayPal.Forms.Android.Resource.Layout.notification_template_big_media = global::App8.Resource.Layout.notification_template_big_media;
+			global::PayPal.Forms.Android.Resource.Layout.notification_template_big_media_narrow = global::App8.Resource.Layout.notification_template_big_media_narrow;
+			global::PayPal.Forms.Android.Resource.Layout.notification_template_lines = global::App8.Resource.Layout.notification_template_lines;
+			global::PayPal.Forms.Android.Resource.Layout.notification_template_media = global::App8.Resource.Layout.notification_template_media;
+			global::PayPal.Forms.Android.Resource.Layout.notification_template_part_chronometer = global::App8.Resource.Layout.notification_template_part_chronometer;
+			global::PayPal.Forms.Android.Resource.Layout.notification_template_part_time = global::App8.Resource.Layout.notification_template_part_time;
+			global::PayPal.Forms.Android.Resource.Layout.select_dialog_item_material = global::App8.Resource.Layout.select_dialog_item_material;
+			global::PayPal.Forms.Android.Resource.Layout.select_dialog_multichoice_material = global::App8.Resource.Layout.select_dialog_multichoice_material;
+			global::PayPal.Forms.Android.Resource.Layout.select_dialog_singlechoice_material = global::App8.Resource.Layout.select_dialog_singlechoice_material;
+			global::PayPal.Forms.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::App8.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::PayPal.Forms.Android.Resource.String.abc_action_bar_home_description = global::App8.Resource.String.abc_action_bar_home_description;
+			global::PayPal.Forms.Android.Resource.String.abc_action_bar_home_description_format = global::App8.Resource.String.abc_action_bar_home_description_format;
+			global::PayPal.Forms.Android.Resource.String.abc_action_bar_home_subtitle_description_format = global::App8.Resource.String.abc_action_bar_home_subtitle_description_format;
+			global::PayPal.Forms.Android.Resource.String.abc_action_bar_up_description = global::App8.Resource.String.abc_action_bar_up_description;
+			global::PayPal.Forms.Android.Resource.String.abc_action_menu_overflow_description = global::App8.Resource.String.abc_action_menu_overflow_description;
+			global::PayPal.Forms.Android.Resource.String.abc_action_mode_done = global::App8.Resource.String.abc_action_mode_done;
+			global::PayPal.Forms.Android.Resource.String.abc_activity_chooser_view_see_all = global::App8.Resource.String.abc_activity_chooser_view_see_all;
+			global::PayPal.Forms.Android.Resource.String.abc_activitychooserview_choose_application = global::App8.Resource.String.abc_activitychooserview_choose_application;
+			global::PayPal.Forms.Android.Resource.String.abc_capital_off = global::App8.Resource.String.abc_capital_off;
+			global::PayPal.Forms.Android.Resource.String.abc_capital_on = global::App8.Resource.String.abc_capital_on;
+			global::PayPal.Forms.Android.Resource.String.abc_search_hint = global::App8.Resource.String.abc_search_hint;
+			global::PayPal.Forms.Android.Resource.String.abc_searchview_description_clear = global::App8.Resource.String.abc_searchview_description_clear;
+			global::PayPal.Forms.Android.Resource.String.abc_searchview_description_query = global::App8.Resource.String.abc_searchview_description_query;
+			global::PayPal.Forms.Android.Resource.String.abc_searchview_description_search = global::App8.Resource.String.abc_searchview_description_search;
+			global::PayPal.Forms.Android.Resource.String.abc_searchview_description_submit = global::App8.Resource.String.abc_searchview_description_submit;
+			global::PayPal.Forms.Android.Resource.String.abc_searchview_description_voice = global::App8.Resource.String.abc_searchview_description_voice;
+			global::PayPal.Forms.Android.Resource.String.abc_shareactionprovider_share_with = global::App8.Resource.String.abc_shareactionprovider_share_with;
+			global::PayPal.Forms.Android.Resource.String.abc_shareactionprovider_share_with_application = global::App8.Resource.String.abc_shareactionprovider_share_with_application;
+			global::PayPal.Forms.Android.Resource.String.abc_toolbar_collapse_description = global::App8.Resource.String.abc_toolbar_collapse_description;
+			global::PayPal.Forms.Android.Resource.String.appbar_scrolling_view_behavior = global::App8.Resource.String.appbar_scrolling_view_behavior;
+			global::PayPal.Forms.Android.Resource.String.bottom_sheet_behavior = global::App8.Resource.String.bottom_sheet_behavior;
+			global::PayPal.Forms.Android.Resource.String.character_counter_pattern = global::App8.Resource.String.character_counter_pattern;
+			global::PayPal.Forms.Android.Resource.String.library_name = global::App8.Resource.String.library_name;
+			global::PayPal.Forms.Android.Resource.String.mr_button_content_description = global::App8.Resource.String.mr_button_content_description;
+			global::PayPal.Forms.Android.Resource.String.mr_chooser_searching = global::App8.Resource.String.mr_chooser_searching;
+			global::PayPal.Forms.Android.Resource.String.mr_chooser_title = global::App8.Resource.String.mr_chooser_title;
+			global::PayPal.Forms.Android.Resource.String.mr_controller_casting_screen = global::App8.Resource.String.mr_controller_casting_screen;
+			global::PayPal.Forms.Android.Resource.String.mr_controller_close_description = global::App8.Resource.String.mr_controller_close_description;
+			global::PayPal.Forms.Android.Resource.String.mr_controller_collapse_group = global::App8.Resource.String.mr_controller_collapse_group;
+			global::PayPal.Forms.Android.Resource.String.mr_controller_disconnect = global::App8.Resource.String.mr_controller_disconnect;
+			global::PayPal.Forms.Android.Resource.String.mr_controller_expand_group = global::App8.Resource.String.mr_controller_expand_group;
+			global::PayPal.Forms.Android.Resource.String.mr_controller_no_info_available = global::App8.Resource.String.mr_controller_no_info_available;
+			global::PayPal.Forms.Android.Resource.String.mr_controller_no_media_selected = global::App8.Resource.String.mr_controller_no_media_selected;
+			global::PayPal.Forms.Android.Resource.String.mr_controller_pause = global::App8.Resource.String.mr_controller_pause;
+			global::PayPal.Forms.Android.Resource.String.mr_controller_play = global::App8.Resource.String.mr_controller_play;
+			global::PayPal.Forms.Android.Resource.String.mr_controller_stop = global::App8.Resource.String.mr_controller_stop;
+			global::PayPal.Forms.Android.Resource.String.mr_system_route_name = global::App8.Resource.String.mr_system_route_name;
+			global::PayPal.Forms.Android.Resource.String.mr_user_route_category_name = global::App8.Resource.String.mr_user_route_category_name;
+			global::PayPal.Forms.Android.Resource.String.status_bar_notification_info_overflow = global::App8.Resource.String.status_bar_notification_info_overflow;
+			global::PayPal.Forms.Android.Resource.Style.AlertDialog_AppCompat = global::App8.Resource.Style.AlertDialog_AppCompat;
+			global::PayPal.Forms.Android.Resource.Style.AlertDialog_AppCompat_Light = global::App8.Resource.Style.AlertDialog_AppCompat_Light;
+			global::PayPal.Forms.Android.Resource.Style.Animation_AppCompat_Dialog = global::App8.Resource.Style.Animation_AppCompat_Dialog;
+			global::PayPal.Forms.Android.Resource.Style.Animation_AppCompat_DropDownUp = global::App8.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::PayPal.Forms.Android.Resource.Style.Animation_Design_BottomSheetDialog = global::App8.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::PayPal.Forms.Android.Resource.Style.Base_AlertDialog_AppCompat = global::App8.Resource.Style.Base_AlertDialog_AppCompat;
+			global::PayPal.Forms.Android.Resource.Style.Base_AlertDialog_AppCompat_Light = global::App8.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::PayPal.Forms.Android.Resource.Style.Base_Animation_AppCompat_Dialog = global::App8.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::PayPal.Forms.Android.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::App8.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::PayPal.Forms.Android.Resource.Style.Base_CardView = global::App8.Resource.Style.Base_CardView;
+			global::PayPal.Forms.Android.Resource.Style.Base_DialogWindowTitle_AppCompat = global::App8.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::PayPal.Forms.Android.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::App8.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat = global::App8.Resource.Style.Base_TextAppearance_AppCompat;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::App8.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::App8.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Button = global::App8.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::App8.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::App8.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::App8.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::App8.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::App8.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::App8.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::App8.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Large = global::App8.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::App8.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::App8.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::App8.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::App8.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::App8.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::App8.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::App8.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::App8.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::App8.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Small = global::App8.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::App8.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::App8.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::App8.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Title = global::App8.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::App8.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::App8.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::App8.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::App8.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::App8.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::App8.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::App8.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::App8.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::App8.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::App8.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::App8.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::App8.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::App8.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::App8.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::App8.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::App8.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::App8.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::PayPal.Forms.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::App8.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::PayPal.Forms.Android.Resource.Style.Base_Theme_AppCompat = global::App8.Resource.Style.Base_Theme_AppCompat;
+			global::PayPal.Forms.Android.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::App8.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::PayPal.Forms.Android.Resource.Style.Base_Theme_AppCompat_Dialog = global::App8.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::PayPal.Forms.Android.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::App8.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::PayPal.Forms.Android.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::App8.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::PayPal.Forms.Android.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::App8.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::PayPal.Forms.Android.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::App8.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::PayPal.Forms.Android.Resource.Style.Base_Theme_AppCompat_Light = global::App8.Resource.Style.Base_Theme_AppCompat_Light;
+			global::PayPal.Forms.Android.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::App8.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::PayPal.Forms.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::App8.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::PayPal.Forms.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::App8.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::PayPal.Forms.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::App8.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::PayPal.Forms.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::App8.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::PayPal.Forms.Android.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::App8.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::PayPal.Forms.Android.Resource.Style.Base_ThemeOverlay_AppCompat = global::App8.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::PayPal.Forms.Android.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::App8.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::PayPal.Forms.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::App8.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::PayPal.Forms.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::App8.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::PayPal.Forms.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::App8.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::PayPal.Forms.Android.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::App8.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
+			global::PayPal.Forms.Android.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::App8.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
+			global::PayPal.Forms.Android.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::App8.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
+			global::PayPal.Forms.Android.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::App8.Resource.Style.Base_V12_Widget_AppCompat_EditText;
+			global::PayPal.Forms.Android.Resource.Style.Base_V21_Theme_AppCompat = global::App8.Resource.Style.Base_V21_Theme_AppCompat;
+			global::PayPal.Forms.Android.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::App8.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::PayPal.Forms.Android.Resource.Style.Base_V21_Theme_AppCompat_Light = global::App8.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::PayPal.Forms.Android.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::App8.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::PayPal.Forms.Android.Resource.Style.Base_V22_Theme_AppCompat = global::App8.Resource.Style.Base_V22_Theme_AppCompat;
+			global::PayPal.Forms.Android.Resource.Style.Base_V22_Theme_AppCompat_Light = global::App8.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::PayPal.Forms.Android.Resource.Style.Base_V23_Theme_AppCompat = global::App8.Resource.Style.Base_V23_Theme_AppCompat;
+			global::PayPal.Forms.Android.Resource.Style.Base_V23_Theme_AppCompat_Light = global::App8.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::PayPal.Forms.Android.Resource.Style.Base_V7_Theme_AppCompat = global::App8.Resource.Style.Base_V7_Theme_AppCompat;
+			global::PayPal.Forms.Android.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::App8.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::PayPal.Forms.Android.Resource.Style.Base_V7_Theme_AppCompat_Light = global::App8.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::PayPal.Forms.Android.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::App8.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::PayPal.Forms.Android.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::App8.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::PayPal.Forms.Android.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::App8.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionBar = global::App8.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::App8.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::App8.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::App8.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::App8.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionButton = global::App8.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::App8.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::App8.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActionMode = global::App8.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::App8.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::App8.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_Button = global::App8.Resource.Style.Base_Widget_AppCompat_Button;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::App8.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::App8.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::App8.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::App8.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_Button_Small = global::App8.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::App8.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::App8.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::App8.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::App8.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::App8.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::App8.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::App8.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::App8.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_EditText = global::App8.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ImageButton = global::App8.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::App8.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::App8.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::App8.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::App8.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::App8.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::App8.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::App8.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::App8.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::App8.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ListView = global::App8.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::App8.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::App8.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::App8.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::App8.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::App8.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::App8.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::App8.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_RatingBar = global::App8.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::App8.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::App8.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_SearchView = global::App8.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::App8.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_SeekBar = global::App8.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_Spinner = global::App8.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::App8.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::App8.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_Toolbar = global::App8.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::App8.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::PayPal.Forms.Android.Resource.Style.Base_Widget_Design_TabLayout = global::App8.Resource.Style.Base_Widget_Design_TabLayout;
+			global::PayPal.Forms.Android.Resource.Style.CardView = global::App8.Resource.Style.CardView;
+			global::PayPal.Forms.Android.Resource.Style.CardView_Dark = global::App8.Resource.Style.CardView_Dark;
+			global::PayPal.Forms.Android.Resource.Style.CardView_Light = global::App8.Resource.Style.CardView_Light;
+			global::PayPal.Forms.Android.Resource.Style.Platform_AppCompat = global::App8.Resource.Style.Platform_AppCompat;
+			global::PayPal.Forms.Android.Resource.Style.Platform_AppCompat_Light = global::App8.Resource.Style.Platform_AppCompat_Light;
+			global::PayPal.Forms.Android.Resource.Style.Platform_ThemeOverlay_AppCompat = global::App8.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::PayPal.Forms.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::App8.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::PayPal.Forms.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::App8.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::PayPal.Forms.Android.Resource.Style.Platform_V11_AppCompat = global::App8.Resource.Style.Platform_V11_AppCompat;
+			global::PayPal.Forms.Android.Resource.Style.Platform_V11_AppCompat_Light = global::App8.Resource.Style.Platform_V11_AppCompat_Light;
+			global::PayPal.Forms.Android.Resource.Style.Platform_V14_AppCompat = global::App8.Resource.Style.Platform_V14_AppCompat;
+			global::PayPal.Forms.Android.Resource.Style.Platform_V14_AppCompat_Light = global::App8.Resource.Style.Platform_V14_AppCompat_Light;
+			global::PayPal.Forms.Android.Resource.Style.Platform_Widget_AppCompat_Spinner = global::App8.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::PayPal.Forms.Android.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::App8.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::PayPal.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::App8.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::PayPal.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::App8.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::PayPal.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::App8.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::PayPal.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::App8.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::PayPal.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::App8.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::PayPal.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::App8.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::PayPal.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::App8.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::PayPal.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::App8.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::PayPal.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::App8.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::PayPal.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::App8.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::PayPal.Forms.Android.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::App8.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::PayPal.Forms.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::App8.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::PayPal.Forms.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::App8.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat = global::App8.Resource.Style.TextAppearance_AppCompat;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Body1 = global::App8.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Body2 = global::App8.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Button = global::App8.Resource.Style.TextAppearance_AppCompat_Button;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Caption = global::App8.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Display1 = global::App8.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Display2 = global::App8.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Display3 = global::App8.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Display4 = global::App8.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Headline = global::App8.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Inverse = global::App8.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Large = global::App8.Resource.Style.TextAppearance_AppCompat_Large;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::App8.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::App8.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::App8.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::App8.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::App8.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Medium = global::App8.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::App8.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Menu = global::App8.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::App8.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::App8.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Small = global::App8.Resource.Style.TextAppearance_AppCompat_Small;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::App8.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Subhead = global::App8.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::App8.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Title = global::App8.Resource.Style.TextAppearance_AppCompat_Title;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::App8.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::App8.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::App8.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::App8.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::App8.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::App8.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::App8.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::App8.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::App8.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::App8.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::App8.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::App8.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::App8.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::App8.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::App8.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::App8.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::App8.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::App8.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_Design_Counter = global::App8.Resource.Style.TextAppearance_Design_Counter;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_Design_Counter_Overflow = global::App8.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_Design_Error = global::App8.Resource.Style.TextAppearance_Design_Error;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_Design_Hint = global::App8.Resource.Style.TextAppearance_Design_Hint;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_Design_Snackbar_Message = global::App8.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_Design_Tab = global::App8.Resource.Style.TextAppearance_Design_Tab;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_StatusBar_EventContent = global::App8.Resource.Style.TextAppearance_StatusBar_EventContent;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Info = global::App8.Resource.Style.TextAppearance_StatusBar_EventContent_Info;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Line2 = global::App8.Resource.Style.TextAppearance_StatusBar_EventContent_Line2;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Time = global::App8.Resource.Style.TextAppearance_StatusBar_EventContent_Time;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Title = global::App8.Resource.Style.TextAppearance_StatusBar_EventContent_Title;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::App8.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::App8.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::PayPal.Forms.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::App8.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat = global::App8.Resource.Style.Theme_AppCompat;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_CompactMenu = global::App8.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_DayNight = global::App8.Resource.Style.Theme_AppCompat_DayNight;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::App8.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::App8.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::App8.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::App8.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::App8.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::App8.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_Dialog = global::App8.Resource.Style.Theme_AppCompat_Dialog;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_Dialog_Alert = global::App8.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::App8.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::App8.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_Light = global::App8.Resource.Style.Theme_AppCompat_Light;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::App8.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_Light_Dialog = global::App8.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::App8.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::App8.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::App8.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::App8.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::PayPal.Forms.Android.Resource.Style.Theme_AppCompat_NoActionBar = global::App8.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::PayPal.Forms.Android.Resource.Style.Theme_Design = global::App8.Resource.Style.Theme_Design;
+			global::PayPal.Forms.Android.Resource.Style.Theme_Design_BottomSheetDialog = global::App8.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::PayPal.Forms.Android.Resource.Style.Theme_Design_Light = global::App8.Resource.Style.Theme_Design_Light;
+			global::PayPal.Forms.Android.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::App8.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::PayPal.Forms.Android.Resource.Style.Theme_Design_Light_NoActionBar = global::App8.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::PayPal.Forms.Android.Resource.Style.Theme_Design_NoActionBar = global::App8.Resource.Style.Theme_Design_NoActionBar;
+			global::PayPal.Forms.Android.Resource.Style.Theme_MediaRouter = global::App8.Resource.Style.Theme_MediaRouter;
+			global::PayPal.Forms.Android.Resource.Style.Theme_MediaRouter_Light = global::App8.Resource.Style.Theme_MediaRouter_Light;
+			global::PayPal.Forms.Android.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::App8.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
+			global::PayPal.Forms.Android.Resource.Style.Theme_MediaRouter_LightControlPanel = global::App8.Resource.Style.Theme_MediaRouter_LightControlPanel;
+			global::PayPal.Forms.Android.Resource.Style.ThemeOverlay_AppCompat = global::App8.Resource.Style.ThemeOverlay_AppCompat;
+			global::PayPal.Forms.Android.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::App8.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::PayPal.Forms.Android.Resource.Style.ThemeOverlay_AppCompat_Dark = global::App8.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::PayPal.Forms.Android.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::App8.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::PayPal.Forms.Android.Resource.Style.ThemeOverlay_AppCompat_Light = global::App8.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ActionBar = global::App8.Resource.Style.Widget_AppCompat_ActionBar;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::App8.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::App8.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::App8.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::App8.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ActionButton = global::App8.Resource.Style.Widget_AppCompat_ActionButton;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::App8.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::App8.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ActionMode = global::App8.Resource.Style.Widget_AppCompat_ActionMode;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ActivityChooserView = global::App8.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::App8.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Button = global::App8.Resource.Style.Widget_AppCompat_Button;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Button_Borderless = global::App8.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::App8.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::App8.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Button_Colored = global::App8.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Button_Small = global::App8.Resource.Style.Widget_AppCompat_Button_Small;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ButtonBar = global::App8.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::App8.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::App8.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::App8.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::App8.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::App8.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::App8.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_EditText = global::App8.Resource.Style.Widget_AppCompat_EditText;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ImageButton = global::App8.Resource.Style.Widget_AppCompat_ImageButton;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar = global::App8.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::App8.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::App8.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::App8.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::App8.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::App8.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::App8.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::App8.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::App8.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionButton = global::App8.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::App8.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::App8.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::App8.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::App8.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::App8.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::App8.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::App8.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::App8.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::App8.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::App8.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_SearchView = global::App8.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::App8.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ListPopupWindow = global::App8.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ListView = global::App8.Resource.Style.Widget_AppCompat_ListView;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ListView_DropDown = global::App8.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ListView_Menu = global::App8.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_PopupMenu = global::App8.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::App8.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_PopupWindow = global::App8.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ProgressBar = global::App8.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::App8.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_RatingBar = global::App8.Resource.Style.Widget_AppCompat_RatingBar;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::App8.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_RatingBar_Small = global::App8.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_SearchView = global::App8.Resource.Style.Widget_AppCompat_SearchView;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::App8.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_SeekBar = global::App8.Resource.Style.Widget_AppCompat_SeekBar;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Spinner = global::App8.Resource.Style.Widget_AppCompat_Spinner;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::App8.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::App8.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::App8.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::App8.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Toolbar = global::App8.Resource.Style.Widget_AppCompat_Toolbar;
+			global::PayPal.Forms.Android.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::App8.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::PayPal.Forms.Android.Resource.Style.Widget_Design_AppBarLayout = global::App8.Resource.Style.Widget_Design_AppBarLayout;
+			global::PayPal.Forms.Android.Resource.Style.Widget_Design_BottomSheet_Modal = global::App8.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::PayPal.Forms.Android.Resource.Style.Widget_Design_CollapsingToolbar = global::App8.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::PayPal.Forms.Android.Resource.Style.Widget_Design_CoordinatorLayout = global::App8.Resource.Style.Widget_Design_CoordinatorLayout;
+			global::PayPal.Forms.Android.Resource.Style.Widget_Design_FloatingActionButton = global::App8.Resource.Style.Widget_Design_FloatingActionButton;
+			global::PayPal.Forms.Android.Resource.Style.Widget_Design_NavigationView = global::App8.Resource.Style.Widget_Design_NavigationView;
+			global::PayPal.Forms.Android.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::App8.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::PayPal.Forms.Android.Resource.Style.Widget_Design_Snackbar = global::App8.Resource.Style.Widget_Design_Snackbar;
+			global::PayPal.Forms.Android.Resource.Style.Widget_Design_TabLayout = global::App8.Resource.Style.Widget_Design_TabLayout;
+			global::PayPal.Forms.Android.Resource.Style.Widget_Design_TextInputLayout = global::App8.Resource.Style.Widget_Design_TextInputLayout;
+			global::PayPal.Forms.Android.Resource.Style.Widget_MediaRouter_ChooserText = global::App8.Resource.Style.Widget_MediaRouter_ChooserText;
+			global::PayPal.Forms.Android.Resource.Style.Widget_MediaRouter_ChooserText_Primary = global::App8.Resource.Style.Widget_MediaRouter_ChooserText_Primary;
+			global::PayPal.Forms.Android.Resource.Style.Widget_MediaRouter_ChooserText_Primary_Dark = global::App8.Resource.Style.Widget_MediaRouter_ChooserText_Primary_Dark;
+			global::PayPal.Forms.Android.Resource.Style.Widget_MediaRouter_ChooserText_Primary_Light = global::App8.Resource.Style.Widget_MediaRouter_ChooserText_Primary_Light;
+			global::PayPal.Forms.Android.Resource.Style.Widget_MediaRouter_ChooserText_Secondary = global::App8.Resource.Style.Widget_MediaRouter_ChooserText_Secondary;
+			global::PayPal.Forms.Android.Resource.Style.Widget_MediaRouter_ChooserText_Secondary_Dark = global::App8.Resource.Style.Widget_MediaRouter_ChooserText_Secondary_Dark;
+			global::PayPal.Forms.Android.Resource.Style.Widget_MediaRouter_ChooserText_Secondary_Light = global::App8.Resource.Style.Widget_MediaRouter_ChooserText_Secondary_Light;
+			global::PayPal.Forms.Android.Resource.Style.Widget_MediaRouter_ControllerText = global::App8.Resource.Style.Widget_MediaRouter_ControllerText;
+			global::PayPal.Forms.Android.Resource.Style.Widget_MediaRouter_ControllerText_Primary = global::App8.Resource.Style.Widget_MediaRouter_ControllerText_Primary;
+			global::PayPal.Forms.Android.Resource.Style.Widget_MediaRouter_ControllerText_Primary_Dark = global::App8.Resource.Style.Widget_MediaRouter_ControllerText_Primary_Dark;
+			global::PayPal.Forms.Android.Resource.Style.Widget_MediaRouter_ControllerText_Primary_Light = global::App8.Resource.Style.Widget_MediaRouter_ControllerText_Primary_Light;
+			global::PayPal.Forms.Android.Resource.Style.Widget_MediaRouter_ControllerText_Secondary = global::App8.Resource.Style.Widget_MediaRouter_ControllerText_Secondary;
+			global::PayPal.Forms.Android.Resource.Style.Widget_MediaRouter_ControllerText_Secondary_Dark = global::App8.Resource.Style.Widget_MediaRouter_ControllerText_Secondary_Dark;
+			global::PayPal.Forms.Android.Resource.Style.Widget_MediaRouter_ControllerText_Secondary_Light = global::App8.Resource.Style.Widget_MediaRouter_ControllerText_Secondary_Light;
+			global::PayPal.Forms.Android.Resource.Style.Widget_MediaRouter_ControllerText_Title = global::App8.Resource.Style.Widget_MediaRouter_ControllerText_Title;
+			global::PayPal.Forms.Android.Resource.Style.Widget_MediaRouter_ControllerText_Title_Dark = global::App8.Resource.Style.Widget_MediaRouter_ControllerText_Title_Dark;
+			global::PayPal.Forms.Android.Resource.Style.Widget_MediaRouter_ControllerText_Title_Light = global::App8.Resource.Style.Widget_MediaRouter_ControllerText_Title_Light;
+			global::PayPal.Forms.Android.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::App8.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
+			global::PayPal.Forms.Android.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::App8.Resource.Style.Widget_MediaRouter_MediaRouteButton;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar = global::App8.Resource.Styleable.ActionBar;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_background = global::App8.Resource.Styleable.ActionBar_background;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_backgroundSplit = global::App8.Resource.Styleable.ActionBar_backgroundSplit;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_backgroundStacked = global::App8.Resource.Styleable.ActionBar_backgroundStacked;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_contentInsetEnd = global::App8.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_contentInsetLeft = global::App8.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_contentInsetRight = global::App8.Resource.Styleable.ActionBar_contentInsetRight;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_contentInsetStart = global::App8.Resource.Styleable.ActionBar_contentInsetStart;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_customNavigationLayout = global::App8.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_displayOptions = global::App8.Resource.Styleable.ActionBar_displayOptions;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_divider = global::App8.Resource.Styleable.ActionBar_divider;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_elevation = global::App8.Resource.Styleable.ActionBar_elevation;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_height = global::App8.Resource.Styleable.ActionBar_height;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_hideOnContentScroll = global::App8.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_homeAsUpIndicator = global::App8.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_homeLayout = global::App8.Resource.Styleable.ActionBar_homeLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_icon = global::App8.Resource.Styleable.ActionBar_icon;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::App8.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_itemPadding = global::App8.Resource.Styleable.ActionBar_itemPadding;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_logo = global::App8.Resource.Styleable.ActionBar_logo;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_navigationMode = global::App8.Resource.Styleable.ActionBar_navigationMode;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_popupTheme = global::App8.Resource.Styleable.ActionBar_popupTheme;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_progressBarPadding = global::App8.Resource.Styleable.ActionBar_progressBarPadding;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_progressBarStyle = global::App8.Resource.Styleable.ActionBar_progressBarStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_subtitle = global::App8.Resource.Styleable.ActionBar_subtitle;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_subtitleTextStyle = global::App8.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_title = global::App8.Resource.Styleable.ActionBar_title;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBar_titleTextStyle = global::App8.Resource.Styleable.ActionBar_titleTextStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBarLayout = global::App8.Resource.Styleable.ActionBarLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::App8.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionMenuItemView = global::App8.Resource.Styleable.ActionMenuItemView;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionMenuItemView_android_minWidth = global::App8.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionMenuView = global::App8.Resource.Styleable.ActionMenuView;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionMode = global::App8.Resource.Styleable.ActionMode;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionMode_background = global::App8.Resource.Styleable.ActionMode_background;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionMode_backgroundSplit = global::App8.Resource.Styleable.ActionMode_backgroundSplit;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionMode_closeItemLayout = global::App8.Resource.Styleable.ActionMode_closeItemLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionMode_height = global::App8.Resource.Styleable.ActionMode_height;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionMode_subtitleTextStyle = global::App8.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.ActionMode_titleTextStyle = global::App8.Resource.Styleable.ActionMode_titleTextStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.ActivityChooserView = global::App8.Resource.Styleable.ActivityChooserView;
+			global::PayPal.Forms.Android.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::App8.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::PayPal.Forms.Android.Resource.Styleable.ActivityChooserView_initialActivityCount = global::App8.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::PayPal.Forms.Android.Resource.Styleable.AlertDialog = global::App8.Resource.Styleable.AlertDialog;
+			global::PayPal.Forms.Android.Resource.Styleable.AlertDialog_android_layout = global::App8.Resource.Styleable.AlertDialog_android_layout;
+			global::PayPal.Forms.Android.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::App8.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.AlertDialog_listItemLayout = global::App8.Resource.Styleable.AlertDialog_listItemLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.AlertDialog_listLayout = global::App8.Resource.Styleable.AlertDialog_listLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::App8.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::App8.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.AppBarLayout = global::App8.Resource.Styleable.AppBarLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.AppBarLayout_android_background = global::App8.Resource.Styleable.AppBarLayout_android_background;
+			global::PayPal.Forms.Android.Resource.Styleable.AppBarLayout_elevation = global::App8.Resource.Styleable.AppBarLayout_elevation;
+			global::PayPal.Forms.Android.Resource.Styleable.AppBarLayout_expanded = global::App8.Resource.Styleable.AppBarLayout_expanded;
+			global::PayPal.Forms.Android.Resource.Styleable.AppBarLayout_LayoutParams = global::App8.Resource.Styleable.AppBarLayout_LayoutParams;
+			global::PayPal.Forms.Android.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollFlags = global::App8.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollFlags;
+			global::PayPal.Forms.Android.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollInterpolator = global::App8.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollInterpolator;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatImageView = global::App8.Resource.Styleable.AppCompatImageView;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatImageView_android_src = global::App8.Resource.Styleable.AppCompatImageView_android_src;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatImageView_srcCompat = global::App8.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTextView = global::App8.Resource.Styleable.AppCompatTextView;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTextView_android_textAppearance = global::App8.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTextView_textAllCaps = global::App8.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme = global::App8.Resource.Styleable.AppCompatTheme;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarDivider = global::App8.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::App8.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::App8.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarSize = global::App8.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::App8.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarStyle = global::App8.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::App8.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::App8.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::App8.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarTheme = global::App8.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::App8.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::App8.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::App8.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::App8.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::App8.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeBackground = global::App8.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::App8.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::App8.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::App8.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::App8.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::App8.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::App8.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::App8.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::App8.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::App8.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::App8.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeStyle = global::App8.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::App8.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::App8.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::App8.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::App8.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::App8.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::App8.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::App8.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::App8.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::App8.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::App8.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::App8.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::App8.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::App8.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::App8.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::App8.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::App8.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::App8.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_buttonStyle = global::App8.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::App8.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_checkboxStyle = global::App8.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::App8.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_colorAccent = global::App8.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::App8.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_colorControlActivated = global::App8.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::App8.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_colorControlNormal = global::App8.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_colorPrimary = global::App8.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::App8.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::App8.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_controlBackground = global::App8.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::App8.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_dialogTheme = global::App8.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::App8.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_dividerVertical = global::App8.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::App8.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::App8.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_editTextBackground = global::App8.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_editTextColor = global::App8.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_editTextStyle = global::App8.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::App8.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::App8.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::App8.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::App8.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::App8.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::App8.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::App8.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::App8.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::App8.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::App8.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_panelBackground = global::App8.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::App8.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::App8.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::App8.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::App8.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::App8.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::App8.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::App8.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::App8.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_searchViewStyle = global::App8.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_seekBarStyle = global::App8.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::App8.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::App8.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::App8.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_spinnerStyle = global::App8.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_switchStyle = global::App8.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::App8.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::App8.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::App8.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::App8.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::App8.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::App8.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::App8.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::App8.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::App8.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_toolbarStyle = global::App8.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_windowActionBar = global::App8.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::App8.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::App8.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::App8.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::App8.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::App8.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::App8.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::App8.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::App8.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::PayPal.Forms.Android.Resource.Styleable.AppCompatTheme_windowNoTitle = global::App8.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::PayPal.Forms.Android.Resource.Styleable.BottomSheetBehavior_Params = global::App8.Resource.Styleable.BottomSheetBehavior_Params;
+			global::PayPal.Forms.Android.Resource.Styleable.BottomSheetBehavior_Params_behavior_hideable = global::App8.Resource.Styleable.BottomSheetBehavior_Params_behavior_hideable;
+			global::PayPal.Forms.Android.Resource.Styleable.BottomSheetBehavior_Params_behavior_peekHeight = global::App8.Resource.Styleable.BottomSheetBehavior_Params_behavior_peekHeight;
+			global::PayPal.Forms.Android.Resource.Styleable.ButtonBarLayout = global::App8.Resource.Styleable.ButtonBarLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.ButtonBarLayout_allowStacking = global::App8.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::PayPal.Forms.Android.Resource.Styleable.CardView = global::App8.Resource.Styleable.CardView;
+			global::PayPal.Forms.Android.Resource.Styleable.CardView_android_minHeight = global::App8.Resource.Styleable.CardView_android_minHeight;
+			global::PayPal.Forms.Android.Resource.Styleable.CardView_android_minWidth = global::App8.Resource.Styleable.CardView_android_minWidth;
+			global::PayPal.Forms.Android.Resource.Styleable.CardView_cardBackgroundColor = global::App8.Resource.Styleable.CardView_cardBackgroundColor;
+			global::PayPal.Forms.Android.Resource.Styleable.CardView_cardCornerRadius = global::App8.Resource.Styleable.CardView_cardCornerRadius;
+			global::PayPal.Forms.Android.Resource.Styleable.CardView_cardElevation = global::App8.Resource.Styleable.CardView_cardElevation;
+			global::PayPal.Forms.Android.Resource.Styleable.CardView_cardMaxElevation = global::App8.Resource.Styleable.CardView_cardMaxElevation;
+			global::PayPal.Forms.Android.Resource.Styleable.CardView_cardPreventCornerOverlap = global::App8.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::PayPal.Forms.Android.Resource.Styleable.CardView_cardUseCompatPadding = global::App8.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::PayPal.Forms.Android.Resource.Styleable.CardView_contentPadding = global::App8.Resource.Styleable.CardView_contentPadding;
+			global::PayPal.Forms.Android.Resource.Styleable.CardView_contentPaddingBottom = global::App8.Resource.Styleable.CardView_contentPaddingBottom;
+			global::PayPal.Forms.Android.Resource.Styleable.CardView_contentPaddingLeft = global::App8.Resource.Styleable.CardView_contentPaddingLeft;
+			global::PayPal.Forms.Android.Resource.Styleable.CardView_contentPaddingRight = global::App8.Resource.Styleable.CardView_contentPaddingRight;
+			global::PayPal.Forms.Android.Resource.Styleable.CardView_contentPaddingTop = global::App8.Resource.Styleable.CardView_contentPaddingTop;
+			global::PayPal.Forms.Android.Resource.Styleable.CollapsingAppBarLayout_LayoutParams = global::App8.Resource.Styleable.CollapsingAppBarLayout_LayoutParams;
+			global::PayPal.Forms.Android.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseMode = global::App8.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseMode;
+			global::PayPal.Forms.Android.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier = global::App8.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier;
+			global::PayPal.Forms.Android.Resource.Styleable.CollapsingToolbarLayout = global::App8.Resource.Styleable.CollapsingToolbarLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::App8.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::PayPal.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::App8.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::PayPal.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::App8.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::PayPal.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::App8.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::PayPal.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::App8.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::PayPal.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::App8.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::PayPal.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::App8.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::PayPal.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::App8.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::PayPal.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::App8.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::PayPal.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::App8.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::PayPal.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::App8.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::PayPal.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_title = global::App8.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::PayPal.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::App8.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::PayPal.Forms.Android.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::App8.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::PayPal.Forms.Android.Resource.Styleable.CompoundButton = global::App8.Resource.Styleable.CompoundButton;
+			global::PayPal.Forms.Android.Resource.Styleable.CompoundButton_android_button = global::App8.Resource.Styleable.CompoundButton_android_button;
+			global::PayPal.Forms.Android.Resource.Styleable.CompoundButton_buttonTint = global::App8.Resource.Styleable.CompoundButton_buttonTint;
+			global::PayPal.Forms.Android.Resource.Styleable.CompoundButton_buttonTintMode = global::App8.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::PayPal.Forms.Android.Resource.Styleable.CoordinatorLayout = global::App8.Resource.Styleable.CoordinatorLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.CoordinatorLayout_keylines = global::App8.Resource.Styleable.CoordinatorLayout_keylines;
+			global::PayPal.Forms.Android.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::App8.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::PayPal.Forms.Android.Resource.Styleable.CoordinatorLayout_LayoutParams = global::App8.Resource.Styleable.CoordinatorLayout_LayoutParams;
+			global::PayPal.Forms.Android.Resource.Styleable.CoordinatorLayout_LayoutParams_android_layout_gravity = global::App8.Resource.Styleable.CoordinatorLayout_LayoutParams_android_layout_gravity;
+			global::PayPal.Forms.Android.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchor = global::App8.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchor;
+			global::PayPal.Forms.Android.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchorGravity = global::App8.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchorGravity;
+			global::PayPal.Forms.Android.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_behavior = global::App8.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_behavior;
+			global::PayPal.Forms.Android.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_keyline = global::App8.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_keyline;
+			global::PayPal.Forms.Android.Resource.Styleable.DesignTheme = global::App8.Resource.Styleable.DesignTheme;
+			global::PayPal.Forms.Android.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::App8.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::PayPal.Forms.Android.Resource.Styleable.DesignTheme_bottomSheetStyle = global::App8.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.DesignTheme_textColorError = global::App8.Resource.Styleable.DesignTheme_textColorError;
+			global::PayPal.Forms.Android.Resource.Styleable.DrawerArrowToggle = global::App8.Resource.Styleable.DrawerArrowToggle;
+			global::PayPal.Forms.Android.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::App8.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::PayPal.Forms.Android.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::App8.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::PayPal.Forms.Android.Resource.Styleable.DrawerArrowToggle_barLength = global::App8.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::PayPal.Forms.Android.Resource.Styleable.DrawerArrowToggle_color = global::App8.Resource.Styleable.DrawerArrowToggle_color;
+			global::PayPal.Forms.Android.Resource.Styleable.DrawerArrowToggle_drawableSize = global::App8.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::PayPal.Forms.Android.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::App8.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::PayPal.Forms.Android.Resource.Styleable.DrawerArrowToggle_spinBars = global::App8.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::PayPal.Forms.Android.Resource.Styleable.DrawerArrowToggle_thickness = global::App8.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::PayPal.Forms.Android.Resource.Styleable.FloatingActionButton = global::App8.Resource.Styleable.FloatingActionButton;
+			global::PayPal.Forms.Android.Resource.Styleable.FloatingActionButton_backgroundTint = global::App8.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::PayPal.Forms.Android.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::App8.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::PayPal.Forms.Android.Resource.Styleable.FloatingActionButton_borderWidth = global::App8.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::PayPal.Forms.Android.Resource.Styleable.FloatingActionButton_elevation = global::App8.Resource.Styleable.FloatingActionButton_elevation;
+			global::PayPal.Forms.Android.Resource.Styleable.FloatingActionButton_fabSize = global::App8.Resource.Styleable.FloatingActionButton_fabSize;
+			global::PayPal.Forms.Android.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::App8.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::PayPal.Forms.Android.Resource.Styleable.FloatingActionButton_rippleColor = global::App8.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::PayPal.Forms.Android.Resource.Styleable.FloatingActionButton_useCompatPadding = global::App8.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::PayPal.Forms.Android.Resource.Styleable.ForegroundLinearLayout = global::App8.Resource.Styleable.ForegroundLinearLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::App8.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::PayPal.Forms.Android.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::App8.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::PayPal.Forms.Android.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::App8.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::PayPal.Forms.Android.Resource.Styleable.LinearLayoutCompat = global::App8.Resource.Styleable.LinearLayoutCompat;
+			global::PayPal.Forms.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::App8.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::PayPal.Forms.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::App8.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::PayPal.Forms.Android.Resource.Styleable.LinearLayoutCompat_android_gravity = global::App8.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::PayPal.Forms.Android.Resource.Styleable.LinearLayoutCompat_android_orientation = global::App8.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::PayPal.Forms.Android.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::App8.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::PayPal.Forms.Android.Resource.Styleable.LinearLayoutCompat_divider = global::App8.Resource.Styleable.LinearLayoutCompat_divider;
+			global::PayPal.Forms.Android.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::App8.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::PayPal.Forms.Android.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::App8.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::PayPal.Forms.Android.Resource.Styleable.LinearLayoutCompat_showDividers = global::App8.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::PayPal.Forms.Android.Resource.Styleable.LinearLayoutCompat_Layout = global::App8.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::PayPal.Forms.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::App8.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::PayPal.Forms.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::App8.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::PayPal.Forms.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::App8.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::PayPal.Forms.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::App8.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::PayPal.Forms.Android.Resource.Styleable.ListPopupWindow = global::App8.Resource.Styleable.ListPopupWindow;
+			global::PayPal.Forms.Android.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::App8.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::PayPal.Forms.Android.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::App8.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::PayPal.Forms.Android.Resource.Styleable.MediaRouteButton = global::App8.Resource.Styleable.MediaRouteButton;
+			global::PayPal.Forms.Android.Resource.Styleable.MediaRouteButton_android_minHeight = global::App8.Resource.Styleable.MediaRouteButton_android_minHeight;
+			global::PayPal.Forms.Android.Resource.Styleable.MediaRouteButton_android_minWidth = global::App8.Resource.Styleable.MediaRouteButton_android_minWidth;
+			global::PayPal.Forms.Android.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::App8.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuGroup = global::App8.Resource.Styleable.MenuGroup;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuGroup_android_checkableBehavior = global::App8.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuGroup_android_enabled = global::App8.Resource.Styleable.MenuGroup_android_enabled;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuGroup_android_id = global::App8.Resource.Styleable.MenuGroup_android_id;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuGroup_android_menuCategory = global::App8.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuGroup_android_orderInCategory = global::App8.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuGroup_android_visible = global::App8.Resource.Styleable.MenuGroup_android_visible;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuItem = global::App8.Resource.Styleable.MenuItem;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuItem_actionLayout = global::App8.Resource.Styleable.MenuItem_actionLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuItem_actionProviderClass = global::App8.Resource.Styleable.MenuItem_actionProviderClass;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuItem_actionViewClass = global::App8.Resource.Styleable.MenuItem_actionViewClass;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::App8.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuItem_android_checkable = global::App8.Resource.Styleable.MenuItem_android_checkable;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuItem_android_checked = global::App8.Resource.Styleable.MenuItem_android_checked;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuItem_android_enabled = global::App8.Resource.Styleable.MenuItem_android_enabled;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuItem_android_icon = global::App8.Resource.Styleable.MenuItem_android_icon;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuItem_android_id = global::App8.Resource.Styleable.MenuItem_android_id;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuItem_android_menuCategory = global::App8.Resource.Styleable.MenuItem_android_menuCategory;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuItem_android_numericShortcut = global::App8.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuItem_android_onClick = global::App8.Resource.Styleable.MenuItem_android_onClick;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuItem_android_orderInCategory = global::App8.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuItem_android_title = global::App8.Resource.Styleable.MenuItem_android_title;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuItem_android_titleCondensed = global::App8.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuItem_android_visible = global::App8.Resource.Styleable.MenuItem_android_visible;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuItem_showAsAction = global::App8.Resource.Styleable.MenuItem_showAsAction;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuView = global::App8.Resource.Styleable.MenuView;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuView_android_headerBackground = global::App8.Resource.Styleable.MenuView_android_headerBackground;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuView_android_horizontalDivider = global::App8.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuView_android_itemBackground = global::App8.Resource.Styleable.MenuView_android_itemBackground;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::App8.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuView_android_itemTextAppearance = global::App8.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuView_android_verticalDivider = global::App8.Resource.Styleable.MenuView_android_verticalDivider;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuView_android_windowAnimationStyle = global::App8.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.MenuView_preserveIconSpacing = global::App8.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::PayPal.Forms.Android.Resource.Styleable.NavigationView = global::App8.Resource.Styleable.NavigationView;
+			global::PayPal.Forms.Android.Resource.Styleable.NavigationView_android_background = global::App8.Resource.Styleable.NavigationView_android_background;
+			global::PayPal.Forms.Android.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::App8.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::PayPal.Forms.Android.Resource.Styleable.NavigationView_android_maxWidth = global::App8.Resource.Styleable.NavigationView_android_maxWidth;
+			global::PayPal.Forms.Android.Resource.Styleable.NavigationView_elevation = global::App8.Resource.Styleable.NavigationView_elevation;
+			global::PayPal.Forms.Android.Resource.Styleable.NavigationView_headerLayout = global::App8.Resource.Styleable.NavigationView_headerLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.NavigationView_itemBackground = global::App8.Resource.Styleable.NavigationView_itemBackground;
+			global::PayPal.Forms.Android.Resource.Styleable.NavigationView_itemIconTint = global::App8.Resource.Styleable.NavigationView_itemIconTint;
+			global::PayPal.Forms.Android.Resource.Styleable.NavigationView_itemTextAppearance = global::App8.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::PayPal.Forms.Android.Resource.Styleable.NavigationView_itemTextColor = global::App8.Resource.Styleable.NavigationView_itemTextColor;
+			global::PayPal.Forms.Android.Resource.Styleable.NavigationView_menu = global::App8.Resource.Styleable.NavigationView_menu;
+			global::PayPal.Forms.Android.Resource.Styleable.PopupWindow = global::App8.Resource.Styleable.PopupWindow;
+			global::PayPal.Forms.Android.Resource.Styleable.PopupWindow_android_popupBackground = global::App8.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::PayPal.Forms.Android.Resource.Styleable.PopupWindow_overlapAnchor = global::App8.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::PayPal.Forms.Android.Resource.Styleable.PopupWindowBackgroundState = global::App8.Resource.Styleable.PopupWindowBackgroundState;
+			global::PayPal.Forms.Android.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::App8.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::PayPal.Forms.Android.Resource.Styleable.RecyclerView = global::App8.Resource.Styleable.RecyclerView;
+			global::PayPal.Forms.Android.Resource.Styleable.RecyclerView_android_orientation = global::App8.Resource.Styleable.RecyclerView_android_orientation;
+			global::PayPal.Forms.Android.Resource.Styleable.RecyclerView_layoutManager = global::App8.Resource.Styleable.RecyclerView_layoutManager;
+			global::PayPal.Forms.Android.Resource.Styleable.RecyclerView_reverseLayout = global::App8.Resource.Styleable.RecyclerView_reverseLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.RecyclerView_spanCount = global::App8.Resource.Styleable.RecyclerView_spanCount;
+			global::PayPal.Forms.Android.Resource.Styleable.RecyclerView_stackFromEnd = global::App8.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::PayPal.Forms.Android.Resource.Styleable.ScrimInsetsFrameLayout = global::App8.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::App8.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::PayPal.Forms.Android.Resource.Styleable.ScrollingViewBehavior_Params = global::App8.Resource.Styleable.ScrollingViewBehavior_Params;
+			global::PayPal.Forms.Android.Resource.Styleable.ScrollingViewBehavior_Params_behavior_overlapTop = global::App8.Resource.Styleable.ScrollingViewBehavior_Params_behavior_overlapTop;
+			global::PayPal.Forms.Android.Resource.Styleable.SearchView = global::App8.Resource.Styleable.SearchView;
+			global::PayPal.Forms.Android.Resource.Styleable.SearchView_android_focusable = global::App8.Resource.Styleable.SearchView_android_focusable;
+			global::PayPal.Forms.Android.Resource.Styleable.SearchView_android_imeOptions = global::App8.Resource.Styleable.SearchView_android_imeOptions;
+			global::PayPal.Forms.Android.Resource.Styleable.SearchView_android_inputType = global::App8.Resource.Styleable.SearchView_android_inputType;
+			global::PayPal.Forms.Android.Resource.Styleable.SearchView_android_maxWidth = global::App8.Resource.Styleable.SearchView_android_maxWidth;
+			global::PayPal.Forms.Android.Resource.Styleable.SearchView_closeIcon = global::App8.Resource.Styleable.SearchView_closeIcon;
+			global::PayPal.Forms.Android.Resource.Styleable.SearchView_commitIcon = global::App8.Resource.Styleable.SearchView_commitIcon;
+			global::PayPal.Forms.Android.Resource.Styleable.SearchView_defaultQueryHint = global::App8.Resource.Styleable.SearchView_defaultQueryHint;
+			global::PayPal.Forms.Android.Resource.Styleable.SearchView_goIcon = global::App8.Resource.Styleable.SearchView_goIcon;
+			global::PayPal.Forms.Android.Resource.Styleable.SearchView_iconifiedByDefault = global::App8.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::PayPal.Forms.Android.Resource.Styleable.SearchView_layout = global::App8.Resource.Styleable.SearchView_layout;
+			global::PayPal.Forms.Android.Resource.Styleable.SearchView_queryBackground = global::App8.Resource.Styleable.SearchView_queryBackground;
+			global::PayPal.Forms.Android.Resource.Styleable.SearchView_queryHint = global::App8.Resource.Styleable.SearchView_queryHint;
+			global::PayPal.Forms.Android.Resource.Styleable.SearchView_searchHintIcon = global::App8.Resource.Styleable.SearchView_searchHintIcon;
+			global::PayPal.Forms.Android.Resource.Styleable.SearchView_searchIcon = global::App8.Resource.Styleable.SearchView_searchIcon;
+			global::PayPal.Forms.Android.Resource.Styleable.SearchView_submitBackground = global::App8.Resource.Styleable.SearchView_submitBackground;
+			global::PayPal.Forms.Android.Resource.Styleable.SearchView_suggestionRowLayout = global::App8.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.SearchView_voiceIcon = global::App8.Resource.Styleable.SearchView_voiceIcon;
+			global::PayPal.Forms.Android.Resource.Styleable.SnackbarLayout = global::App8.Resource.Styleable.SnackbarLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.SnackbarLayout_android_maxWidth = global::App8.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::PayPal.Forms.Android.Resource.Styleable.SnackbarLayout_elevation = global::App8.Resource.Styleable.SnackbarLayout_elevation;
+			global::PayPal.Forms.Android.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::App8.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::PayPal.Forms.Android.Resource.Styleable.Spinner = global::App8.Resource.Styleable.Spinner;
+			global::PayPal.Forms.Android.Resource.Styleable.Spinner_android_dropDownWidth = global::App8.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::PayPal.Forms.Android.Resource.Styleable.Spinner_android_entries = global::App8.Resource.Styleable.Spinner_android_entries;
+			global::PayPal.Forms.Android.Resource.Styleable.Spinner_android_popupBackground = global::App8.Resource.Styleable.Spinner_android_popupBackground;
+			global::PayPal.Forms.Android.Resource.Styleable.Spinner_android_prompt = global::App8.Resource.Styleable.Spinner_android_prompt;
+			global::PayPal.Forms.Android.Resource.Styleable.Spinner_popupTheme = global::App8.Resource.Styleable.Spinner_popupTheme;
+			global::PayPal.Forms.Android.Resource.Styleable.SwitchCompat = global::App8.Resource.Styleable.SwitchCompat;
+			global::PayPal.Forms.Android.Resource.Styleable.SwitchCompat_android_textOff = global::App8.Resource.Styleable.SwitchCompat_android_textOff;
+			global::PayPal.Forms.Android.Resource.Styleable.SwitchCompat_android_textOn = global::App8.Resource.Styleable.SwitchCompat_android_textOn;
+			global::PayPal.Forms.Android.Resource.Styleable.SwitchCompat_android_thumb = global::App8.Resource.Styleable.SwitchCompat_android_thumb;
+			global::PayPal.Forms.Android.Resource.Styleable.SwitchCompat_showText = global::App8.Resource.Styleable.SwitchCompat_showText;
+			global::PayPal.Forms.Android.Resource.Styleable.SwitchCompat_splitTrack = global::App8.Resource.Styleable.SwitchCompat_splitTrack;
+			global::PayPal.Forms.Android.Resource.Styleable.SwitchCompat_switchMinWidth = global::App8.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::PayPal.Forms.Android.Resource.Styleable.SwitchCompat_switchPadding = global::App8.Resource.Styleable.SwitchCompat_switchPadding;
+			global::PayPal.Forms.Android.Resource.Styleable.SwitchCompat_switchTextAppearance = global::App8.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::PayPal.Forms.Android.Resource.Styleable.SwitchCompat_thumbTextPadding = global::App8.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::PayPal.Forms.Android.Resource.Styleable.SwitchCompat_track = global::App8.Resource.Styleable.SwitchCompat_track;
+			global::PayPal.Forms.Android.Resource.Styleable.TabItem = global::App8.Resource.Styleable.TabItem;
+			global::PayPal.Forms.Android.Resource.Styleable.TabItem_android_icon = global::App8.Resource.Styleable.TabItem_android_icon;
+			global::PayPal.Forms.Android.Resource.Styleable.TabItem_android_layout = global::App8.Resource.Styleable.TabItem_android_layout;
+			global::PayPal.Forms.Android.Resource.Styleable.TabItem_android_text = global::App8.Resource.Styleable.TabItem_android_text;
+			global::PayPal.Forms.Android.Resource.Styleable.TabLayout = global::App8.Resource.Styleable.TabLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.TabLayout_tabBackground = global::App8.Resource.Styleable.TabLayout_tabBackground;
+			global::PayPal.Forms.Android.Resource.Styleable.TabLayout_tabContentStart = global::App8.Resource.Styleable.TabLayout_tabContentStart;
+			global::PayPal.Forms.Android.Resource.Styleable.TabLayout_tabGravity = global::App8.Resource.Styleable.TabLayout_tabGravity;
+			global::PayPal.Forms.Android.Resource.Styleable.TabLayout_tabIndicatorColor = global::App8.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::PayPal.Forms.Android.Resource.Styleable.TabLayout_tabIndicatorHeight = global::App8.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::PayPal.Forms.Android.Resource.Styleable.TabLayout_tabMaxWidth = global::App8.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::PayPal.Forms.Android.Resource.Styleable.TabLayout_tabMinWidth = global::App8.Resource.Styleable.TabLayout_tabMinWidth;
+			global::PayPal.Forms.Android.Resource.Styleable.TabLayout_tabMode = global::App8.Resource.Styleable.TabLayout_tabMode;
+			global::PayPal.Forms.Android.Resource.Styleable.TabLayout_tabPadding = global::App8.Resource.Styleable.TabLayout_tabPadding;
+			global::PayPal.Forms.Android.Resource.Styleable.TabLayout_tabPaddingBottom = global::App8.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::PayPal.Forms.Android.Resource.Styleable.TabLayout_tabPaddingEnd = global::App8.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::PayPal.Forms.Android.Resource.Styleable.TabLayout_tabPaddingStart = global::App8.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::PayPal.Forms.Android.Resource.Styleable.TabLayout_tabPaddingTop = global::App8.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::PayPal.Forms.Android.Resource.Styleable.TabLayout_tabSelectedTextColor = global::App8.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::PayPal.Forms.Android.Resource.Styleable.TabLayout_tabTextAppearance = global::App8.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::PayPal.Forms.Android.Resource.Styleable.TabLayout_tabTextColor = global::App8.Resource.Styleable.TabLayout_tabTextColor;
+			global::PayPal.Forms.Android.Resource.Styleable.TextAppearance = global::App8.Resource.Styleable.TextAppearance;
+			global::PayPal.Forms.Android.Resource.Styleable.TextAppearance_android_shadowColor = global::App8.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::PayPal.Forms.Android.Resource.Styleable.TextAppearance_android_shadowDx = global::App8.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::PayPal.Forms.Android.Resource.Styleable.TextAppearance_android_shadowDy = global::App8.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::PayPal.Forms.Android.Resource.Styleable.TextAppearance_android_shadowRadius = global::App8.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::PayPal.Forms.Android.Resource.Styleable.TextAppearance_android_textColor = global::App8.Resource.Styleable.TextAppearance_android_textColor;
+			global::PayPal.Forms.Android.Resource.Styleable.TextAppearance_android_textSize = global::App8.Resource.Styleable.TextAppearance_android_textSize;
+			global::PayPal.Forms.Android.Resource.Styleable.TextAppearance_android_textStyle = global::App8.Resource.Styleable.TextAppearance_android_textStyle;
+			global::PayPal.Forms.Android.Resource.Styleable.TextAppearance_android_typeface = global::App8.Resource.Styleable.TextAppearance_android_typeface;
+			global::PayPal.Forms.Android.Resource.Styleable.TextAppearance_textAllCaps = global::App8.Resource.Styleable.TextAppearance_textAllCaps;
+			global::PayPal.Forms.Android.Resource.Styleable.TextInputLayout = global::App8.Resource.Styleable.TextInputLayout;
+			global::PayPal.Forms.Android.Resource.Styleable.TextInputLayout_android_hint = global::App8.Resource.Styleable.TextInputLayout_android_hint;
+			global::PayPal.Forms.Android.Resource.Styleable.TextInputLayout_android_textColorHint = global::App8.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::PayPal.Forms.Android.Resource.Styleable.TextInputLayout_counterEnabled = global::App8.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::PayPal.Forms.Android.Resource.Styleable.TextInputLayout_counterMaxLength = global::App8.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::PayPal.Forms.Android.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::App8.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::PayPal.Forms.Android.Resource.Styleable.TextInputLayout_counterTextAppearance = global::App8.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::PayPal.Forms.Android.Resource.Styleable.TextInputLayout_errorEnabled = global::App8.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::PayPal.Forms.Android.Resource.Styleable.TextInputLayout_errorTextAppearance = global::App8.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::PayPal.Forms.Android.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::App8.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::PayPal.Forms.Android.Resource.Styleable.TextInputLayout_hintEnabled = global::App8.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::PayPal.Forms.Android.Resource.Styleable.TextInputLayout_hintTextAppearance = global::App8.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar = global::App8.Resource.Styleable.Toolbar;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_android_gravity = global::App8.Resource.Styleable.Toolbar_android_gravity;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_android_minHeight = global::App8.Resource.Styleable.Toolbar_android_minHeight;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_collapseContentDescription = global::App8.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_collapseIcon = global::App8.Resource.Styleable.Toolbar_collapseIcon;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_contentInsetEnd = global::App8.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_contentInsetLeft = global::App8.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_contentInsetRight = global::App8.Resource.Styleable.Toolbar_contentInsetRight;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_contentInsetStart = global::App8.Resource.Styleable.Toolbar_contentInsetStart;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_logo = global::App8.Resource.Styleable.Toolbar_logo;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_logoDescription = global::App8.Resource.Styleable.Toolbar_logoDescription;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_maxButtonHeight = global::App8.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_navigationContentDescription = global::App8.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_navigationIcon = global::App8.Resource.Styleable.Toolbar_navigationIcon;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_popupTheme = global::App8.Resource.Styleable.Toolbar_popupTheme;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_subtitle = global::App8.Resource.Styleable.Toolbar_subtitle;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_subtitleTextAppearance = global::App8.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_subtitleTextColor = global::App8.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_title = global::App8.Resource.Styleable.Toolbar_title;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_titleMarginBottom = global::App8.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_titleMarginEnd = global::App8.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_titleMarginStart = global::App8.Resource.Styleable.Toolbar_titleMarginStart;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_titleMarginTop = global::App8.Resource.Styleable.Toolbar_titleMarginTop;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_titleMargins = global::App8.Resource.Styleable.Toolbar_titleMargins;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_titleTextAppearance = global::App8.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::PayPal.Forms.Android.Resource.Styleable.Toolbar_titleTextColor = global::App8.Resource.Styleable.Toolbar_titleTextColor;
+			global::PayPal.Forms.Android.Resource.Styleable.View = global::App8.Resource.Styleable.View;
+			global::PayPal.Forms.Android.Resource.Styleable.View_android_focusable = global::App8.Resource.Styleable.View_android_focusable;
+			global::PayPal.Forms.Android.Resource.Styleable.View_android_theme = global::App8.Resource.Styleable.View_android_theme;
+			global::PayPal.Forms.Android.Resource.Styleable.View_paddingEnd = global::App8.Resource.Styleable.View_paddingEnd;
+			global::PayPal.Forms.Android.Resource.Styleable.View_paddingStart = global::App8.Resource.Styleable.View_paddingStart;
+			global::PayPal.Forms.Android.Resource.Styleable.View_theme = global::App8.Resource.Styleable.View_theme;
+			global::PayPal.Forms.Android.Resource.Styleable.ViewBackgroundHelper = global::App8.Resource.Styleable.ViewBackgroundHelper;
+			global::PayPal.Forms.Android.Resource.Styleable.ViewBackgroundHelper_android_background = global::App8.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::PayPal.Forms.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::App8.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::PayPal.Forms.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::App8.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::PayPal.Forms.Android.Resource.Styleable.ViewStubCompat = global::App8.Resource.Styleable.ViewStubCompat;
+			global::PayPal.Forms.Android.Resource.Styleable.ViewStubCompat_android_id = global::App8.Resource.Styleable.ViewStubCompat_android_id;
+			global::PayPal.Forms.Android.Resource.Styleable.ViewStubCompat_android_inflatedId = global::App8.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::PayPal.Forms.Android.Resource.Styleable.ViewStubCompat_android_layout = global::App8.Resource.Styleable.ViewStubCompat_android_layout;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::App8.Resource.Attribute.actionBarSize;
 		}
 		
@@ -1097,32 +2882,32 @@ namespace App8
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f0b004c
-			public const int abc_background_cache_hint_selector_material_dark = 2131427404;
-			
 			// aapt resource value: 0x7f0b004d
-			public const int abc_background_cache_hint_selector_material_light = 2131427405;
+			public const int abc_background_cache_hint_selector_material_dark = 2131427405;
 			
 			// aapt resource value: 0x7f0b004e
-			public const int abc_color_highlight_material = 2131427406;
+			public const int abc_background_cache_hint_selector_material_light = 2131427406;
+			
+			// aapt resource value: 0x7f0b004f
+			public const int abc_color_highlight_material = 2131427407;
 			
 			// aapt resource value: 0x7f0b0004
 			public const int abc_input_method_navigation_guard = 2131427332;
 			
-			// aapt resource value: 0x7f0b004f
-			public const int abc_primary_text_disable_only_material_dark = 2131427407;
-			
 			// aapt resource value: 0x7f0b0050
-			public const int abc_primary_text_disable_only_material_light = 2131427408;
+			public const int abc_primary_text_disable_only_material_dark = 2131427408;
 			
 			// aapt resource value: 0x7f0b0051
-			public const int abc_primary_text_material_dark = 2131427409;
+			public const int abc_primary_text_disable_only_material_light = 2131427409;
 			
 			// aapt resource value: 0x7f0b0052
-			public const int abc_primary_text_material_light = 2131427410;
+			public const int abc_primary_text_material_dark = 2131427410;
 			
 			// aapt resource value: 0x7f0b0053
-			public const int abc_search_url_text = 2131427411;
+			public const int abc_primary_text_material_light = 2131427411;
+			
+			// aapt resource value: 0x7f0b0054
+			public const int abc_search_url_text = 2131427412;
 			
 			// aapt resource value: 0x7f0b0005
 			public const int abc_search_url_text_normal = 2131427333;
@@ -1133,11 +2918,11 @@ namespace App8
 			// aapt resource value: 0x7f0b0007
 			public const int abc_search_url_text_selected = 2131427335;
 			
-			// aapt resource value: 0x7f0b0054
-			public const int abc_secondary_text_material_dark = 2131427412;
-			
 			// aapt resource value: 0x7f0b0055
-			public const int abc_secondary_text_material_light = 2131427413;
+			public const int abc_secondary_text_material_dark = 2131427413;
+			
+			// aapt resource value: 0x7f0b0056
+			public const int abc_secondary_text_material_light = 2131427414;
 			
 			// aapt resource value: 0x7f0b0008
 			public const int accent_material_dark = 2131427336;
@@ -1343,17 +3128,20 @@ namespace App8
 			// aapt resource value: 0x7f0b0039
 			public const int secondary_text_disabled_material_light = 2131427385;
 			
+			// aapt resource value: 0x7f0b004c
+			public const int standardBackground = 2131427404;
+			
 			// aapt resource value: 0x7f0b003a
 			public const int switch_thumb_disabled_material_dark = 2131427386;
 			
 			// aapt resource value: 0x7f0b003b
 			public const int switch_thumb_disabled_material_light = 2131427387;
 			
-			// aapt resource value: 0x7f0b0056
-			public const int switch_thumb_material_dark = 2131427414;
-			
 			// aapt resource value: 0x7f0b0057
-			public const int switch_thumb_material_light = 2131427415;
+			public const int switch_thumb_material_dark = 2131427415;
+			
+			// aapt resource value: 0x7f0b0058
+			public const int switch_thumb_material_light = 2131427416;
 			
 			// aapt resource value: 0x7f0b003c
 			public const int switch_thumb_normal_material_dark = 2131427388;
@@ -2233,11 +4021,23 @@ namespace App8
 			// aapt resource value: 0x7f0200a5
 			public const int mr_ic_play_light = 2130837669;
 			
-			// aapt resource value: 0x7f0200a7
-			public const int notification_template_icon_bg = 2130837671;
+			// aapt resource value: 0x7f0200ab
+			public const int notification_template_icon_bg = 2130837675;
 			
 			// aapt resource value: 0x7f0200a6
 			public const int ProfileButton = 2130837670;
+			
+			// aapt resource value: 0x7f0200a7
+			public const int shoppingCart = 2130837671;
+			
+			// aapt resource value: 0x7f0200a8
+			public const int standardBackground = 2130837672;
+			
+			// aapt resource value: 0x7f0200a9
+			public const int standardButton = 2130837673;
+			
+			// aapt resource value: 0x7f0200aa
+			public const int standardEditText = 2130837674;
 			
 			static Drawable()
 			{
@@ -2252,8 +4052,8 @@ namespace App8
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0700ae
-			public const int action0 = 2131165358;
+			// aapt resource value: 0x7f0700b9
+			public const int action0 = 2131165369;
 			
 			// aapt resource value: 0x7f07005a
 			public const int action_bar = 2131165274;
@@ -2279,8 +4079,8 @@ namespace App8
 			// aapt resource value: 0x7f07005b
 			public const int action_context_bar = 2131165275;
 			
-			// aapt resource value: 0x7f0700b2
-			public const int action_divider = 2131165362;
+			// aapt resource value: 0x7f0700bd
+			public const int action_divider = 2131165373;
 			
 			// aapt resource value: 0x7f070003
 			public const int action_menu_divider = 2131165187;
@@ -2312,38 +4112,50 @@ namespace App8
 			// aapt resource value: 0x7f07002a
 			public const int bottom = 2131165226;
 			
-			// aapt resource value: 0x7f070085
-			public const int btnAddCategory = 2131165317;
-			
-			// aapt resource value: 0x7f070093
-			public const int btnAddToCart = 2131165331;
-			
-			// aapt resource value: 0x7f07007d
-			public const int btnFinish = 2131165309;
-			
-			// aapt resource value: 0x7f07007c
-			public const int btnPicture = 2131165308;
-			
-			// aapt resource value: 0x7f070087
-			public const int btnSignIn1 = 2131165319;
-			
 			// aapt resource value: 0x7f07008e
-			public const int btnSignUp = 2131165326;
+			public const int btnAddCategory = 2131165326;
 			
-			// aapt resource value: 0x7f070089
-			public const int btnSignUp1 = 2131165321;
+			// aapt resource value: 0x7f07009d
+			public const int btnAddToCart = 2131165341;
 			
-			// aapt resource value: 0x7f070091
-			public const int button1 = 2131165329;
+			// aapt resource value: 0x7f07006a
+			public const int btnCart = 2131165290;
 			
 			// aapt resource value: 0x7f07007f
-			public const int button2 = 2131165311;
+			public const int btnFinish = 2131165311;
+			
+			// aapt resource value: 0x7f07007e
+			public const int btnPicture = 2131165310;
+			
+			// aapt resource value: 0x7f07008b
+			public const int btnPurchase = 2131165323;
+			
+			// aapt resource value: 0x7f070070
+			public const int btnQuantity = 2131165296;
+			
+			// aapt resource value: 0x7f070090
+			public const int btnSignIn1 = 2131165328;
+			
+			// aapt resource value: 0x7f070097
+			public const int btnSignUp = 2131165335;
+			
+			// aapt resource value: 0x7f070092
+			public const int btnSignUp1 = 2131165330;
+			
+			// aapt resource value: 0x7f07009b
+			public const int button1 = 2131165339;
+			
+			// aapt resource value: 0x7f070071
+			public const int button2 = 2131165297;
+			
+			// aapt resource value: 0x7f07009e
+			public const int button3 = 2131165342;
 			
 			// aapt resource value: 0x7f070044
 			public const int buttonPanel = 2131165252;
 			
-			// aapt resource value: 0x7f0700af
-			public const int cancel_action = 2131165359;
+			// aapt resource value: 0x7f0700ba
+			public const int cancel_action = 2131165370;
 			
 			// aapt resource value: 0x7f07002b
 			public const int center = 2131165227;
@@ -2354,14 +4166,14 @@ namespace App8
 			// aapt resource value: 0x7f07002d
 			public const int center_vertical = 2131165229;
 			
-			// aapt resource value: 0x7f07007e
-			public const int changePicture = 2131165310;
+			// aapt resource value: 0x7f070080
+			public const int changePicture = 2131165312;
 			
 			// aapt resource value: 0x7f070052
 			public const int checkbox = 2131165266;
 			
-			// aapt resource value: 0x7f0700b5
-			public const int chronometer = 2131165365;
+			// aapt resource value: 0x7f0700c0
+			public const int chronometer = 2131165376;
 			
 			// aapt resource value: 0x7f070033
 			public const int clip_horizontal = 2131165235;
@@ -2372,8 +4184,8 @@ namespace App8
 			// aapt resource value: 0x7f07001f
 			public const int collapseActionView = 2131165215;
 			
-			// aapt resource value: 0x7f070080
-			public const int companyListView = 2131165312;
+			// aapt resource value: 0x7f070083
+			public const int companyListView = 2131165315;
 			
 			// aapt resource value: 0x7f07004a
 			public const int contentPanel = 2131165258;
@@ -2390,26 +4202,29 @@ namespace App8
 			// aapt resource value: 0x7f070040
 			public const int default_activity_button = 2131165248;
 			
-			// aapt resource value: 0x7f070073
-			public const int design_bottom_sheet = 2131165299;
+			// aapt resource value: 0x7f070075
+			public const int design_bottom_sheet = 2131165301;
+			
+			// aapt resource value: 0x7f07007c
+			public const int design_menu_item_action_area = 2131165308;
+			
+			// aapt resource value: 0x7f07007b
+			public const int design_menu_item_action_area_stub = 2131165307;
 			
 			// aapt resource value: 0x7f07007a
-			public const int design_menu_item_action_area = 2131165306;
+			public const int design_menu_item_text = 2131165306;
 			
 			// aapt resource value: 0x7f070079
-			public const int design_menu_item_action_area_stub = 2131165305;
-			
-			// aapt resource value: 0x7f070078
-			public const int design_menu_item_text = 2131165304;
-			
-			// aapt resource value: 0x7f070077
-			public const int design_navigation_view = 2131165303;
+			public const int design_navigation_view = 2131165305;
 			
 			// aapt resource value: 0x7f07000e
 			public const int disableHome = 2131165198;
 			
-			// aapt resource value: 0x7f070092
-			public const int editText1 = 2131165330;
+			// aapt resource value: 0x7f070088
+			public const int editAddress = 2131165320;
+			
+			// aapt resource value: 0x7f070089
+			public const int editPhone = 2131165321;
 			
 			// aapt resource value: 0x7f07005c
 			public const int edit_query = 2131165276;
@@ -2417,8 +4232,8 @@ namespace App8
 			// aapt resource value: 0x7f07001c
 			public const int end = 2131165212;
 			
-			// aapt resource value: 0x7f0700ba
-			public const int end_padder = 2131165370;
+			// aapt resource value: 0x7f0700c5
+			public const int end_padder = 2131165381;
 			
 			// aapt resource value: 0x7f070023
 			public const int enterAlways = 2131165219;
@@ -2465,8 +4280,8 @@ namespace App8
 			// aapt resource value: 0x7f07006d
 			public const int imageView1 = 2131165293;
 			
-			// aapt resource value: 0x7f0700b9
-			public const int info = 2131165369;
+			// aapt resource value: 0x7f0700c4
+			public const int info = 2131165380;
 			
 			// aapt resource value: 0x7f070000
 			public const int item_touch_helper_previous_elevation = 2131165184;
@@ -2474,20 +4289,26 @@ namespace App8
 			// aapt resource value: 0x7f07002f
 			public const int left = 2131165231;
 			
-			// aapt resource value: 0x7f0700b3
-			public const int line1 = 2131165363;
+			// aapt resource value: 0x7f0700be
+			public const int line1 = 2131165374;
 			
-			// aapt resource value: 0x7f0700b7
-			public const int line3 = 2131165367;
+			// aapt resource value: 0x7f0700c2
+			public const int line3 = 2131165378;
 			
 			// aapt resource value: 0x7f070069
 			public const int linearLayout1 = 2131165289;
 			
-			// aapt resource value: 0x7f070083
-			public const int linearLayout10 = 2131165315;
+			// aapt resource value: 0x7f07008d
+			public const int linearLayout10 = 2131165325;
 			
-			// aapt resource value: 0x7f07006a
-			public const int linearLayout2 = 2131165290;
+			// aapt resource value: 0x7f070081
+			public const int linearLayout2 = 2131165313;
+			
+			// aapt resource value: 0x7f07009c
+			public const int linearLayout3 = 2131165340;
+			
+			// aapt resource value: 0x7f070086
+			public const int linearLayoutHide = 2131165318;
 			
 			// aapt resource value: 0x7f07000b
 			public const int listMode = 2131165195;
@@ -2495,8 +4316,8 @@ namespace App8
 			// aapt resource value: 0x7f070041
 			public const int list_item = 2131165249;
 			
-			// aapt resource value: 0x7f0700b1
-			public const int media_actions = 2131165361;
+			// aapt resource value: 0x7f0700bc
+			public const int media_actions = 2131165372;
 			
 			// aapt resource value: 0x7f07001d
 			public const int middle = 2131165213;
@@ -2504,83 +4325,83 @@ namespace App8
 			// aapt resource value: 0x7f070037
 			public const int mini = 2131165239;
 			
+			// aapt resource value: 0x7f0700ab
+			public const int mr_art = 2131165355;
+			
 			// aapt resource value: 0x7f0700a0
-			public const int mr_art = 2131165344;
-			
-			// aapt resource value: 0x7f070095
-			public const int mr_chooser_list = 2131165333;
-			
-			// aapt resource value: 0x7f070098
-			public const int mr_chooser_route_desc = 2131165336;
-			
-			// aapt resource value: 0x7f070096
-			public const int mr_chooser_route_icon = 2131165334;
-			
-			// aapt resource value: 0x7f070097
-			public const int mr_chooser_route_name = 2131165335;
-			
-			// aapt resource value: 0x7f07009d
-			public const int mr_close = 2131165341;
+			public const int mr_chooser_list = 2131165344;
 			
 			// aapt resource value: 0x7f0700a3
-			public const int mr_control_divider = 2131165347;
-			
-			// aapt resource value: 0x7f0700a9
-			public const int mr_control_play_pause = 2131165353;
-			
-			// aapt resource value: 0x7f0700ac
-			public const int mr_control_subtitle = 2131165356;
-			
-			// aapt resource value: 0x7f0700ab
-			public const int mr_control_title = 2131165355;
-			
-			// aapt resource value: 0x7f0700aa
-			public const int mr_control_title_container = 2131165354;
-			
-			// aapt resource value: 0x7f07009e
-			public const int mr_custom_control = 2131165342;
-			
-			// aapt resource value: 0x7f07009f
-			public const int mr_default_control = 2131165343;
-			
-			// aapt resource value: 0x7f07009a
-			public const int mr_dialog_area = 2131165338;
-			
-			// aapt resource value: 0x7f070099
-			public const int mr_expandable_area = 2131165337;
-			
-			// aapt resource value: 0x7f0700ad
-			public const int mr_group_expand_collapse = 2131165357;
+			public const int mr_chooser_route_desc = 2131165347;
 			
 			// aapt resource value: 0x7f0700a1
-			public const int mr_media_main_control = 2131165345;
-			
-			// aapt resource value: 0x7f07009c
-			public const int mr_name = 2131165340;
+			public const int mr_chooser_route_icon = 2131165345;
 			
 			// aapt resource value: 0x7f0700a2
-			public const int mr_playback_control = 2131165346;
-			
-			// aapt resource value: 0x7f07009b
-			public const int mr_title_bar = 2131165339;
-			
-			// aapt resource value: 0x7f0700a4
-			public const int mr_volume_control = 2131165348;
-			
-			// aapt resource value: 0x7f0700a5
-			public const int mr_volume_group_list = 2131165349;
-			
-			// aapt resource value: 0x7f0700a7
-			public const int mr_volume_item_icon = 2131165351;
+			public const int mr_chooser_route_name = 2131165346;
 			
 			// aapt resource value: 0x7f0700a8
-			public const int mr_volume_slider = 2131165352;
+			public const int mr_close = 2131165352;
+			
+			// aapt resource value: 0x7f0700ae
+			public const int mr_control_divider = 2131165358;
+			
+			// aapt resource value: 0x7f0700b4
+			public const int mr_control_play_pause = 2131165364;
+			
+			// aapt resource value: 0x7f0700b7
+			public const int mr_control_subtitle = 2131165367;
+			
+			// aapt resource value: 0x7f0700b6
+			public const int mr_control_title = 2131165366;
+			
+			// aapt resource value: 0x7f0700b5
+			public const int mr_control_title_container = 2131165365;
+			
+			// aapt resource value: 0x7f0700a9
+			public const int mr_custom_control = 2131165353;
+			
+			// aapt resource value: 0x7f0700aa
+			public const int mr_default_control = 2131165354;
+			
+			// aapt resource value: 0x7f0700a5
+			public const int mr_dialog_area = 2131165349;
+			
+			// aapt resource value: 0x7f0700a4
+			public const int mr_expandable_area = 2131165348;
+			
+			// aapt resource value: 0x7f0700b8
+			public const int mr_group_expand_collapse = 2131165368;
+			
+			// aapt resource value: 0x7f0700ac
+			public const int mr_media_main_control = 2131165356;
+			
+			// aapt resource value: 0x7f0700a7
+			public const int mr_name = 2131165351;
+			
+			// aapt resource value: 0x7f0700ad
+			public const int mr_playback_control = 2131165357;
+			
+			// aapt resource value: 0x7f0700a6
+			public const int mr_title_bar = 2131165350;
+			
+			// aapt resource value: 0x7f0700af
+			public const int mr_volume_control = 2131165359;
+			
+			// aapt resource value: 0x7f0700b0
+			public const int mr_volume_group_list = 2131165360;
+			
+			// aapt resource value: 0x7f0700b2
+			public const int mr_volume_item_icon = 2131165362;
+			
+			// aapt resource value: 0x7f0700b3
+			public const int mr_volume_slider = 2131165363;
 			
 			// aapt resource value: 0x7f070016
 			public const int multiply = 2131165206;
 			
-			// aapt resource value: 0x7f070076
-			public const int navigation_header_container = 2131165302;
+			// aapt resource value: 0x7f070078
+			public const int navigation_header_container = 2131165304;
 			
 			// aapt resource value: 0x7f070021
 			public const int never = 2131165217;
@@ -2590,6 +4411,9 @@ namespace App8
 			
 			// aapt resource value: 0x7f07000c
 			public const int normal = 2131165196;
+			
+			// aapt resource value: 0x7f070072
+			public const int notImportant = 2131165298;
 			
 			// aapt resource value: 0x7f070028
 			public const int parallax = 2131165224;
@@ -2603,8 +4427,8 @@ namespace App8
 			// aapt resource value: 0x7f07006b
 			public const int profilePicture = 2131165291;
 			
-			// aapt resource value: 0x7f070081
-			public const int progressBar1 = 2131165313;
+			// aapt resource value: 0x7f070082
+			public const int progressBar1 = 2131165314;
 			
 			// aapt resource value: 0x7f070006
 			public const int progress_circular = 2131165190;
@@ -2614,6 +4438,9 @@ namespace App8
 			
 			// aapt resource value: 0x7f070054
 			public const int radio = 2131165268;
+			
+			// aapt resource value: 0x7f070085
+			public const int radioButton1 = 2131165317;
 			
 			// aapt resource value: 0x7f070030
 			public const int right = 2131165232;
@@ -2681,11 +4508,11 @@ namespace App8
 			// aapt resource value: 0x7f070013
 			public const int showTitle = 2131165203;
 			
-			// aapt resource value: 0x7f070075
-			public const int snackbar_action = 2131165301;
+			// aapt resource value: 0x7f070077
+			public const int snackbar_action = 2131165303;
 			
-			// aapt resource value: 0x7f070074
-			public const int snackbar_text = 2131165300;
+			// aapt resource value: 0x7f070076
+			public const int snackbar_text = 2131165302;
 			
 			// aapt resource value: 0x7f070027
 			public const int snap = 2131165223;
@@ -2708,8 +4535,8 @@ namespace App8
 			// aapt resource value: 0x7f070031
 			public const int start = 2131165233;
 			
-			// aapt resource value: 0x7f0700b0
-			public const int status_bar_latest_event_content = 2131165360;
+			// aapt resource value: 0x7f0700bb
+			public const int status_bar_latest_event_content = 2131165371;
 			
 			// aapt resource value: 0x7f070065
 			public const int submit_area = 2131165285;
@@ -2717,32 +4544,32 @@ namespace App8
 			// aapt resource value: 0x7f07000d
 			public const int tabMode = 2131165197;
 			
-			// aapt resource value: 0x7f0700b8
-			public const int text = 2131165368;
+			// aapt resource value: 0x7f0700c3
+			public const int text = 2131165379;
 			
-			// aapt resource value: 0x7f0700b6
-			public const int text2 = 2131165366;
+			// aapt resource value: 0x7f0700c1
+			public const int text2 = 2131165377;
 			
 			// aapt resource value: 0x7f07006c
 			public const int textBusiness = 2131165292;
 			
-			// aapt resource value: 0x7f070071
-			public const int textCategory = 2131165297;
+			// aapt resource value: 0x7f070073
+			public const int textCategory = 2131165299;
 			
 			// aapt resource value: 0x7f07004d
 			public const int textSpacerNoButtons = 2131165261;
 			
-			// aapt resource value: 0x7f070084
-			public const int textView1 = 2131165316;
+			// aapt resource value: 0x7f070087
+			public const int textView1 = 2131165319;
 			
-			// aapt resource value: 0x7f07008f
-			public const int textView3 = 2131165327;
+			// aapt resource value: 0x7f070098
+			public const int textView3 = 2131165336;
 			
-			// aapt resource value: 0x7f070090
-			public const int textView5 = 2131165328;
+			// aapt resource value: 0x7f070099
+			public const int textView5 = 2131165337;
 			
-			// aapt resource value: 0x7f0700b4
-			public const int time = 2131165364;
+			// aapt resource value: 0x7f0700bf
+			public const int time = 2131165375;
 			
 			// aapt resource value: 0x7f070043
 			public const int title = 2131165251;
@@ -2756,41 +4583,47 @@ namespace App8
 			// aapt resource value: 0x7f070047
 			public const int topPanel = 2131165255;
 			
-			// aapt resource value: 0x7f070072
-			public const int touch_outside = 2131165298;
+			// aapt resource value: 0x7f070074
+			public const int touch_outside = 2131165300;
 			
-			// aapt resource value: 0x7f070086
-			public const int txtCreateAccount = 2131165318;
+			// aapt resource value: 0x7f07008f
+			public const int txtCreateAccount = 2131165327;
 			
-			// aapt resource value: 0x7f07007b
-			public const int txtDescription = 2131165307;
+			// aapt resource value: 0x7f07007d
+			public const int txtDescription = 2131165309;
 			
-			// aapt resource value: 0x7f07008b
-			public const int txtEmail = 2131165323;
+			// aapt resource value: 0x7f070094
+			public const int txtEmail = 2131165332;
+			
+			// aapt resource value: 0x7f070084
+			public const int txtInCart = 2131165316;
 			
 			// aapt resource value: 0x7f07006e
 			public const int txtName = 2131165294;
 			
-			// aapt resource value: 0x7f070088
-			public const int txtOr = 2131165320;
+			// aapt resource value: 0x7f070091
+			public const int txtOr = 2131165329;
 			
-			// aapt resource value: 0x7f07008c
-			public const int txtPassword = 2131165324;
+			// aapt resource value: 0x7f070095
+			public const int txtPassword = 2131165333;
 			
-			// aapt resource value: 0x7f07008d
-			public const int txtPassword2 = 2131165325;
+			// aapt resource value: 0x7f070096
+			public const int txtPassword2 = 2131165334;
 			
-			// aapt resource value: 0x7f070094
-			public const int txtPasswordSignIn = 2131165332;
-			
-			// aapt resource value: 0x7f070070
-			public const int txtPrice = 2131165296;
+			// aapt resource value: 0x7f07009f
+			public const int txtPasswordSignIn = 2131165343;
 			
 			// aapt resource value: 0x7f07006f
-			public const int txtQuantity = 2131165295;
+			public const int txtPrice = 2131165295;
+			
+			// aapt resource value: 0x7f07009a
+			public const int txtQuantity = 2131165338;
 			
 			// aapt resource value: 0x7f07008a
-			public const int txtUserName = 2131165322;
+			public const int txtTotalPrice = 2131165322;
+			
+			// aapt resource value: 0x7f070093
+			public const int txtUserName = 2131165331;
 			
 			// aapt resource value: 0x7f070009
 			public const int up = 2131165193;
@@ -2798,14 +4631,14 @@ namespace App8
 			// aapt resource value: 0x7f070014
 			public const int useLogo = 2131165204;
 			
-			// aapt resource value: 0x7f070082
-			public const int viewCategories = 2131165314;
+			// aapt resource value: 0x7f07008c
+			public const int viewCategories = 2131165324;
 			
 			// aapt resource value: 0x7f07000a
 			public const int view_offset_helper = 2131165194;
 			
-			// aapt resource value: 0x7f0700a6
-			public const int volume_item_container = 2131165350;
+			// aapt resource value: 0x7f0700b1
+			public const int volume_item_container = 2131165361;
 			
 			// aapt resource value: 0x7f070022
 			public const int withText = 2131165218;
@@ -3108,11 +4941,11 @@ namespace App8
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f080027
-			public const int ApplicationName = 2131230759;
+			// aapt resource value: 0x7f080028
+			public const int ApplicationName = 2131230760;
 			
-			// aapt resource value: 0x7f080026
-			public const int Hello = 2131230758;
+			// aapt resource value: 0x7f080027
+			public const int Hello = 2131230759;
 			
 			// aapt resource value: 0x7f08000f
 			public const int abc_action_bar_home_description = 2131230735;
@@ -3179,6 +5012,9 @@ namespace App8
 			
 			// aapt resource value: 0x7f080025
 			public const int character_counter_pattern = 2131230757;
+			
+			// aapt resource value: 0x7f080026
+			public const int library_name = 2131230758;
 			
 			// aapt resource value: 0x7f080000
 			public const int mr_button_content_description = 2131230720;

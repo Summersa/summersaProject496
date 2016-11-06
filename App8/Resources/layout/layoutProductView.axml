@@ -3,71 +3,143 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:weightSum="100"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:isScrollContainer="true"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:fadeScrollbars="true"
+    android:background="#DDDDDD">
     <ImageButton
         android:src="@android:drawable/ic_menu_gallery"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="50"
-        android:id="@+id/image" />
-    <TextView
-        android:text="Description:"
+        android:layout_weight="45"
+        android:id="@+id/image"
+        android:scaleType="fitXY" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:weightSum="50"
+        android:layout_weight="45"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="5"
-        android:id="@+id/textView1" />
-    <TextView
-        android:text="Description Text"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="5"
-        android:id="@+id/txtDescription" />
-    <TextView
-        android:text="Price:"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="5"
-        android:id="@+id/textView3" />
-    <TextView
-        android:text="Price Text"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="5"
-        android:id="@+id/txtPrice" />
-    <TextView
-        android:text="Quantity:"
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:layout_weight="5"
-        android:id="@+id/textView5" />
+        android:background="#FFFFFF"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="5dp">
+        <TextView
+            android:text="Description:"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:id="@+id/textView1"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="#000000" />
+        <TextView
+            android:text="Description Text"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="20"
+            android:id="@+id/txtDescription"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:weightSum="100"
+            android:id="@+id/linearLayout1">
+            <TextView
+                android:text="Price:"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="15"
+                android:id="@+id/textView3"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+            <TextView
+                android:text="Price Text"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="95"
+                android:id="@+id/txtPrice"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:paddingTop="5dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:weightSum="100"
+            android:id="@+id/linearLayout2">
+            <TextView
+                android:text="Quantity:"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="25"
+                android:id="@+id/textView5"
+                android:layout_gravity="bottom"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:paddingTop="12dp" />
+            <EditText
+                android:inputType="numberSigned"
+                android:text="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="25"
+                android:id="@+id/txtQuantity"
+                android:textColor="#000000" />
+            <Button
+                android:text="-"
+                android:textSize="25sp"
+                android:layout_width="0dp"
+                android:layout_weight="12"
+                android:layout_height="match_parent"
+                android:scaleY="1"
+                android:scaleX="1"
+                android:id="@+id/button1" />
+            <Button
+                android:text="+"
+                android:textSize="25sp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="12"
+                android:id="@+id/button2"
+                android:scaleY="1"
+                android:scaleX="1" />
+        </LinearLayout>
+    </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="15"
-        android:id="@+id/linearLayout1">
-        <Button
-            android:text="-"
-            android:textSize="25sp"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:id="@+id/button1" />
-        <EditText
-            android:inputType="numberSigned"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:id="@+id/editText1" />
-        <Button
-            android:text="+"
-            android:textSize="25sp"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:id="@+id/button2" />
-    </LinearLayout>
-    <Button
-        android:text="Add to Cart"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
         android:layout_weight="10"
-        android:id="@+id/btnAddToCart" />
+        android:weightSum="100"
+        android:id="@+id/linearLayout3">
+        <Button
+            android:text="Add to Cart"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="45"
+            android:background="@drawable/ButtonSignInStyle"
+            android:id="@+id/btnAddToCart"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp" />
+        <Button
+            android:text="Proceed to Cart"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/ButtonSignInStyle"
+            android:layout_weight="45"
+            android:id="@+id/button3"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp" />
+    </LinearLayout>
 </LinearLayout>

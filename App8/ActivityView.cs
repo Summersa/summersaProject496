@@ -23,6 +23,7 @@ namespace App8
         private TextView gtxtDescription;
         private TextView gtxtPrice;
         private Product product;
+        private EditText gQuantity;
         private Button gAddToCart;
         private string businessName;
         public static readonly int PickImageId = 1000;
@@ -47,14 +48,16 @@ namespace App8
             topbar = new ActionBarHelper(this, user);
             topbar.Start();
             ActionBarHelper.GetPicture(this, topbar.GetUser());
-
+            gQuantity = FindViewById<EditText>(Resource.Id.txtQuantity);
             gAddToCart.Click += Click_AddToCart;
             
 
         }
 
-        private void Click_AddToCart(object sender, EventArgs e)
+        private async void Click_AddToCart(object sender, EventArgs e)
         {
+            Cart item = new Cart { userId = topbar.GetUser().Id, Name = product.Name, Price = product.price, Quantity = gQuantity.Text };
+            await MobileService.GetTable<Cart>().InsertAsync(item);
             var intent = new Intent(this, typeof(ActivityCart));
             intent.PutExtra("businessName", businessName);
             intent.PutExtra("user", JsonConvert.SerializeObject(topbar.GetUser()));

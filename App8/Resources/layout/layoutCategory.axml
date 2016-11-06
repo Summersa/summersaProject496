@@ -3,22 +3,24 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:weightSum="100"
+    android:background="#DDDDDD"
     android:layout_height="fill_parent">
     <ListView
         android:layout_width="fill_parent"
         android:layout_height="0dp"
-        android:layout_weight="95"
-        android:background="@drawable/ListViewHighlight"
+        android:layout_weight="100"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="8dp"
         android:id="@+id/viewCategories" />
     <LinearLayout xmlns:tools="http://schemas.android.com/tools"
         android:orientation="horizontal"
-        android:minWidth="25px"
-        android:minHeight="25px"
+        android:background="#7CFC0055"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="5"
         android:weightSum="100"
-        android:visibility="gone"
         android:id="@+id/linearLayout10">
         <TextView
             android:text=""

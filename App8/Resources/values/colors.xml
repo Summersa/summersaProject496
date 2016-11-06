@@ -4,4 +4,5 @@
   <color name="listitem_default_color">#A0A0A0</color>
   <color name="listitem_pressed_color">#808080</color>
   <color name="listitem_focused_color">#808080</color>
+  <color name="standardBackground">#FFFFFF</color>
 </resources>

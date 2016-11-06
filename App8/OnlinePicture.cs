@@ -37,18 +37,19 @@ namespace App8
 
             // Create the blob client.
             CloudBlobClient blobClient = storageAccount.CreateCloudBlobClient();
-
+            //Console.WriteLine("4444444444444444");
             // Retrieve reference to a previously created container.
             CloudBlobContainer container = blobClient.GetContainerReference(containerName);
 
             await container.CreateIfNotExistsAsync();
 
             CloudBlockBlob blockBlob = container.GetBlockBlobReference(referenceName);
-
+            //Console.WriteLine("55555555555555");
             using (var fileStream = System.IO.File.OpenRead(GetRealPathFromURI(act,filePath)))
              {
                await blockBlob.UploadFromStreamAsync(fileStream);
             }
+            //Console.WriteLine("6666666666666666");
         }
         public static Bitmap Stream(String url)
         {

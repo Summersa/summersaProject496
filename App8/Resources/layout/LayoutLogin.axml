@@ -12,15 +12,16 @@
         android:layout_width="match_parent"
         android:layout_weight="20"
         android:layout_height="0dp"
-        android:textColor="#368DEB"
+        android:textColor="#000000"
         android:id="@+id/txtCreateAccount"
         android:textStyle="bold"
-        android:textSize="25sp"
-        android:gravity="center" />
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_marginBottom="125dp" />
     <Button
         android:text="Sign In"
         android:layout_width="match_parent"
-        android:layout_weight="15"
+        android:layout_weight="25"
         android:layout_height="0dp"
         android:id="@+id/btnSignIn1"
         android:textSize="25sp"
@@ -34,18 +35,22 @@
         android:layout_weight="15"
         android:textColor="#000000"
         android:id="@+id/txtOr"
-        android:gravity="center" />
+        android:gravity="center"
+        android:layout_marginTop="25dp"
+        android:textSize="25sp"
+        android:textStyle="normal" />
     <Button
         android:text="Sign Up With Email"
         android:layout_width="match_parent"
-        android:layout_weight="15"
+        android:layout_weight="25"
         android:layout_height="0dp"
         android:id="@+id/btnSignUp1"
-        android:background="@drawable/ButtonSignUpStyle"
+        android:background="@drawable/ButtonSignInStyle"
         android:textSize="25sp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:requiresFadingEdge="none" />
+        android:requiresFadingEdge="none"
+        android:layout_marginTop="25dp" />
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"

@@ -13,6 +13,7 @@ using System.Threading.Tasks;
 using Microsoft.WindowsAzure.MobileServices;
 using Android;
 using System.ComponentModel;
+using Newtonsoft.Json;
 
 namespace App8
 {
@@ -38,14 +39,22 @@ namespace App8
             act.ActionBar.SetCustomView(Resource.Layout.actionBar);
             act.ActionBar.SetDisplayShowCustomEnabled(true);
             ImageButton bt = (ImageButton)act.FindViewById(Resource.Id.profilePicture);
+            ImageButton cartClick = (ImageButton)act.FindViewById(Resource.Id.btnCart);
+
             bt.Click += delegate {
                 FragmentTransaction transaction = act.FragmentManager.BeginTransaction();
                 dialogProfile profileOptions = new dialogProfile();
                 profileOptions.GetUser(user);
                 profileOptions.Show(transaction, "dialog fragment");
-                //Console.WriteLine("String to compare!!!!!!!!!");
-                //Toast.MakeText(activity, "Touched Image", ToastLength.Long).Show();
             };
+            cartClick.Click += delegate
+            {
+                var intent = new Intent(act, typeof(ActivityCart));
+                intent.PutExtra("businessName", "Windsor Plywood");
+                intent.PutExtra("user", JsonConvert.SerializeObject(user));
+                act.StartActivity(intent);
+            };
+
         }
 
         public Users GetUser()
@@ -60,7 +69,11 @@ namespace App8
         {
 
            ImageButton profileImage = (ImageButton)activity.FindViewById(Resource.Id.profilePicture);
-           profileImage.SetImageBitmap(OnlinePicture.Stream(String.Format("https://storagedatabase666.blob.core.windows.net/profilepictures/{0}", user.username)));
+            try
+            {
+                profileImage.SetImageBitmap(OnlinePicture.Stream(String.Format("https://storagedatabase666.blob.core.windows.net/profilepictures/{0}", user.username)));
+            }
+            catch{}
         }
     }
 }

@@ -13,6 +13,7 @@ using Microsoft.WindowsAzure.MobileServices;
 
 namespace App8
 {
+    [Activity(WindowSoftInputMode = Android.Views.SoftInput.StateHidden)]
     class OnSignInEvent : EventArgs
     {
         private string gEmail;
