@@ -12,7 +12,7 @@
     android:focusableInTouchMode="true"
     android:paddingTop="50dp"
     android:paddingBottom="50dp"
-    android:background="#888888">
+    android:background="#D1C9D1">
     <EditText
         android:inputType="textPersonName"
         android:layout_width="match_parent"
@@ -68,6 +68,7 @@
     <RelativeLayout
         android:layout_below="@id/txtPassword2"
         android:layout_marginTop="50dp"
+        android:id="@+id/relative2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
         <Button

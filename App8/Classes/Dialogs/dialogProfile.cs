@@ -9,27 +9,37 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using Newtonsoft.Json;
 
 namespace App8
 {
     class dialogProfile : DialogFragment
     {
-        private Button changePicture;
+        private Button changePicture, gcheckOrders;
         public static readonly int PickImageId = 1000;
         private Users user;
         
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
+            
+            //RequestWindowFeature(WindowFeatures.NoTitle);
             base.OnCreateView(inflater, container, savedInstanceState);
             var view = inflater.Inflate(Resource.Layout.fragmentProfile, container, false);
             changePicture = view.FindViewById<Button>(Resource.Id.changePicture);
-
-
+            gcheckOrders = view.FindViewById<Button>(Resource.Id.checkOrders);
+            gcheckOrders.Click += CheckOrders;
             changePicture.Click += ChangePictureClick;
 
             return view;
             // return base.OnCreateView(inflater, container, savedInstanceState);
+        }
+
+        private void CheckOrders(object sender, EventArgs e)
+        {
+            var intent = new Intent(Activity, typeof(ActivityOrder));
+            intent.PutExtra("user", JsonConvert.SerializeObject(user));
+            StartActivity(intent);
         }
 
         private void ChangePictureClick(object sender, EventArgs e)
@@ -55,7 +65,7 @@ namespace App8
 
                 String containerName = "profilepictures";
 
-                String referenceName = "dan";
+                String referenceName = user.username;
 
                 //await OnlinePicture.Upload(this,data.Data, Replace("  ", string.empty); businessNameI,newCategoryNameI);
                 await OnlinePicture.Upload(Activity, data.Data, containerName, referenceName);

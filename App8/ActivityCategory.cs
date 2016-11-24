@@ -48,13 +48,13 @@ namespace App8
             productCategoryAdapter adapter = new productCategoryAdapter(this, items, businessName);
             view.Adapter = adapter;
             view.ItemClick += listView_ItemClick;
-            if (user.role == businessName)
+         /*   if (user.role == businessName)
             {
 
                 view.LayoutParameters = new LinearLayout.LayoutParams(LayoutParams.WrapContent, 0, 95f);
  
             }
-
+            */
         }
 
         private void listView_ItemClick(object sender, AdapterView.ItemClickEventArgs e)

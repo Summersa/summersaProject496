@@ -12,7 +12,6 @@ using Android.Widget;
 
 namespace App8
 {
-    [Activity(WindowSoftInputMode = Android.Views.SoftInput.StateHidden)]
     class OnSignUpEvent : EventArgs
     {
         private string gUserName;

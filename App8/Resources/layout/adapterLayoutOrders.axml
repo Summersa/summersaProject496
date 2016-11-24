@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:layout_height="fill_parent"
+    android:weightSum="100"
+    android:background="#ffffff">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="25"
+        android:weightSum="100"
+        android:background="#ffffff"
+        android:layout_marginBottom="5dp">
+        <TextView
+            android:text="Username"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="15"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textUser"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:gravity="center" />
+        <TextView
+            android:text="ORDER #1"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="60"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textOrders"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:gravity="center" />
+        <TextView
+            android:text="Phone"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textPhone"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:gravity="center" />
+        <TextView
+            android:text="Address"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textAddress"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:gravity="center" />
+    </LinearLayout>
+</LinearLayout>

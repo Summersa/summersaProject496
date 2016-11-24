@@ -13,7 +13,6 @@ using Microsoft.WindowsAzure.MobileServices;
 
 namespace App8
 {
-    [Activity(WindowSoftInputMode = Android.Views.SoftInput.StateHidden)]
     class OnSignInEvent : EventArgs
     {
         private string gEmail;
@@ -40,7 +39,6 @@ namespace App8
     }
         class dialogSignIn : DialogFragment
     {
-       
         //public IMobileServiceTable<Users> userTable = MobileService.GetTable<Users>();
         private EditText gTxtEmail;
         private EditText gTxtPassword;

@@ -9,7 +9,10 @@
     android:paddingRight="20dp"
     android:focusable="false"
     android:paddingBottom="50dp"
-    android:paddingTop="50dp">
+    android:paddingTop="50dp"
+    android:background="#D1C9D1"
+    android:focusableInTouchMode="false"
+    android:descendantFocusability="beforeDescendants">
     <EditText
         android:inputType="textEmailAddress"
         android:layout_width="match_parent"
@@ -18,7 +21,11 @@
         android:layout_marginTop="50dp"
         android:hint="Email"
         android:paddingLeft="10dp"
-        android:id="@+id/txtEmail" />
+        android:id="@+id/txtEmail"
+        android:textColor="#000000"
+        android:textColorHint="#222222"
+        android:textColorHighlight="#222222"
+        android:background="@drawable/standardEditText" />
     <EditText
         android:inputType="textPassword"
         android:layout_below="@id/txtEmail"
@@ -28,7 +35,11 @@
         android:layout_marginTop="10dp"
         android:paddingLeft="10dp"
         android:hint="Password"
-        android:id="@+id/txtPasswordSignIn" />
+        android:id="@+id/txtPasswordSignIn"
+        android:textColor="#000000"
+        android:textColorHighlight="#222222"
+        android:textColorHint="#222222"
+        android:background="@drawable/standardEditText" />
     <RelativeLayout
         android:layout_below="@id/txtPasswordSignIn"
         android:layout_marginTop="50dp"
@@ -38,6 +49,7 @@
             android:text="Sign Up"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/btnSignUp" />
+            android:id="@+id/btnSignUp"
+            android:background="@drawable/ButtonSignInStyle" />
     </RelativeLayout>
 </RelativeLayout>

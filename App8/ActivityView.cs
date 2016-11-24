@@ -24,7 +24,7 @@ namespace App8
         private TextView gtxtPrice;
         private Product product;
         private EditText gQuantity;
-        private Button gAddToCart;
+        private Button gAddToCart, gProceedToCart;
         private string businessName;
         public static readonly int PickImageId = 1000;
 
@@ -36,6 +36,7 @@ namespace App8
             gtxtDescription = FindViewById<TextView>(Resource.Id.txtDescription);
             gtxtPrice = FindViewById<TextView>(Resource.Id.txtPrice);
             gAddToCart = FindViewById<Button>(Resource.Id.btnAddToCart);
+            gProceedToCart = FindViewById<Button>(Resource.Id.btnProceedToCart);
             string txtproduct = Intent.GetStringExtra("product").ToString();
             IMobileServiceTableQuery<Product> query = productTable.Where(Product => Product.Name == txtproduct).Take(1);
             List<Product> items = await query.ToListAsync();
@@ -50,18 +51,39 @@ namespace App8
             ActionBarHelper.GetPicture(this, topbar.GetUser());
             gQuantity = FindViewById<EditText>(Resource.Id.txtQuantity);
             gAddToCart.Click += Click_AddToCart;
-            
+            gProceedToCart.Click += Click_ProceedToCart;
+            Button btnMinus = FindViewById<Button>(Resource.Id.buttonMinus);
+            Button btnPlus = FindViewById<Button>(Resource.Id.buttonPlus);
+            btnMinus.Click += minus_click;
+            btnPlus.Click += plus_click;
+        }
 
+        private void plus_click(object sender, EventArgs e)
+        {
+            gQuantity.Text = (Convert.ToInt32(gQuantity.Text) + 1).ToString();
+        }
+
+        private void minus_click(object sender, EventArgs e)
+        {
+            if(Convert.ToInt32(gQuantity.Text)>1)
+                gQuantity.Text = (Convert.ToInt32(gQuantity.Text) - 1).ToString();
+        }
+        private async void Click_ProceedToCart(object sender, EventArgs e)
+        {
+            Cart item = new Cart { userId = topbar.GetUser().Id, Name = product.Name, Price = product.price, Quantity = gQuantity.Text };
+            await MobileService.GetTable<Cart>().InsertAsync(item);
+            var intent = new Intent(this, typeof(ActivityCart));
+            topbar.CartImg();
+            intent.PutExtra("businessName", businessName);
+            intent.PutExtra("user", JsonConvert.SerializeObject(topbar.GetUser()));
+            StartActivity(intent);
         }
 
         private async void Click_AddToCart(object sender, EventArgs e)
         {
             Cart item = new Cart { userId = topbar.GetUser().Id, Name = product.Name, Price = product.price, Quantity = gQuantity.Text };
             await MobileService.GetTable<Cart>().InsertAsync(item);
-            var intent = new Intent(this, typeof(ActivityCart));
-            intent.PutExtra("businessName", businessName);
-            intent.PutExtra("user", JsonConvert.SerializeObject(topbar.GetUser()));
-            StartActivity(intent);
+            topbar.CartImgPlus();
         }
     }
 }

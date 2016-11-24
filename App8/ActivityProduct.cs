@@ -28,7 +28,7 @@ namespace App8
         private ImageButton gAddCategory;
         List<Product> items;
         public static readonly int PickImageId = 1000;
-        
+
         protected override async void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
@@ -53,14 +53,13 @@ namespace App8
             productAdapter adapter = new productAdapter(this, items, businessName);
             view.Adapter = adapter;
             view.ItemClick += listView_ItemClick;
-            if (user.role == businessName)
+           /* if (user.role == businessName)
             {
                 LinearLayout.LayoutParams size1 = new LinearLayout.LayoutParams(LayoutParams.WrapContent, 0);
                 size1.Weight = 95f;
                 view.LayoutParameters = size1;
-            }
+            }*/
         }
-
         private void listView_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
         {
             var intent = new Intent(this, typeof(ActivityView));

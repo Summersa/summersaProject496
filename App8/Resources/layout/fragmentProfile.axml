@@ -3,29 +3,27 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:weightSum="100"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content"
+    android:background="#D1C9D1">
     <Button
         android:text="Change Profile Picture"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="25"
-        android:id="@+id/changePicture" />
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_weight="25"
-        android:layout_height="0dp"
-        android:id="@+id/linearLayout1" />
+        android:layout_height="80dp"
+        android:layout_weight="0"
+        android:id="@+id/changePicture"
+        android:background="@drawable/ButtonSignInStyle"
+        android:layout_marginTop="160dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
     <Button
-        android:text="Button"
+        android:text="Check Orders"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="25"
-        android:id="@+id/button2" />
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="25"
-        android:id="@+id/linearLayout2" />
+        android:layout_height="80dp"
+        android:layout_weight="0"
+        android:id="@+id/checkOrders"
+        android:background="@drawable/ButtonSignInStyle"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="181dp" />
 </LinearLayout>

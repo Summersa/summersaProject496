@@ -2,6 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 
 using Android.App;
 using Android.Content;
@@ -12,21 +16,31 @@ using Android.Widget;
 
 namespace App8
 {
-    class cartAdapter : BaseAdapter<Cart>
+    class orderItemsAdapter : BaseAdapter<string>
     {
-        private List<Cart> mItems;
+        private string[] mItems,mItems2,mItems3;
         private Context mContext;
         private string gbusinessName;
 
-        public cartAdapter (Context context, List<Cart> items, string businessName)
+        public override int Count
         {
-            mItems = items;
-            mContext = context;
-            gbusinessName = businessName;
-    
+            get
+            {
+                return mItems.Length;
+            }
         }
 
-        public override Cart this[int position]
+        public orderItemsAdapter(Context context, string[] items, string[] quantities, string[] prices, string businessName)
+        {
+            mItems = items;
+            mItems2 = quantities;
+            mItems3 = prices;
+            mContext = context;
+            gbusinessName = businessName;
+
+        }
+
+        public override string this[int position]
         {
             get
             {
@@ -34,18 +48,7 @@ namespace App8
             }
         }
 
-        public override int Count
-        {
-            get
-            {
-                try
-                { return mItems.Count; }
-                catch
-                { 
-                    return 0;
-                }
-            }
-        }
+     
 
         public override long GetItemId(int position)
         {
@@ -57,21 +60,22 @@ namespace App8
             View row = convertView;
             if(row == null)
             {
-                row = LayoutInflater.From(mContext).Inflate(Resource.Layout.adapterLayoutCart,null,false);
+                row = LayoutInflater.From(mContext).Inflate(Resource.Layout.adapterLayoutOrderItems,null,false);
             }
             TextView textViewName = row.FindViewById<TextView>(Resource.Id.txtName);
-            textViewName.Text = mItems[position].Name;
+            textViewName.Text = mItems[position];
             TextView textViewPrice = row.FindViewById<TextView>(Resource.Id.txtPrice);
-            textViewPrice.Text = "CAD$ "+ mItems[position].Price;
+            textViewPrice.Text = "CAD$ " + mItems3[position];
             Button btnViewQuantity = row.FindViewById<Button>(Resource.Id.btnQuantity);
-            btnViewQuantity.Text = mItems[position].Quantity;
+            btnViewQuantity.Text = mItems2[position];
             ImageView imageView = row.FindViewById<ImageView>(Resource.Id.imageView1);
             gbusinessName = gbusinessName.Replace(" ", "").ToLower();
-            String resource = mItems[position].Name.Replace(" ", "");
+            String resource = mItems[position].Replace(" ", "");
             //textView.bit = mItems[position].Name;
             //var imageBitmap = OnlinePicture.Stream(String.Format("https://storagedatabase666.blob.core.windows.net/{0}/{1}",mItems[position].Business, mItems[position].Name));
-            imageView.SetImageBitmap(OnlinePicture.Stream(String.Format("https://storagedatabase666.blob.core.windows.net/{0}/product{1}", gbusinessName,resource)));//business name = {0}, 
+            imageView.SetImageBitmap(OnlinePicture.Stream(String.Format("https://storagedatabase666.blob.core.windows.net/{0}/product{1}", gbusinessName, resource)));//business name = {0}, 
             return row;
         }
+        
     }
 }

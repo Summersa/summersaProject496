@@ -23,11 +23,12 @@ namespace App8
         public static MobileServiceClient MobileService = new MobileServiceClient("https://mobileappdatabase666.azurewebsites.net");
         private IMobileServiceTable<Cart> cartTable = MobileService.GetTable<Cart>();
         private ListView view;
-        private String businessName, newCategoryName;
+        private String businessName, newCategoryName, products, prices, quantities;
         private ActionBarHelper topbar;
         private ImageButton gAddCategory;
         private Button gBtnPurchase;
         private TextView gTxtTotalPrice, gtxtInCart;
+        private EditText gTxtAddress, gTxtPhone;
         private RadioButton gdeliveryCheckbox;
         private Double finalPrice;
         private int check;
@@ -48,6 +49,7 @@ namespace App8
             user = JsonConvert.DeserializeObject<Users>(Intent.GetStringExtra("user"));
             topbar = new ActionBarHelper(this, user);
             topbar.Start();
+            topbar.CartImg();
             ActionBarHelper.GetPicture(this, topbar.GetUser());
 
             IMobileServiceTableQuery<Cart> query = cartTable.Where(Cart => Cart.userId == user.Id);
@@ -59,6 +61,9 @@ namespace App8
             int count = 0;
             foreach (Cart item in items)
             {
+                products += item.Name + ".";
+                prices += item.Price + ".";
+                quantities += item.Quantity + ".";
                 finalPrice += (Convert.ToDouble(item.Price) * Convert.ToDouble(item.Quantity));
                 count++;
             }
@@ -75,7 +80,7 @@ namespace App8
                 //If you want to accept credit cards
                 AcceptCreditCards = true,
                 //Your business name
-                MerchantName = "Test Store",
+                MerchantName = "DanteVFenris Games",
                 //Your privacy policy Url
                 MerchantPrivacyPolicyUri = "https://www.example.com/privacy",
                 //Your user agreement Url
@@ -119,6 +124,8 @@ namespace App8
 
         private async void GBtnPurchase_Click(object sender, EventArgs e)
         {
+            if (items.Count == 0)
+                return;
             var result = await CrossPayPalManager.Current.Buy(new PayPalItem("Test Product", Convert.ToDecimal(finalPrice), "CAD"), new Decimal(0));
             if (result.Status == PayPalStatus.Cancelled)
             {
@@ -130,13 +137,34 @@ namespace App8
             }
             else if (result.Status == PayPalStatus.Successful)
             {
+                Console.WriteLine("PURCHASE ACCEPTED");
                 Console.WriteLine(result.ServerResponse.Response.Id);
                 IMobileServiceTableQuery<Cart> query = cartTable.Where(Cart => Cart.userId == user.Id);
                 items = await query.ToListAsync();
-                foreach(Cart item in items)
+                foreach (Cart item in items)
+                {
                     await cartTable.DeleteAsync(item);
-                items = null;
+
+                }
+
+                items.Clear();
                 cartAdapter adapter = new cartAdapter(this, items, businessName);
+                view.Adapter = adapter;
+                gtxtInCart.Text = "Items In Cart (" + "0" + ")";
+                gTxtTotalPrice.Text = "CDN$ " + "0.00";
+
+                if (gdeliveryCheckbox.Checked)
+                {
+                    Orders order = new Orders { userId = topbar.GetUser().Id, Phone = null, Address = null, Products = products, Prices = prices, Quantities = quantities, Completed = "1" };
+                    await MobileService.GetTable<Orders>().InsertAsync(order);
+                }
+                else
+                {
+                    gTxtAddress = FindViewById<EditText>(Resource.Id.editAddress);
+                    gTxtPhone = FindViewById<EditText>(Resource.Id.editPhone);
+                    Orders order = new Orders { userId = topbar.GetUser().Id, Phone = gTxtPhone.Text, Address = gTxtAddress.Text, Products = products, Prices = prices, Quantities = quantities, Completed = "1" };
+                    await MobileService.GetTable<Orders>().InsertAsync(order);
+                }
             }
         }
 

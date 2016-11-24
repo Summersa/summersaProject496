@@ -23,7 +23,7 @@ namespace App8
         private IMobileServiceTable<Users> userTable = MobileService.GetTable<Users>();
         private Activity act;
         private Users user;
-        
+        private ImageButton cartClick;
         public ActionBarHelper() { }
         public ActionBarHelper(Activity activity)
         {
@@ -39,7 +39,7 @@ namespace App8
             act.ActionBar.SetCustomView(Resource.Layout.actionBar);
             act.ActionBar.SetDisplayShowCustomEnabled(true);
             ImageButton bt = (ImageButton)act.FindViewById(Resource.Id.profilePicture);
-            ImageButton cartClick = (ImageButton)act.FindViewById(Resource.Id.btnCart);
+            cartClick = (ImageButton)act.FindViewById(Resource.Id.btnCart);
 
             bt.Click += delegate {
                 FragmentTransaction transaction = act.FragmentManager.BeginTransaction();
@@ -56,7 +56,14 @@ namespace App8
             };
 
         }
-
+        public void CartImgPlus()
+        {
+            cartClick.SetImageResource(Resource.Drawable.shoppingCartPlus);
+        }
+        public void CartImg()
+        {
+            cartClick.SetImageResource(Resource.Drawable.shoppingCart);
+        }
         public Users GetUser()
         {
             return user;

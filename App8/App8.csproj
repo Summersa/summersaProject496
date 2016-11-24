@@ -15,8 +15,8 @@
     <AndroidApplication>true</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
-    <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
-    <TargetFrameworkVersion>v7.0</TargetFrameworkVersion>
+    <AndroidUseLatestPlatformSdk>False</AndroidUseLatestPlatformSdk>
+    <TargetFrameworkVersion>v6.0</TargetFrameworkVersion>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
@@ -69,6 +69,14 @@
       <HintPath>..\packages\Microsoft.Data.Services.Client.5.6.4\lib\portable-net45+wp8+win8+wpa\Microsoft.Data.Services.Client.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Microsoft.Threading.Tasks, Version=1.0.12.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.Async.1.0.16\lib\portable-net45+win8\Microsoft.Threading.Tasks.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Threading.Tasks.Extensions, Version=1.0.12.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.Async.1.0.16\lib\portable-net45+win8\Microsoft.Threading.Tasks.Extensions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.WindowsAzure.Mobile, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Azure.Mobile.Client.2.1.1\lib\monoandroid\Microsoft.WindowsAzure.Mobile.dll</HintPath>
       <Private>True</Private>
@@ -92,6 +100,14 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="PayPal.Forms.Abstractions, Version=1.0.6108.27287, Culture=neutral, PublicKeyToken=null" />
+    <Reference Include="SendGrid.SmtpApi, Version=1.1.3.0, Culture=neutral, PublicKeyToken=55aa52d3c3c0d2b2, processorArchitecture=MSIL">
+      <HintPath>..\packages\SendGrid.SmtpApi.1.1.3\lib\portable-net4+sl5+wp80+win8+wpa81\SendGrid.SmtpApi.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SendGridMail, Version=3.0.1.0, Culture=neutral, PublicKeyToken=2ae73662c35d80e4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Sendgrid.3.0.1\lib\SendGridMail.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.IO.Compression" />
@@ -170,15 +186,21 @@
   <ItemGroup>
     <Compile Include="ActivityBusiness.cs" />
     <Compile Include="ActivityCart.cs" />
+    <Compile Include="ActivityOrderItems.cs" />
+    <Compile Include="ActivityOrder.cs" />
     <Compile Include="ActivityProduct.cs" />
     <Compile Include="ActivityCategory.cs" />
     <Compile Include="ActionBarHelper.cs" />
     <Compile Include="ActivityView.cs" />
+    <Compile Include="Classes\Adapters\orderItemsAdapter.cs" />
+    <Compile Include="Classes\Adapters\orderAdapter.cs" />
     <Compile Include="Classes\Adapters\businessAdapter.cs" />
     <Compile Include="Classes\Adapters\productAdapter.cs" />
     <Compile Include="Classes\Adapters\cartAdapter.cs" />
+    <Compile Include="Classes\DatabaseClasses\Orders.cs" />
     <Compile Include="Classes\DatabaseClasses\Cart.cs" />
     <Compile Include="Classes\DatabaseClasses\Product.cs" />
+    <Compile Include="Classes\DatabaseClasses\Verificate.cs" />
     <Compile Include="Classes\Dialogs\dialogAddCategory.cs" />
     <Compile Include="Classes\Dialogs\dialogProfile.cs" />
     <Compile Include="Classes\Dialogs\dialogAddProduct.cs" />
@@ -239,6 +261,12 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\adapterLayoutCart.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\adapterLayoutOrders.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\adapterLayoutOrderItems.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
     <None Include="Scripts\jquery-1.12.4.min.map" />
@@ -351,6 +379,7 @@
     <AndroidResource Include="Resources\drawable\standardEditText.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
+    <AndroidResource Include="Resources\drawable\shoppingCartPlus.png" />
     <Content Include="Scripts\jquery-1.12.4.intellisense.js" />
     <Content Include="Scripts\jquery-1.12.4.js" />
     <Content Include="Scripts\jquery-1.12.4.min.js" />

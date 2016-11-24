@@ -12,14 +12,11 @@ using Android.Widget;
 
 namespace App8
 {
-    class Users
+    class Verificate
     {
         public string Id { get; set; }
-        public string username { get; set; }
+        public string verifyString { get; set; }
         public string email { get; set; }
-        public string password { get; set; }
-        public string role { get; set; }
-        public bool verified { get; set; }
 
     }
 }
