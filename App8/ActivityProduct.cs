@@ -43,6 +43,9 @@ namespace App8
             LinearLayout display = FindViewById<LinearLayout>(Resource.Id.linearLayout10);
             topbar = new ActionBarHelper(this, user);
             topbar.Start();
+            int subLength = 25;
+            if (categoryName.Length < 25) subLength = categoryName.Length;
+            topbar.textViewChange("Category > "+categoryName.Substring(0,subLength));
             ActionBarHelper.GetPicture(this, topbar.GetUser());
 
             IMobileServiceTableQuery<Product> query = categoreyTable.Where(Product => Product.productCategory == categoryName);

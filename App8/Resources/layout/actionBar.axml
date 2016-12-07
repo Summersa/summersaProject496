@@ -15,7 +15,19 @@
             android:layout_width="0dp"
             android:layout_weight="70"
             android:layout_height="match_parent"
-            android:id="@+id/linearLayout1" />
+            android:id="@+id/linearLayout1"
+            android:minWidth="25px"
+            android:minHeight="25px">
+            <TextView
+                android:text="Large Text"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textAction"
+                android:textSize="30dp"
+                android:paddingTop="18dp"
+                android:paddingLeft="10dp" />
+        </LinearLayout>
         <ImageButton
             android:src="@drawable/shoppingCart"
             android:layout_width="0dp"
@@ -27,9 +39,9 @@
             android:clickable="true"
             android:focusable="true"
             android:focusableInTouchMode="true"
-            android:scaleX="0.7"
-            android:scaleY="0.7"
-            android:layout_marginRight="10dp" />
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            android:layout_marginRight="0dp" />
         <ImageButton
             android:src="@android:drawable/ic_menu_gallery"
             android:layout_width="0dp"
@@ -41,8 +53,8 @@
             android:clickable="true"
             android:focusable="true"
             android:focusableInTouchMode="true"
-            android:scaleY="0.7"
-            android:scaleX="0.7"
-            android:layout_marginRight="10dp" />
+            android:scaleY="0.8"
+            android:scaleX="0.8"
+            android:layout_marginRight="5dp" />
     </LinearLayout>
 </LinearLayout>

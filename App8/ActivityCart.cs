@@ -14,6 +14,9 @@ using Newtonsoft.Json;
 using PayPal.Forms;
 using PayPal.Forms.Abstractions;
 using PayPal.Forms.Abstractions.Enum;
+using SendGrid;
+using System.Net.Mail;
+using System.Net;
 
 namespace App8
 {
@@ -50,8 +53,8 @@ namespace App8
             topbar = new ActionBarHelper(this, user);
             topbar.Start();
             topbar.CartImg();
+            topbar.textViewChange("Cart");
             ActionBarHelper.GetPicture(this, topbar.GetUser());
-
             IMobileServiceTableQuery<Cart> query = cartTable.Where(Cart => Cart.userId == user.Id);
             items = await query.ToListAsync(); 
             cartAdapter adapter = new cartAdapter(this, items, businessName);
@@ -61,9 +64,7 @@ namespace App8
             int count = 0;
             foreach (Cart item in items)
             {
-                products += item.Name + ".";
-                prices += item.Price + ".";
-                quantities += item.Quantity + ".";
+                
                 finalPrice += (Convert.ToDouble(item.Price) * Convert.ToDouble(item.Quantity));
                 count++;
             }
@@ -71,6 +72,7 @@ namespace App8
             gTxtTotalPrice.Text = "CDN$ "+ finalPrice.ToString();
             gBtnPurchase.Click += GBtnPurchase_Click;
             gdeliveryCheckbox.Click += deliveryBox_Click;
+          
             global::Xamarin.Forms.Forms.Init(this, bundle);
             CrossPayPalManager.Init(new PayPalConfiguration(
                                PayPalEnvironment.NoNetwork,
@@ -137,6 +139,11 @@ namespace App8
             }
             else if (result.Status == PayPalStatus.Successful)
             {
+                products = String.Join(".", items.Select(c => c.Name));
+                //products = String.Join('.', item.Name,1);
+                //products.Join(".", item.Name);
+                prices = String.Join(".", items.Select(c => c.Price));
+                quantities = String.Join(".", items.Select(c => c.Quantity));
                 Console.WriteLine("PURCHASE ACCEPTED");
                 Console.WriteLine(result.ServerResponse.Response.Id);
                 IMobileServiceTableQuery<Cart> query = cartTable.Where(Cart => Cart.userId == user.Id);
@@ -152,7 +159,17 @@ namespace App8
                 view.Adapter = adapter;
                 gtxtInCart.Text = "Items In Cart (" + "0" + ")";
                 gTxtTotalPrice.Text = "CDN$ " + "0.00";
+                int count = 0;
+                foreach (Cart item in items)
+                {
+                   
+                   // prices += item.Price + ".";
+                    //quantities += item.Quantity + ".";
+                    finalPrice += (Convert.ToDouble(item.Price) * Convert.ToDouble(item.Quantity));
+                    count++;
+                }
 
+                Console.WriteLine("ProductCheck{0}", products);
                 if (gdeliveryCheckbox.Checked)
                 {
                     Orders order = new Orders { userId = topbar.GetUser().Id, Phone = null, Address = null, Products = products, Prices = prices, Quantities = quantities, Completed = "1" };
@@ -165,6 +182,21 @@ namespace App8
                     Orders order = new Orders { userId = topbar.GetUser().Id, Phone = gTxtPhone.Text, Address = gTxtAddress.Text, Products = products, Prices = prices, Quantities = quantities, Completed = "1" };
                     await MobileService.GetTable<Orders>().InsertAsync(order);
                 }
+                SendGridMessage myMessage = new SendGridMessage();
+                myMessage.AddTo("summersa3@mailinator.com");
+                myMessage.From = new MailAddress("anthonytyran@hotmail.com", "Anthony Summers");
+                myMessage.Subject = "Verification Delivery App!!!";
+
+ 
+                myMessage.Text = "Hello thank you for your purchase of the windsor plywood app. Please go to the order section of the app for full details.";
+                // Create credentials, specifying your user name and password.
+                var credentials = new NetworkCredential("azure_d994d44538e7b536651c95092059223d@azure.com", "Bleach332!!");
+
+                // Create an Web transport for sending email.
+                var transportWeb = new Web(credentials);
+
+                // Send the email, which returns an awaitable task.
+                await transportWeb.DeliverAsync(myMessage);
             }
         }
 

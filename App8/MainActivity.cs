@@ -17,6 +17,7 @@ using static Android.App.ActionBar;
 using SendGrid;
 using System.Net.Mail;
 using System.Net;
+using Android.Views.InputMethods;
 /*EditText et = new EditText(this);
 AlertDialog.Builder ad = new AlertDialog.Builder(this);
 ad.SetTitle ("Type text");
@@ -94,7 +95,7 @@ namespace App8
                 return;
             }
             SendGridMessage myMessage = new SendGridMessage();
-            myMessage.AddTo("anthonytyran@hotmail.com");
+            myMessage.AddTo("summersa3@mailinator.com");
             myMessage.From = new MailAddress("anthonytyran@hotmail.com", "Anthony Summers");
             myMessage.Subject = "Verification Delivery App!!!";
 
@@ -130,44 +131,48 @@ namespace App8
                 Toast.MakeText(this, "Could Not Reach Database", ToastLength.Long).Show();
                 return;
             }
-            Console.WriteLine("String to compare: {0} {1}", items[0].password, e.Password);
-            try
-            {
-                if (items[0].password.Equals(e.Password, StringComparison.Ordinal)) ;
-            }
-            catch
+            if(items.Count == 0)
             {
                 Toast.MakeText(this, "Incorrect UserName or Password", ToastLength.Long).Show();
                 return;
             }
-            if (items[0].verified == false)
+            Console.WriteLine("String to compare: {0} {1}", items[0].password, e.Password);
+
+            if (items[0].password.Equals(e.Password, StringComparison.Ordinal))
             {
-                EditText et = new EditText(this);
-                AlertDialog.Builder ad = new AlertDialog.Builder(this);
-                ad.SetTitle("Email not Verified Type in Verified String");
-                ad.SetView(et); // <----
-                ad.SetPositiveButton("OK", async (s, ev) =>
+                /*catch
                 {
-                    IMobileServiceTableQuery<Verificate> v = verifyTable.Where(Verificate => Verificate.email == items[0].email).Take(1);
-                    List<Verificate> listV;
-                    listV = await v.ToListAsync();
-                    if(et.Text == listV[0].verifyString)
+                    Toast.MakeText(this, "Incorrect UserName or Password", ToastLength.Long).Show();
+                    return;
+                }*/
+                if (items[0].verified == false)
+                {
+                    EditText et = new EditText(this);
+                    AlertDialog.Builder ad = new AlertDialog.Builder(this);
+                    ad.SetTitle("Email not Verified Type in Verified String");
+                    ad.SetView(et); // <----
+                    ad.SetPositiveButton("OK", async (s, ev) =>
                     {
-                        items[0].verified = true;
-                        await MobileService.GetTable<Users>().UpdateAsync(items[0]);
-                        return;
-                    }
-                    else
-                    {
-                    
-                        ad.Dispose();
-                        return;
-                    }
-                });
-                ad.Show();
-                return;
-            }
-            else if (items.Count != 0 && items[0].password.Equals(e.Password, StringComparison.Ordinal)) // if you find a matching email and the password is correct
+                        IMobileServiceTableQuery<Verificate> v = verifyTable.Where(Verificate => Verificate.email == items[0].email).Take(1);
+                        List<Verificate> listV;
+                        listV = await v.ToListAsync();
+                        if (et.Text == listV[0].verifyString)
+                        {
+                            items[0].verified = true;
+                            await MobileService.GetTable<Users>().UpdateAsync(items[0]);
+                            return;
+                        }
+                        else
+                        {
+
+                            ad.Dispose();
+                            return;
+                        }
+                    });
+                    ad.Show();
+                    return;
+                }
+                else if (items.Count != 0 && items[0].password.Equals(e.Password, StringComparison.Ordinal)) // if you find a matching email and the password is correct
                 {
                     //Users us = new Users {username="dan", role = "user", Id = "1"};
 
@@ -176,9 +181,23 @@ namespace App8
                     Console.WriteLine("WE LOGGED IN FROM RETRIEVING USER FROM DATABASE");
                     StartActivity(intent);
                 }
-
+            }
+            else
+            {
+                //hideSoftKeyboard();
+                //Toast.MakeText(this, "Incorrect UserName or Password", ToastLength.Long).Show();
+                return;
+            }
+            //hideSoftKeyboard();
         }
-
+        public void hideSoftKeyboard()
+        {
+            InputMethodManager inputMethodManager =
+            (InputMethodManager)this.GetSystemService(
+                    Activity.InputMethodService);
+            inputMethodManager.HideSoftInputFromWindow(
+                this.CurrentFocus.WindowToken, 0);
+        }
     }
 }
 

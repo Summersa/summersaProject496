@@ -48,6 +48,9 @@ namespace App8
             gtxtPrice.Text = product.price;
             topbar = new ActionBarHelper(this, user);
             topbar.Start();
+            int subLength = 18;
+            if (txtproduct.Length < 18) subLength = txtproduct.Length;
+            topbar.textViewChange("C > P > " + txtproduct.Substring(0, subLength));
             ActionBarHelper.GetPicture(this, topbar.GetUser());
             gQuantity = FindViewById<EditText>(Resource.Id.txtQuantity);
             gAddToCart.Click += Click_AddToCart;

@@ -40,15 +40,23 @@ namespace App8
             LinearLayout display = FindViewById<LinearLayout>(Resource.Id.linearLayout10);
             topbar = new ActionBarHelper(this, user);
             topbar.Start();
+            topbar.textViewChange("Order Items");
             ActionBarHelper.GetPicture(this, topbar.GetUser());
+            Console.WriteLine("its still working");
             IMobileServiceTableQuery<Orders> query = orderTable.Where(Orders => Orders.Id == orderId);
 
             items = await query.ToListAsync();
+            //items[0].Products.TrimEnd('.');
             String[] products, quantities, prices;
-            products = items[0].Products.Split(',');
-            quantities = items[0].Quantities.Split(',');
-            prices = items[0].Prices.Split(',');
-
+            //Console.WriteLine("Produc{0}", items[0].Id);
+            Console.WriteLine("Products{0}", items[0].Products);
+            products = items[0].Products.Split('.');
+            quantities = items[0].Quantities.Split('.');
+            prices = items[0].Prices.Split('.');
+            
+            //products[products.Length] = null;
+            //quantities[products.Length-1] = null;
+            //prices[products.Length-1] = null;
             orderItemsAdapter adapter = new orderItemsAdapter(this, products,quantities, prices, businessName);
             view.Adapter = adapter;
             //IMobileServiceTableQuery<Orders> query = orderTable.Where(ProductCategory => ProductCategory.Business == businessName);

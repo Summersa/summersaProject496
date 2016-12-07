@@ -10,7 +10,7 @@
         android:orientation="horizontal"
         android:weightSum="100"
         android:layout_height="0dp"
-        android:layout_weight="20">
+        android:layout_weight="15">
         <ImageView
             android:src="@android:drawable/ic_menu_gallery"
             android:layout_width="0dp"
@@ -27,7 +27,7 @@
             android:layout_weight="75">
             <TextView xmlns:tools="http://schemas.android.com/tools"
                 android:layout_width="match_parent"
-                android:layout_weight="70"
+                android:layout_weight="60"
                 android:layout_height="0dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:textSize="30sp"
@@ -72,6 +72,5 @@
             android:layout_marginLeft="10dp"
             android:paddingTop="0dp"
             android:paddingBottom="0dp" />
-
     </LinearLayout>
 </LinearLayout>

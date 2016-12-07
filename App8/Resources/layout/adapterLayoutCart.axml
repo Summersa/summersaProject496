@@ -14,8 +14,7 @@
         <ImageView
             android:src="@android:drawable/ic_menu_gallery"
             android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_margin="0dp"
+            android:layout_height="120dp"
             android:layout_weight="25"
             android:scaleType="fitXY"
             android:id="@+id/imageView1" />
@@ -30,12 +29,13 @@
                 android:layout_weight="70"
                 android:layout_height="0dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
-                android:textSize="30sp"
+                android:textSize="30dp"
                 android:textColor="#000000"
                 android:layout_marginLeft="5dp"
                 android:id="@+id/txtName"
                 tools:text="Name"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:paddingLeft="5dp" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_weight="30"
@@ -46,7 +46,7 @@
                 android:layout_marginLeft="5dp"
                 android:id="@+id/txtPrice"
                 android:text="CAD$"
-                android:paddingTop="5dp" />
+                android:paddingLeft="5dp" />
         </LinearLayout>
     </LinearLayout>
     <LinearLayout
@@ -78,7 +78,7 @@
             android:layout_weight="20"
             android:background="@drawable/standardButton"
             android:layout_height="match_parent"
-            android:id="@+id/button2"
+            android:id="@+id/btnDel"
             android:textColor="#000000"
             android:paddingTop="0dp"
             android:paddingBottom="0dp"

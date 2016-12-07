@@ -42,6 +42,7 @@ namespace App8
             LinearLayout display = FindViewById<LinearLayout>(Resource.Id.linearLayout10);
             topbar = new ActionBarHelper(this, user);
             topbar.Start();
+            topbar.textViewChange("Order");
             ActionBarHelper.GetPicture(this, topbar.GetUser());
             IMobileServiceTableQuery<Orders> query;
             if (user.role != businessName)

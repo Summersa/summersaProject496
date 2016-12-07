@@ -23,6 +23,7 @@ namespace App8
         private IMobileServiceTable<Users> userTable = MobileService.GetTable<Users>();
         private Activity act;
         private Users user;
+        private TextView textAction;
         private ImageButton cartClick;
         public ActionBarHelper() { }
         public ActionBarHelper(Activity activity)
@@ -39,6 +40,7 @@ namespace App8
             act.ActionBar.SetCustomView(Resource.Layout.actionBar);
             act.ActionBar.SetDisplayShowCustomEnabled(true);
             ImageButton bt = (ImageButton)act.FindViewById(Resource.Id.profilePicture);
+            textAction = (TextView)act.FindViewById(Resource.Id.textAction);
             cartClick = (ImageButton)act.FindViewById(Resource.Id.btnCart);
 
             bt.Click += delegate {
@@ -55,6 +57,10 @@ namespace App8
                 act.StartActivity(intent);
             };
 
+        }
+        public void textViewChange(String str)
+        {
+            textAction.Text = str;
         }
         public void CartImgPlus()
         {
